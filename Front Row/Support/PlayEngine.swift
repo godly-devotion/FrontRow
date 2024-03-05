@@ -90,24 +90,24 @@ import AVKit
         }
     }
 
-    func stepForwards(_ duration: Int = 5) {
+    func stepForwards(_ duration: Double = 5.0) {
         if !isLoaded {
             return
         }
 
-        let time = CMTimeAdd(player.currentTime(), CMTimeMakeWithSeconds(5, preferredTimescale: 1))
+        let time = CMTimeAdd(player.currentTime(), CMTimeMakeWithSeconds(duration, preferredTimescale: 1))
         if CMTIME_IS_INVALID(time) {
             return;
         }
         player.seek(to: time, toleranceBefore: CMTime.zero, toleranceAfter: CMTime.zero)
     }
 
-    func stepBackwards(_ duration: Int = 5) {
+    func stepBackwards(_ duration: Double = 5.0) {
         if !isLoaded {
             return
         }
 
-        let time = CMTimeSubtract(player.currentTime(), CMTimeMakeWithSeconds(5, preferredTimescale: 1))
+        let time = CMTimeSubtract(player.currentTime(), CMTimeMakeWithSeconds(duration, preferredTimescale: 1))
         if CMTIME_IS_INVALID(time) {
             return;
         }
