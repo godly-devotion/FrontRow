@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct FrontRowApp: App {
+    @NSApplicationDelegateAdaptor private var appDelegate: AppDelegate
     @State private var playEngine: PlayEngine
     
     init() {
@@ -29,5 +30,12 @@ struct FrontRowApp: App {
             ViewCommands()
             PlaybackCommands(playEngine: playEngine)
         }
+    }
+}
+
+class AppDelegate: NSObject, NSApplicationDelegate {
+    func application(_ application: NSApplication, open urls: [URL]) {
+        guard urls.count == 1, let url = urls.first else { return }
+        PlayEngine.shared.openFile(url: url)
     }
 }
