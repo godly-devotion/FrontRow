@@ -22,6 +22,10 @@ import AVKit
 
     private var rateObserver: NSKeyValueObservation?
 
+    init() {
+        player.preventsDisplaySleepDuringVideoPlayback = true
+    }
+
     @MainActor
     func showOpenFileDialog() async {
         let panel = NSOpenPanel()
