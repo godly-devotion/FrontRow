@@ -47,24 +47,23 @@ import AVKit
                 guard let window = NSApp.windows.first else { return }
                 let screenFrame = (window.screen ?? NSScreen.main!).visibleFrame
                 let newFrame: NSRect
-                
+
                 if aspect.width < screenFrame.width && aspect.height < screenFrame.height {
-                    newFrame = NSRect(origin: window.frame.origin, size: aspect)
+                    let newOrigin = CGPoint(
+                        x: screenFrame.origin.x + (screenFrame.width - aspect.width) / 2,
+                        y: screenFrame.origin.y + (screenFrame.height - aspect.height) / 2
+                    )
+                    newFrame = NSRect(origin: newOrigin, size: aspect)
                 }
                 else {
-                    let aspectRatio = aspect.width / aspect.height
-                    let newWidth = screenFrame.height * aspectRatio
-                    let newHeight = screenFrame.width / aspectRatio
-
-                    if newWidth < screenFrame.width {
-                        newFrame = NSRect(x: screenFrame.origin.x + (screenFrame.width - newWidth) / 2, y: screenFrame.origin.y, width: newWidth, height: screenFrame.height)
-                    }
-                    else {
-                        newFrame = NSRect(x: screenFrame.origin.x, y: screenFrame.origin.y + (screenFrame.height - newHeight) / 2, width: screenFrame.width, height: newHeight)
-                    }
+                    let newSize = aspect.shrink(toSize: screenFrame.size)
+                    let newOrigin = CGPoint(
+                        x: screenFrame.origin.x + (screenFrame.width - newSize.width) / 2,
+                        y: screenFrame.origin.y + (screenFrame.height - newSize.height) / 2
+                    )
+                    newFrame = NSRect(origin: newOrigin, size: newSize)
                 }
-                window.setFrame(newFrame, display: true, animate: false)
-                window.center()
+                window.setFrame(newFrame, display: true, animate: true)
                 window.aspectRatio = aspect
             }
         }
