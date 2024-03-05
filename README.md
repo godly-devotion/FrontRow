@@ -8,7 +8,7 @@
 
 ![Screenshot](.github/images/screenshot.png)
 
-## FAQ
+## Frequently Asked Questions
 
 ### What about just using QuickTime Player?
 
@@ -30,3 +30,10 @@ ffmpeg -i ./input.mkv -map 0 -c:v copy -c:a:0 copy -c:s mov_text -tag:v hvc1 ./o
 ### I don't hear Spatial Audio with my AirPods Pro
 
 First, make sure that the audio track contains more than 2 channels. Also, make sure to enable Spatial Audio under the audio menu bar while the video is playing.
+
+## Compatibility
+
+- Spatial Audio compatible headphones (see [compatible devices](https://support.apple.com/en-us/102469))
+- Apple Silicon (M1 and later)
+- macOS Sonoma 14.2 and later
+- Xcode 15.2 (to build)
