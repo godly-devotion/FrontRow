@@ -13,6 +13,14 @@ struct ContentView: View {
 
     var body: some View {
         VideoPlayer(player: playEngine.player)
+            .onDrop(of: [.mpeg4Movie], isTargeted: nil, perform: { providers -> Bool in
+                guard let provider = providers.first else { return false }
+                provider.loadItem(forTypeIdentifier: UTType.mpeg4Movie.identifier, options: nil) { (urlData, _) in
+                    guard let url = urlData as? URL else { return }
+                    playEngine.openFile(url: url)
+                }
+                return true
+            })
             .background(
                 VisualEffectView()
                     .ignoresSafeArea()

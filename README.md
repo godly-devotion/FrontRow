@@ -5,3 +5,5 @@
 <h1 align="center">Front Row</h1>
 
 <p align="center">Playback HDR Video &amp; Spatial Audio Natively</p>
+
+![Screenshot](.github/images/screenshot.png)

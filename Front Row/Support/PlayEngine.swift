@@ -44,7 +44,7 @@ import AVKit
         sizeObserver = player.observe(\.currentItem?.presentationSize, options: .new) { player, change in
             guard let value = change.newValue else { return }
             if let aspect = value, aspect != NSSize.zero {
-                guard let window = NSApplication.shared.mainWindow else { return }
+                guard let window = NSApp.windows.first else { return }
                 let screenFrame = (window.screen ?? NSScreen.main!).visibleFrame
                 let newFrame: NSRect
                 
