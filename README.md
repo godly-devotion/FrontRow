@@ -8,6 +8,13 @@
 
 ![Screenshot](.github/images/screenshot.png)
 
+## Compatibility
+
+- Spatial Audio compatible headphones (see [compatible devices](https://support.apple.com/en-us/102469))
+- Apple Silicon (M1 and later)
+- macOS Sonoma 14.2 and later
+- Xcode 15.2 (to build)
+
 ## Frequently Asked Questions
 
 ### What about just using QuickTime Player?
@@ -22,18 +29,24 @@ I created Front Row to play those rare video files that are in HDR and/or multic
 
 As Front Row is based on AVKit (which is what QuickTime Player uses), it can't directly open MKV files. However MKV is a container format and it usually contains Apple supported streams such as MPEG-4 video with AAC audio. If so, you can remux the file into an MP4 file using `ffmpeg`.
 
-Note: Remove `-map 0` if not intending to add all tracks/streams
+Note:
+- Remove `-map 0` if not intending to add all tracks/streams.
+- For video streams that are encoded in h265 use `-tag:v hvc1`, for h264 use `-tag:v avc1`
 ```
 ffmpeg -i ./input.mkv -map 0 -c:v copy -c:a:0 copy -c:s mov_text -tag:v hvc1 ./output.mp4
 ```
 
+### I followed the steps above but don't hear any audio
+
+The audio stream is in a codec that is not natively supported by Apple. You'll need to transcode the audio stream into a supported format.
+
+Note:
+- Remove `-map 0` if not intending to add all tracks/streams.
+- For video streams that are encoded in h265 use `-tag:v hvc1`, for h264 use `-tag:v avc1`
+```
+ffmpeg -i ./input.mkv -map 0 -c:v copy -c:a:0 aac_at -b:a 448k -c:s mov_text -tag:v hvc1 ./output.mp4
+```
+
 ### I don't hear Spatial Audio with my AirPods Pro
 
-First, make sure that the audio track contains more than 2 channels. Also, make sure to enable Spatial Audio under the audio menu bar while the video is playing.
-
-## Compatibility
-
-- Spatial Audio compatible headphones (see [compatible devices](https://support.apple.com/en-us/102469))
-- Apple Silicon (M1 and later)
-- macOS Sonoma 14.2 and later
-- Xcode 15.2 (to build)
+First, make sure that the audio track contains more than 2 channels. Also, make sure to turn on Spatial Audio under the audio menu bar while the video is playing.
