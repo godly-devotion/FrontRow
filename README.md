@@ -30,7 +30,7 @@ I created Front Row to play those rare video files that are in HDR and/or multic
 As Front Row is based on AVKit (which is what QuickTime Player uses), it can't directly open MKV files. However MKV is a container format and it usually contains Apple supported streams such as MPEG-4 video with AAC audio. If so, you can remux the file into an MP4 file using `ffmpeg`.
 
 ```
-ffmpeg -i ./input.mkv -c copy -map 0 -tag:v hvc1 ./output.mp4
+ffmpeg -i ./input.mkv -map 0 -c copy -tag:v hvc1 ./output.mp4
 ```
 
 Note:
@@ -42,7 +42,7 @@ Note:
 The audio stream is in a codec that is not natively supported by Apple. You'll need to transcode the audio stream into a supported format.
 
 ```
-ffmpeg -i ./input.mkv -c copy -map 0 -c:a aac_at -b:a 448k -tag:v hvc1 ./output.mp4
+ffmpeg -i ./input.mkv -map 0 -c copy -c:a aac_at -b:a 448k -tag:v hvc1 ./output.mp4
 ```
 
 Note:
