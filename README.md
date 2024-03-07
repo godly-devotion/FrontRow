@@ -29,23 +29,25 @@ I created Front Row to play those rare video files that are in HDR and/or multic
 
 As Front Row is based on AVKit (which is what QuickTime Player uses), it can't directly open MKV files. However MKV is a container format and it usually contains Apple supported streams such as MPEG-4 video with AAC audio. If so, you can remux the file into an MP4 file using `ffmpeg`.
 
+```
+ffmpeg -i ./input.mkv -c copy -map 0 -tag:v hvc1 ./output.mp4
+```
+
 Note:
-- Remove `-map 0` if not intending to add all tracks/streams.
-- For video streams that are encoded in h265 use `-tag:v hvc1`, for h264 use `-tag:v avc1`
-```
-ffmpeg -i ./input.mkv -map 0 -c:v copy -c:a:0 copy -c:s mov_text -tag:v hvc1 ./output.mp4
-```
+- Add `-c:s mov_text` after `-c copy` if there are built in subtitles
+- Use `-tag:v hvc1` for video streams encoded in H265. Use `-tag:v avc1` instead for H264
 
 ### I followed the steps above but don't hear any audio
 
 The audio stream is in a codec that is not natively supported by Apple. You'll need to transcode the audio stream into a supported format.
 
+```
+ffmpeg -i ./input.mkv -c copy -map 0 -c:a aac_at -b:a 448k -tag:v hvc1 ./output.mp4
+```
+
 Note:
-- Remove `-map 0` if not intending to add all tracks/streams.
-- For video streams that are encoded in h265 use `-tag:v hvc1`, for h264 use `-tag:v avc1`
-```
-ffmpeg -i ./input.mkv -map 0 -c:v copy -c:a:0 aac_at -b:a 448k -c:s mov_text -tag:v hvc1 ./output.mp4
-```
+- Add `-c:s mov_text` after `-c copy` if there are built in subtitles
+- Use `-tag:v hvc1` for video streams encoded in H265. Use `-tag:v avc1` instead for H264
 
 ### I don't hear Spatial Audio with my AirPods Pro
 
