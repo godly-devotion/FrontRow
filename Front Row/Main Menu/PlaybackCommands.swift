@@ -41,6 +41,17 @@ struct PlaybackCommands: Commands {
                 .keyboardShortcut(.leftArrow, modifiers: [])
                 .disabled(!playEngine.isLoaded)
             }
+            Section {
+                Button {
+                    playEngine.toggleMute()
+                } label: {
+                    if playEngine.isMuted {
+                        Image(systemName: "checkmark")
+                    }
+                    Text("Mute")
+                }
+                .keyboardShortcut("M", modifiers: [])
+            }
         }
     }
 }

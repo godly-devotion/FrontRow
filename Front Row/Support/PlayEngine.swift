@@ -17,13 +17,30 @@ import AVKit
     var isLoaded = false
 
     var isPlaying = false
-
+    
+    var isMuted = false
+    
     private var sizeObserver: NSKeyValueObservation?
 
     private var rateObserver: NSKeyValueObservation?
+    
+    private var muteObserver: NSKeyValueObservation?
 
     init() {
         player.preventsDisplaySleepDuringVideoPlayback = true
+        
+        rateObserver = player.observe(\.rate, options: .new) { player, change in
+            guard let value = change.newValue else {
+                self.isPlaying = false
+                return
+            }
+            self.isPlaying = value != 0.0
+        }
+        
+        muteObserver = player.observe(\.isMuted, options: .new) { player, change in
+            guard let value = change.newValue else { return }
+            self.isMuted = value
+        }
     }
 
     @MainActor
@@ -72,14 +89,6 @@ import AVKit
             }
         }
 
-        rateObserver = player.observe(\.rate, options: .new) { player, change in
-            guard let value = change.newValue else {
-                self.isPlaying = false
-                return
-            }
-            self.isPlaying = value != 0.0
-        }
-
         player.play()
         isLoaded = true
     }
@@ -115,5 +124,9 @@ import AVKit
             return;
         }
         player.seek(to: time, toleranceBefore: CMTime.zero, toleranceAfter: CMTime.zero)
+    }
+    
+    func toggleMute() {
+        player.isMuted = !isMuted
     }
 }
