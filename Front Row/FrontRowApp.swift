@@ -29,6 +29,7 @@ struct FrontRowApp: App {
             FileCommands(playEngine: playEngine)
             ViewCommands()
             PlaybackCommands(playEngine: playEngine)
+            HelpCommands()
         }
     }
 }
