@@ -8,13 +8,11 @@
 import SwiftUI
 
 struct FileCommands: Commands {
-    var playEngine: PlayEngine
-    
     var body: some Commands {
         CommandGroup(replacing: .newItem) {
             Section {
                 Button {
-                    Task { await playEngine.showOpenFileDialog() }
+                    Task { await PlayEngine.shared.showOpenFileDialog() }
                 } label: {
                     Text(
                         "Open File...",

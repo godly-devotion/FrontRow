@@ -25,7 +25,7 @@ struct FrontRowApp: App {
         }
         .windowStyle(.hiddenTitleBar)
         .commands {
-            FileCommands(playEngine: playEngine)
+            FileCommands()
             ViewCommands()
             PlaybackCommands(playEngine: playEngine)
             HelpCommands()
