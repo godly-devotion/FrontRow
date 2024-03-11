@@ -4,13 +4,18 @@
 
 <h1 align="center">Front Row</h1>
 
-<p align="center">Playback HDR Video &amp; Spatial Audio Natively</p>
+<p align="center">Play HDR videos &amp; spatial audio on Mac natively</p>
+
+<p align="center">
+<a title="Discord" target="_blank" href="https://discord.gg/x2kartzxGv"><img src="https://img.shields.io/discord/1068185566782423092?color=blueviolet&label=discord"></a>
+<a title="License" target="_blank" href="https://github.com/godly-devotion/FrontRow/blob/main/LICENSE"><img src="https://img.shields.io/github/license/godly-devotion/FrontRow?color=blue"></a>
+</p>
 
 ![Screenshot](.github/images/screenshot.png)
 
 ## Compatibility
 
-- Spatial Audio compatible headphones (see [compatible devices](https://support.apple.com/en-us/102469))
+- Spatial audio compatible devices (see [compatible devices](https://support.apple.com/en-us/102469))
 - Apple Silicon (M1 and later)
 - macOS Sonoma 14.2 and later
 - Xcode 15.2 (to build)
@@ -23,7 +28,7 @@ Sure, that works too. But I didn't like QuickTime Player's keyboard shortcuts no
 
 ### Where is feature XYZ?
 
-I created Front Row to play those rare video files that are in HDR and/or multichannel with Spatial Audio. For everything else, I use IINA like you.
+I created Front Row to play those rare video files that are in HDR and/or multichannel with spatial audio. For everything else, I use IINA like you.
 
 ### Help! My video file is in MKV and doesn't open with Front Row
 
@@ -49,6 +54,6 @@ Note:
 - Add `-c:s mov_text` after `-c copy` if there are built in subtitles
 - Use `-tag:v hvc1` for video streams encoded in H265. Use `-tag:v avc1` instead for H264
 
-### I don't hear Spatial Audio with my AirPods Pro
+### I don't hear spatial audio through my supported device
 
-First, make sure that the audio track contains more than 2 channels. Also, make sure to turn on Spatial Audio under the audio menu bar while the video is playing.
+First, make sure that the audio track contains more than 2 channels. Also, make sure to turn on spatial audio under the audio menu bar while the video is playing.
