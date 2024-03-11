@@ -10,7 +10,7 @@ import SwiftUI
 
 struct AppCommands: Commands {
     private let updater: SPUUpdater
-    
+
     var body: some Commands {
         CommandGroup(after: .appInfo) {
             Button {
@@ -21,7 +21,7 @@ struct AppCommands: Commands {
             .disabled(!updater.canCheckForUpdates)
         }
     }
-    
+
     init(updater: SPUUpdater) {
         self.updater = updater
     }
