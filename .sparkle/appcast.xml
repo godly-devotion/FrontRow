@@ -5,12 +5,25 @@
     <language>en</language>
 
     <item>
-      <title>v1.1</title>
+      <title>v1.2</title>
       <link>https://github.com/godly-devotion/FrontRow</link>
-      <sparkle:version>1.1</sparkle:version>
+      <sparkle:version>1.2</sparkle:version>
       <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
       <sparkle:fullReleaseNotesLink>https://github.com/godly-devotion/FrontRow/releases</sparkle:fullReleaseNotesLink>
-      <pubDate>Fri, 08 Mar 2024 01:49:59 +0000</pubDate>
+      <pubDate>Mon, 11 Mar 2024 18:39:35 +0000</pubDate>
+      <enclosure
+        url="https://github.com/godly-devotion/FrontRow/releases/download/v1.2/FrontRow_v1.2.dmg"
+        sparkle:edSignature="FC2WUbyLLNHV41lWou3nVt5JXtlp+M2zfV0HDsKZwpTndDcDvVJWmJ8nGkMsvY2l0ycKX4X1scIL90RyypXXCw=="
+        length="5708009"
+        type="application/octet-stream" />
+      <description><![CDATA[
+      <ul>
+      <li>Fixed appearance of Mute menu item</li>
+      <li>Added ability to move window by clicking and dragging anywhere in its background</li>
+      <li>Added ability to check for updates automatically</li>
+      </ul>
+      ]]>
+      </description>
     </item>
   </channel>
 </rss>
