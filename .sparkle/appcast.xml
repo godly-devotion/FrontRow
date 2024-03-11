@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Front Row</title>
+    <language>en</language>
+
+    <item>
+      <title>v1.1</title>
+      <link>https://github.com/godly-devotion/FrontRow</link>
+      <sparkle:version>1.1</sparkle:version>
+      <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/godly-devotion/FrontRow/releases</sparkle:fullReleaseNotesLink>
+      <pubDate>Fri, 08 Mar 2024 01:49:59 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
