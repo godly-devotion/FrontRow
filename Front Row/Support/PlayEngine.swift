@@ -18,7 +18,20 @@ import AVKit
 
     var isPlaying = false
     
-    var isMuted = false
+    var isMuted: Bool {
+        get {
+            access(keyPath: \.isMuted)
+            return _isMuted
+        }
+        set {
+            withMutation(keyPath: \.isMuted) {
+                _isMuted = newValue
+                player.isMuted = newValue
+            }
+        }
+    }
+    
+    private var _isMuted = false
     
     private var sizeObserver: NSKeyValueObservation?
 
@@ -39,7 +52,7 @@ import AVKit
         
         muteObserver = player.observe(\.isMuted, options: .new) { player, change in
             guard let value = change.newValue else { return }
-            self.isMuted = value
+            self._isMuted = value
         }
     }
 
@@ -124,9 +137,5 @@ import AVKit
             return;
         }
         player.seek(to: time, toleranceBefore: CMTime.zero, toleranceAfter: CMTime.zero)
-    }
-    
-    func toggleMute() {
-        player.isMuted = !isMuted
     }
 }

@@ -11,6 +11,8 @@ struct PlaybackCommands: Commands {
     var playEngine: PlayEngine
 
     var body: some Commands {
+        @Bindable var playEngine = playEngine
+        
         CommandMenu("Playback") {
             Section {
                 Button {
@@ -42,12 +44,7 @@ struct PlaybackCommands: Commands {
                 .disabled(!playEngine.isLoaded)
             }
             Section {
-                Button {
-                    playEngine.toggleMute()
-                } label: {
-                    if playEngine.isMuted {
-                        Image(systemName: "checkmark")
-                    }
+                Toggle(isOn: $playEngine.isMuted) {
                     Text("Mute")
                 }
                 .keyboardShortcut("M", modifiers: [])
