@@ -24,7 +24,6 @@ struct FrontRowApp: App {
                 .environment(playEngine)
         }
         .windowStyle(.hiddenTitleBar)
-        .windowToolbarStyle(.unifiedCompact)
         .commands {
             FileCommands(playEngine: playEngine)
             ViewCommands()

@@ -21,10 +21,6 @@ struct ContentView: View {
                 }
                 return true
             })
-            .background(
-                VisualEffectView()
-                    .ignoresSafeArea()
-            )
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
             .ignoresSafeArea()
     }

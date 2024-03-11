@@ -16,7 +16,6 @@
 		03EA68612B96523B003348BE /* FileCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA68602B96523B003348BE /* FileCommands.swift */; };
 		03EA68642B965322003348BE /* PlaybackCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA68632B965322003348BE /* PlaybackCommands.swift */; };
 		03EA68672B9654A0003348BE /* PlayEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA68662B9654A0003348BE /* PlayEngine.swift */; };
-		03EA68692B9668BF003348BE /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA68682B9668BF003348BE /* VisualEffectView.swift */; };
 		03EA686E2B968D92003348BE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA686D2B968D92003348BE /* Extensions.swift */; };
 		03EA68702B96BAD1003348BE /* ViewCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA686F2B96BAD1003348BE /* ViewCommands.swift */; };
 /* End PBXBuildFile section */
@@ -34,7 +33,6 @@
 		03EA68602B96523B003348BE /* FileCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCommands.swift; sourceTree = "<group>"; };
 		03EA68632B965322003348BE /* PlaybackCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackCommands.swift; sourceTree = "<group>"; };
 		03EA68662B9654A0003348BE /* PlayEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayEngine.swift; sourceTree = "<group>"; };
-		03EA68682B9668BF003348BE /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
 		03EA686D2B968D92003348BE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		03EA686F2B96BAD1003348BE /* ViewCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCommands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,7 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				03EA68522B9630CF003348BE /* ContentView.swift */,
-				03EA68682B9668BF003348BE /* VisualEffectView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,7 +202,6 @@
 				03EA68672B9654A0003348BE /* PlayEngine.swift in Sources */,
 				03EA68642B965322003348BE /* PlaybackCommands.swift in Sources */,
 				03EA68512B9630CF003348BE /* FrontRowApp.swift in Sources */,
-				03EA68692B9668BF003348BE /* VisualEffectView.swift in Sources */,
 				03EA686E2B968D92003348BE /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
