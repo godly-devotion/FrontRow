@@ -38,4 +38,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         guard urls.count == 1, let url = urls.first else { return }
         PlayEngine.shared.openFile(url: url)
     }
+    
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        if let window = NSApp.windows.first {
+            window.isMovableByWindowBackground = true
+        }
+    }
 }
