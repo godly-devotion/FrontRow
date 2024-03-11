@@ -9,21 +9,19 @@ import Foundation
 
 extension NSSize {
     var aspect: CGFloat {
-        get {
-            assert(width != 0 && height != 0)
-            return width / height
-        }
+        assert(width != 0 && height != 0)
+        return width / height
     }
 
     /**
      Given another size S, returns a size that:
-     
+
      - maintains the same aspect ratio;
      - has same height or/and width as S;
      - always smaller than S.
-     
+
      - parameter toSize: The given size S.
-     
+
      ```
      +--+------+--+
      |  |The   |  |
@@ -37,7 +35,7 @@ extension NSSize {
             return size
         }
         let sizeAspect = size.aspect
-        if aspect < sizeAspect { // self is taller, shrink to meet height
+        if aspect < sizeAspect {  // self is taller, shrink to meet height
             return NSSize(width: size.height * aspect, height: size.height)
         } else {
             return NSSize(width: size.width, height: size.width / aspect)

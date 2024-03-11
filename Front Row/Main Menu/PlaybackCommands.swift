@@ -12,7 +12,7 @@ struct PlaybackCommands: Commands {
 
     var body: some Commands {
         @Bindable var playEngine = playEngine
-        
+
         CommandMenu("Playback") {
             Section {
                 Button {

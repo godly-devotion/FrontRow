@@ -11,13 +11,13 @@ import SwiftUI
 struct FrontRowApp: App {
     @NSApplicationDelegateAdaptor private var appDelegate: AppDelegate
     @State private var playEngine: PlayEngine
-    
+
     init() {
         self._playEngine = .init(wrappedValue: .shared)
         UserDefaults.standard.removeObject(forKey: "NSWindow Frame main")
         UserDefaults.standard.set(false, forKey: "NSFullScreenMenuItemEverywhere")
     }
-    
+
     var body: some Scene {
         Window("Front Row", id: "main") {
             ContentView()

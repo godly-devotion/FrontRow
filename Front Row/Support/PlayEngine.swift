@@ -5,8 +5,8 @@
 //  Created by Joshua Park on 3/4/24.
 //
 
-import SwiftUI
 import AVKit
+import SwiftUI
 
 @Observable public final class PlayEngine {
 
@@ -17,7 +17,7 @@ import AVKit
     var isLoaded = false
 
     var isPlaying = false
-    
+
     var isMuted: Bool {
         get {
             access(keyPath: \.isMuted)
@@ -30,18 +30,18 @@ import AVKit
             }
         }
     }
-    
+
     private var _isMuted = false
-    
+
     private var sizeObserver: NSKeyValueObservation?
 
     private var rateObserver: NSKeyValueObservation?
-    
+
     private var muteObserver: NSKeyValueObservation?
 
     init() {
         player.preventsDisplaySleepDuringVideoPlayback = true
-        
+
         rateObserver = player.observe(\.rate, options: .new) { player, change in
             guard let value = change.newValue else {
                 self.isPlaying = false
@@ -49,7 +49,7 @@ import AVKit
             }
             self.isPlaying = value != 0.0
         }
-        
+
         muteObserver = player.observe(\.isMuted, options: .new) { player, change in
             guard let value = change.newValue else { return }
             self._isMuted = value
@@ -75,7 +75,8 @@ import AVKit
     func openFile(url: URL) {
         player.replaceCurrentItem(with: AVPlayerItem(url: url))
 
-        sizeObserver = player.observe(\.currentItem?.presentationSize, options: .new) { player, change in
+        sizeObserver = player.observe(\.currentItem?.presentationSize, options: .new) {
+            player, change in
             guard let value = change.newValue else { return }
             if let aspect = value, aspect != NSSize.zero {
                 guard let window = NSApp.windows.first else { return }
@@ -88,8 +89,7 @@ import AVKit
                         y: screenFrame.origin.y + (screenFrame.height - aspect.height) / 2
                     )
                     newFrame = NSRect(origin: newOrigin, size: aspect)
-                }
-                else {
+                } else {
                     let newSize = aspect.shrink(toSize: screenFrame.size)
                     let newOrigin = CGPoint(
                         x: screenFrame.origin.x + (screenFrame.width - newSize.width) / 2,
@@ -109,8 +109,7 @@ import AVKit
     func playPause() {
         if isPlaying {
             player.pause()
-        }
-        else {
+        } else {
             player.play()
         }
     }
@@ -120,9 +119,10 @@ import AVKit
             return
         }
 
-        let time = CMTimeAdd(player.currentTime(), CMTimeMakeWithSeconds(duration, preferredTimescale: 1))
+        let time = CMTimeAdd(
+            player.currentTime(), CMTimeMakeWithSeconds(duration, preferredTimescale: 1))
         if CMTIME_IS_INVALID(time) {
-            return;
+            return
         }
         player.seek(to: time, toleranceBefore: CMTime.zero, toleranceAfter: CMTime.zero)
     }
@@ -132,9 +132,10 @@ import AVKit
             return
         }
 
-        let time = CMTimeSubtract(player.currentTime(), CMTimeMakeWithSeconds(duration, preferredTimescale: 1))
+        let time = CMTimeSubtract(
+            player.currentTime(), CMTimeMakeWithSeconds(duration, preferredTimescale: 1))
         if CMTIME_IS_INVALID(time) {
-            return;
+            return
         }
         player.seek(to: time, toleranceBefore: CMTime.zero, toleranceAfter: CMTime.zero)
     }
