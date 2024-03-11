@@ -15,7 +15,7 @@
 
 ## Compatibility
 
-- Spatial audio compatible devices (see [compatible devices](https://support.apple.com/en-us/102469))
+- [HDR video compatible Macs](https://support.apple.com/en-us/102205) and/or [spatial audio compatible devices](https://support.apple.com/en-us/102469)
 - Apple Silicon (M1 and later)
 - macOS Sonoma 14.2 and later
 - Xcode 15.2 (to build)
