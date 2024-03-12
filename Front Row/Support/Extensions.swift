@@ -13,23 +13,21 @@ extension NSSize {
         return width / height
     }
 
-    /**
-     Given another size S, returns a size that:
+    /// Given another size S, returns a size that:
 
-     - maintains the same aspect ratio;
-     - has same height or/and width as S;
-     - always smaller than S.
+    /// - maintains the same aspect ratio;
+    /// - has same height or/and width as S;
+    /// - always smaller than S.
 
-     - parameter toSize: The given size S.
+    /// - parameter toSize: The given size S.
 
-     ```
-     +--+------+--+
-     |  |The   |  |
-     |  |result|  |<-- S
-     |  |size  |  |
-     +--+------+--+
-     ```
-     */
+    /// ```
+    /// +--+------+--+
+    /// |  |The   |  |
+    /// |  |result|  |<-- S
+    /// |  |size  |  |
+    /// +--+------+--+
+    /// ```
     func shrink(toSize size: NSSize) -> NSSize {
         if width == 0 || height == 0 {
             return size

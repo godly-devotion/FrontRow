@@ -2,7 +2,7 @@ name: Gated Check-in
 
 on:
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   build:
@@ -28,6 +28,6 @@ jobs:
       - name: Build and Analyze
         run: >
           xcodebuild clean build analyze
-          -project "Mochi Diffusion.xcodeproj"
-          -scheme "Mochi Diffusion"
+          -project "Front Row.xcodeproj"
+          -scheme "Front Row"
           CODE_SIGNING_ALLOWED=NO | xcpretty && exit ${PIPESTATUS[0]}
