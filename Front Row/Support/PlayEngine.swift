@@ -47,7 +47,7 @@ import SwiftUI
                 self.isPlaying = false
                 return
             }
-            self.isPlaying = value != 0.0
+            self.isPlaying = !value.isZero
         }
 
         muteObserver = player.observe(\.isMuted, options: .new) { player, change in

@@ -12,15 +12,19 @@ import SwiftUI
 struct FrontRowApp: App {
     @NSApplicationDelegateAdaptor private var appDelegate: AppDelegate
     @State private var playEngine: PlayEngine
+    @State private var viewManager: ViewManager
     private let updaterController: SPUStandardUpdaterController
 
     init() {
         self._playEngine = .init(wrappedValue: .shared)
+        self._viewManager = .init(wrappedValue: .shared)
+
         updaterController = SPUStandardUpdaterController(
             startingUpdater: true,
             updaterDelegate: nil,
             userDriverDelegate: nil
         )
+
         UserDefaults.standard.removeObject(forKey: "NSWindow Frame main")
         UserDefaults.standard.set(false, forKey: "NSFullScreenMenuItemEverywhere")
     }
@@ -29,6 +33,15 @@ struct FrontRowApp: App {
         Window("Front Row", id: "main") {
             ContentView()
                 .environment(playEngine)
+                .onContinuousHover { phase in
+                    switch phase {
+                    case .active:
+                        viewManager.resetMouseIdleTimer()
+                        viewManager.showTitlebar()
+                    case .ended:
+                        viewManager.hideTitlebar()
+                    }
+                }
         }
         .windowStyle(.hiddenTitleBar)
         .commands {
