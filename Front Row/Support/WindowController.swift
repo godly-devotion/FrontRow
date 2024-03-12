@@ -1,5 +1,5 @@
 //
-//  ViewManager.swift
+//  WindowController.swift
 //  Front Row
 //
 //  Created by Joshua Park on 3/11/24.
@@ -7,9 +7,24 @@
 
 import SwiftUI
 
-@Observable public final class ViewManager {
+@Observable public final class WindowController {
 
-    static let shared = ViewManager()
+    static let shared = WindowController()
+
+    private var _isOnTop = false
+
+    var isOnTop: Bool {
+        get {
+            access(keyPath: \.isOnTop)
+            return _isOnTop
+        }
+        set {
+            withMutation(keyPath: \.isOnTop) {
+                _isOnTop = newValue
+                NSApplication.shared.mainWindow?.level = _isOnTop ? .floating : .normal
+            }
+        }
+    }
 
     private var _titlebarView: NSView?
 

@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct ViewCommands: Commands {
+    var windowController: WindowController
+
     var body: some Commands {
+        @Bindable var windowController = windowController
+
         CommandGroup(replacing: .toolbar) {
             Section {
                 Button {
@@ -17,6 +21,10 @@ struct ViewCommands: Commands {
                     Text("Toggle Full Screen")
                 }
                 .keyboardShortcut(.return, modifiers: [])
+
+                Toggle(isOn: $windowController.isOnTop) {
+                    Text("Float on Top")
+                }
             }
         }
     }

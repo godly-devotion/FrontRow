@@ -12,12 +12,12 @@ import SwiftUI
 struct FrontRowApp: App {
     @NSApplicationDelegateAdaptor private var appDelegate: AppDelegate
     @State private var playEngine: PlayEngine
-    @State private var viewManager: ViewManager
+    @State private var windowController: WindowController
     private let updaterController: SPUStandardUpdaterController
 
     init() {
         self._playEngine = .init(wrappedValue: .shared)
-        self._viewManager = .init(wrappedValue: .shared)
+        self._windowController = .init(wrappedValue: .shared)
 
         updaterController = SPUStandardUpdaterController(
             startingUpdater: true,
@@ -36,10 +36,10 @@ struct FrontRowApp: App {
                 .onContinuousHover { phase in
                     switch phase {
                     case .active:
-                        viewManager.resetMouseIdleTimer()
-                        viewManager.showTitlebar()
+                        windowController.resetMouseIdleTimer()
+                        windowController.showTitlebar()
                     case .ended:
-                        viewManager.hideTitlebar()
+                        windowController.hideTitlebar()
                     }
                 }
         }
@@ -47,7 +47,7 @@ struct FrontRowApp: App {
         .commands {
             AppCommands(updater: updaterController.updater)
             FileCommands()
-            ViewCommands()
+            ViewCommands(windowController: windowController)
             PlaybackCommands(playEngine: playEngine)
             HelpCommands()
         }
