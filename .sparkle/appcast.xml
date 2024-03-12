@@ -5,6 +5,27 @@
     <language>en</language>
 
     <item>
+      <title>v1.3</title>
+      <link>https://github.com/godly-devotion/FrontRow</link>
+      <sparkle:version>1.3</sparkle:version>
+      <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/godly-devotion/FrontRow/releases</sparkle:fullReleaseNotesLink>
+      <pubDate>Tue, 12 Mar 2024 03:42:10 +0000</pubDate>
+      <enclosure
+        url="https://github.com/godly-devotion/FrontRow/releases/download/v1.3/FrontRow_v1.3.dmg"
+        sparkle:edSignature="+5+LSW1lF6j+h5c58V9dvJxXkkD78wnKnw8Hs1raWI9uEDKj8XyVQmO7v4bhLAnjCSZtgo3b4SjOWecYfAuNBw=="
+        length="5710617"
+        type="application/octet-stream" />
+      <description><![CDATA[
+      <ul>
+      <li>Automatically show and hide the window title bar</li>
+      <li>Added ability to float on top of other windows</li>
+      </ul>
+      ]]>
+      </description>
+    </item>
+
+    <item>
       <title>v1.2</title>
       <link>https://github.com/godly-devotion/FrontRow</link>
       <sparkle:version>1.2</sparkle:version>
