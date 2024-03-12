@@ -12,7 +12,6 @@
 		03D77E952B9AA13700276A45 /* HelpCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D77E942B9AA13700276A45 /* HelpCommands.swift */; };
 		03E8F3D62B9F79ED0008CE49 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 03E8F3D52B9F79ED0008CE49 /* Sparkle */; };
 		03E8F3D92B9F7AA70008CE49 /* SwiftFormat in Frameworks */ = {isa = PBXBuildFile; productRef = 03E8F3D82B9F7AA70008CE49 /* SwiftFormat */; };
-		03E8F3DB2B9F7AA70008CE49 /* SwiftFormatConfiguration in Frameworks */ = {isa = PBXBuildFile; productRef = 03E8F3DA2B9F7AA70008CE49 /* SwiftFormatConfiguration */; };
 		03E8F3DD2B9F7B350008CE49 /* AppCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E8F3DC2B9F7B350008CE49 /* AppCommands.swift */; };
 		03EA68512B9630CF003348BE /* FrontRowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA68502B9630CF003348BE /* FrontRowApp.swift */; };
 		03EA68532B9630CF003348BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA68522B9630CF003348BE /* ContentView.swift */; };
@@ -51,7 +50,6 @@
 			files = (
 				03B712272B96C40C00C1F753 /* AVKit.framework in Frameworks */,
 				03E8F3D92B9F7AA70008CE49 /* SwiftFormat in Frameworks */,
-				03E8F3DB2B9F7AA70008CE49 /* SwiftFormatConfiguration in Frameworks */,
 				03E8F3D62B9F79ED0008CE49 /* Sparkle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +142,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03EA685C2B9630D0003348BE /* Build configuration list for PBXNativeTarget "Front Row" */;
 			buildPhases = (
+				0328BCEA2BA12090004B5AE0 /* ShellScript */,
 				03EA68492B9630CF003348BE /* Sources */,
 				03EA684A2B9630CF003348BE /* Frameworks */,
 				03EA684B2B9630CF003348BE /* Resources */,
@@ -156,7 +155,6 @@
 			packageProductDependencies = (
 				03E8F3D52B9F79ED0008CE49 /* Sparkle */,
 				03E8F3D82B9F7AA70008CE49 /* SwiftFormat */,
-				03E8F3DA2B9F7AA70008CE49 /* SwiftFormatConfiguration */,
 			);
 			productName = "Front Row";
 			productReference = 03EA684D2B9630CF003348BE /* Front Row.app */;
@@ -210,6 +208,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0328BCEA2BA12090004B5AE0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swift-format > /dev/null; then\n  swift-format lint -s -p -r ./\nelse\n  echo \"warning: swift-format not installed, download from https://github.com/apple/swift-format\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		03EA68492B9630CF003348BE /* Sources */ = {
@@ -464,11 +483,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 03E8F3D72B9F7AA70008CE49 /* XCRemoteSwiftPackageReference "swift-format" */;
 			productName = SwiftFormat;
-		};
-		03E8F3DA2B9F7AA70008CE49 /* SwiftFormatConfiguration */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03E8F3D72B9F7AA70008CE49 /* XCRemoteSwiftPackageReference "swift-format" */;
-			productName = SwiftFormatConfiguration;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
