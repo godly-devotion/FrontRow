@@ -22,6 +22,10 @@
 
 ## Frequently Asked Questions
 
+### Why do I need this?
+
+Many movies and TV shows are available with multichannel audio. However you would need to have a full surround sound setup in order to fully enjoy that experience. Apple introduced spatial audio which allows playing multichannel audio into regular headphones, such as the AirPods Pro. This vastly improves the roominess and depth of the played audio. Unfortunately, not many video players support Apple's spatial audio. So I created a simple video player with AVKit, which is able to use spatial audio.
+
 ### What about just using QuickTime Player?
 
 Sure, that works too. But I didn't like QuickTime Player's keyboard shortcuts nor its large on screen controls which blocks the video and subtitles.
