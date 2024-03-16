@@ -11,7 +11,6 @@
 		03B712272B96C40C00C1F753 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B712262B96C40C00C1F753 /* AVKit.framework */; };
 		03D77E952B9AA13700276A45 /* HelpCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D77E942B9AA13700276A45 /* HelpCommands.swift */; };
 		03E8F3D62B9F79ED0008CE49 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 03E8F3D52B9F79ED0008CE49 /* Sparkle */; };
-		03E8F3D92B9F7AA70008CE49 /* SwiftFormat in Frameworks */ = {isa = PBXBuildFile; productRef = 03E8F3D82B9F7AA70008CE49 /* SwiftFormat */; };
 		03E8F3DD2B9F7B350008CE49 /* AppCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E8F3DC2B9F7B350008CE49 /* AppCommands.swift */; };
 		03EA68512B9630CF003348BE /* FrontRowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA68502B9630CF003348BE /* FrontRowApp.swift */; };
 		03EA68532B9630CF003348BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA68522B9630CF003348BE /* ContentView.swift */; };
@@ -49,7 +48,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				03B712272B96C40C00C1F753 /* AVKit.framework in Frameworks */,
-				03E8F3D92B9F7AA70008CE49 /* SwiftFormat in Frameworks */,
 				03E8F3D62B9F79ED0008CE49 /* Sparkle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,7 +152,6 @@
 			name = "Front Row";
 			packageProductDependencies = (
 				03E8F3D52B9F79ED0008CE49 /* Sparkle */,
-				03E8F3D82B9F7AA70008CE49 /* SwiftFormat */,
 			);
 			productName = "Front Row";
 			productReference = 03EA684D2B9630CF003348BE /* Front Row.app */;
@@ -186,7 +183,6 @@
 			mainGroup = 03EA68442B9630CF003348BE;
 			packageReferences = (
 				03E8F3D42B9F79ED0008CE49 /* XCRemoteSwiftPackageReference "Sparkle" */,
-				03E8F3D72B9F7AA70008CE49 /* XCRemoteSwiftPackageReference "swift-format" */,
 			);
 			productRefGroup = 03EA684E2B9630CF003348BE /* Products */;
 			projectDirPath = "";
@@ -461,14 +457,6 @@
 				minimumVersion = 2.5.2;
 			};
 		};
-		03E8F3D72B9F7AA70008CE49 /* XCRemoteSwiftPackageReference "swift-format" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apple/swift-format";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 510.0.1;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -476,11 +464,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 03E8F3D42B9F79ED0008CE49 /* XCRemoteSwiftPackageReference "Sparkle" */;
 			productName = Sparkle;
-		};
-		03E8F3D82B9F7AA70008CE49 /* SwiftFormat */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03E8F3D72B9F7AA70008CE49 /* XCRemoteSwiftPackageReference "swift-format" */;
-			productName = SwiftFormat;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
