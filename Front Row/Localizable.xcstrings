@@ -1,8 +1,173 @@
 {
   "sourceLanguage": "en",
   "strings": {
+    "CFBundleName": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Front Row"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        }
+      }
+    },
     "Check for Updates…": {
-      "comment": "Front Row/Localizable.xcstrings\nCheck for Updates…\r\nFront Row/Localizable.xcstrings\nCheck for Updates…&#13;\nFront Row/Localizable.xcstrings\nCheck for Updates…",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -169,7 +334,6 @@
       }
     },
     "Float on Top": {
-      "comment": "Front Row/Localizable.xcstrings\nFloat on Top\r\nFront Row/Localizable.xcstrings\nFloat on Top&#13;\nFront Row/Localizable.xcstrings\nFloat on Top",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -336,7 +500,6 @@
       }
     },
     "Front Row": {
-      "comment": "Front Row/Localizable.xcstrings\nFront Row\r\nFront Row/Localizable.xcstrings\nFront Row&#13;\nFront Row/Localizable.xcstrings\nFront Row",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -503,7 +666,6 @@
       }
     },
     "Mute": {
-      "comment": "Front Row/Localizable.xcstrings\nMute\r\nFront Row/Localizable.xcstrings\nMute&#13;\nFront Row/Localizable.xcstrings\nMute",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -670,7 +832,6 @@
       }
     },
     "Open File...": {
-      "comment": "Front Row/Localizable.xcstrings\nOpen File...\r\nShow the open file dialog",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -837,7 +998,6 @@
       }
     },
     "Pause": {
-      "comment": "Front Row/Localizable.xcstrings\nPause\r\nFront Row/Localizable.xcstrings\nPause&#13;\nFront Row/Localizable.xcstrings\nPause",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -1004,7 +1164,6 @@
       }
     },
     "Play": {
-      "comment": "Front Row/Localizable.xcstrings\nPlay\r\nFront Row/Localizable.xcstrings\nPlay&#13;\nFront Row/Localizable.xcstrings\nPlay",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -1171,7 +1330,6 @@
       }
     },
     "Playback": {
-      "comment": "Front Row/Localizable.xcstrings\nPlayback\r\nFront Row/Localizable.xcstrings\nPlayback&#13;\nFront Row/Localizable.xcstrings\nPlayback",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -1338,7 +1496,6 @@
       }
     },
     "Release Notes": {
-      "comment": "Front Row/Localizable.xcstrings\nRelease Notes\r\nFront Row/Localizable.xcstrings\nRelease Notes&#13;\nFront Row/Localizable.xcstrings\nRelease Notes",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -1505,7 +1662,6 @@
       }
     },
     "Step Backward 5s": {
-      "comment": "Front Row/Localizable.xcstrings\nStep Backward 5s\r\nFront Row/Localizable.xcstrings\nStep Backward 5s&#13;\nFront Row/Localizable.xcstrings\nStep Backward 5s",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -1672,7 +1828,6 @@
       }
     },
     "Step Forward 5s": {
-      "comment": "Front Row/Localizable.xcstrings\nStep Forward 5s\r\nFront Row/Localizable.xcstrings\nStep Forward 5s&#13;\nFront Row/Localizable.xcstrings\nStep Forward 5s",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -1839,7 +1994,6 @@
       }
     },
     "Toggle Full Screen": {
-      "comment": "Front Row/Localizable.xcstrings\nToggle Full Screen\r\nFront Row/Localizable.xcstrings\nToggle Full Screen&#13;\nFront Row/Localizable.xcstrings\nToggle Full Screen",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -2006,7 +2160,6 @@
       }
     },
     "Website": {
-      "comment": "Front Row/Localizable.xcstrings\nWebsite\r\nFront Row/Localizable.xcstrings\nWebsite&#13;\nFront Row/Localizable.xcstrings\nWebsite",
       "localizations": {
         "en": {
           "stringUnit": {
