@@ -1,0 +1,45 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Check for Updates…" : {
+
+    },
+    "Float on Top" : {
+
+    },
+    "Front Row" : {
+
+    },
+    "Mute" : {
+
+    },
+    "Open File..." : {
+      "comment" : "Show the open file dialog"
+    },
+    "Pause" : {
+
+    },
+    "Play" : {
+
+    },
+    "Playback" : {
+
+    },
+    "Release Notes" : {
+
+    },
+    "Step Backward 5s" : {
+
+    },
+    "Step Forward 5s" : {
+
+    },
+    "Toggle Full Screen" : {
+
+    },
+    "Website" : {
+
+    }
+  },
+  "version" : "1.0"
+}
