@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		032BBB1E2B9FF671003D2FA8 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032BBB1D2B9FF671003D2FA8 /* WindowController.swift */; };
+		0355CA552BA790E5001AF5EA /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 0355CA542BA790E5001AF5EA /* Localizable.xcstrings */; };
 		03B712272B96C40C00C1F753 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B712262B96C40C00C1F753 /* AVKit.framework */; };
 		03D77E952B9AA13700276A45 /* HelpCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D77E942B9AA13700276A45 /* HelpCommands.swift */; };
 		03E8F3D62B9F79ED0008CE49 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 03E8F3D52B9F79ED0008CE49 /* Sparkle */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		032BBB1D2B9FF671003D2FA8 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		0355CA542BA790E5001AF5EA /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		03B712262B96C40C00C1F753 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		03BACB2D2B96C8A800D24F07 /* FrontRowInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FrontRowInfo.plist; sourceTree = SOURCE_ROOT; };
 		03D77E942B9AA13700276A45 /* HelpCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCommands.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				03BACB2D2B96C8A800D24F07 /* FrontRowInfo.plist */,
 				03EA68502B9630CF003348BE /* FrontRowApp.swift */,
 				03EA68542B9630D0003348BE /* Assets.xcassets */,
+				0355CA542BA790E5001AF5EA /* Localizable.xcstrings */,
 				03EA685F2B965224003348BE /* Main Menu */,
 				03EA68562B9630D0003348BE /* Preview Content */,
 				03EA686C2B968D86003348BE /* Support */,
@@ -179,6 +182,32 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
+				"zh-Hans",
+				"zh-Hant",
+				cs,
+				da,
+				nl,
+				fi,
+				fr,
+				de,
+				el,
+				he,
+				hu,
+				it,
+				ja,
+				ko,
+				nb,
+				pl,
+				"pt-BR",
+				"pt-PT",
+				ro,
+				ru,
+				es,
+				sv,
+				tr,
+				uk,
+				vi,
 			);
 			mainGroup = 03EA68442B9630CF003348BE;
 			packageReferences = (
@@ -200,6 +229,7 @@
 			files = (
 				03EA68582B9630D0003348BE /* Preview Assets.xcassets in Resources */,
 				03EA68552B9630D0003348BE /* Assets.xcassets in Resources */,
+				0355CA552BA790E5001AF5EA /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
