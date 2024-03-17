@@ -18,6 +18,10 @@ struct HelpCommands: Commands {
                 "Website",
                 destination: URL(string: "https://github.com/godly-devotion/FrontRow")!
             )
+            Link(
+                "Improve Translation",
+                destination: URL(string: "https://crowdin.com/project/FrontRow")!
+            )
         }
     }
 }
