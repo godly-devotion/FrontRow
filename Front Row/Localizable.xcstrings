@@ -169,7 +169,7 @@
       }
     },
     "Check for Updates…": {
-      "comment": "Front Row/Localizable.xcstrings\nCheck for Updates…",
+      "comment": "Front Row/Localizable.xcstrings\nCheck for Updates…\r\nFront Row/Localizable.xcstrings\nCheck for Updates…",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -336,7 +336,7 @@
       }
     },
     "Float on Top": {
-      "comment": "Front Row/Localizable.xcstrings\nFloat on Top",
+      "comment": "Front Row/Localizable.xcstrings\nFloat on Top\r\nFront Row/Localizable.xcstrings\nFloat on Top",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -503,7 +503,7 @@
       }
     },
     "Front Row": {
-      "comment": "Front Row/Localizable.xcstrings\nFront Row",
+      "comment": "Front Row/Localizable.xcstrings\nFront Row\r\nFront Row/Localizable.xcstrings\nFront Row",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -670,7 +670,7 @@
       }
     },
     "Mute": {
-      "comment": "Front Row/Localizable.xcstrings\nMute",
+      "comment": "Front Row/Localizable.xcstrings\nMute\r\nFront Row/Localizable.xcstrings\nMute",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -1004,7 +1004,7 @@
       }
     },
     "Pause": {
-      "comment": "Front Row/Localizable.xcstrings\nPause",
+      "comment": "Front Row/Localizable.xcstrings\nPause\r\nFront Row/Localizable.xcstrings\nPause",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -1171,7 +1171,7 @@
       }
     },
     "Play": {
-      "comment": "Front Row/Localizable.xcstrings\nPlay",
+      "comment": "Front Row/Localizable.xcstrings\nPlay\r\nFront Row/Localizable.xcstrings\nPlay",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -1338,7 +1338,7 @@
       }
     },
     "Playback": {
-      "comment": "Front Row/Localizable.xcstrings\nPlayback",
+      "comment": "Front Row/Localizable.xcstrings\nPlayback\r\nFront Row/Localizable.xcstrings\nPlayback",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -1505,7 +1505,7 @@
       }
     },
     "Release Notes": {
-      "comment": "Front Row/Localizable.xcstrings\nRelease Notes",
+      "comment": "Front Row/Localizable.xcstrings\nRelease Notes\r\nFront Row/Localizable.xcstrings\nRelease Notes",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -1672,7 +1672,7 @@
       }
     },
     "Step Backward 5s": {
-      "comment": "Front Row/Localizable.xcstrings\nStep Backward 5s",
+      "comment": "Front Row/Localizable.xcstrings\nStep Backward 5s\r\nFront Row/Localizable.xcstrings\nStep Backward 5s",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -1839,7 +1839,7 @@
       }
     },
     "Step Forward 5s": {
-      "comment": "Front Row/Localizable.xcstrings\nStep Forward 5s",
+      "comment": "Front Row/Localizable.xcstrings\nStep Forward 5s\r\nFront Row/Localizable.xcstrings\nStep Forward 5s",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -2006,7 +2006,7 @@
       }
     },
     "Toggle Full Screen": {
-      "comment": "Front Row/Localizable.xcstrings\nToggle Full Screen",
+      "comment": "Front Row/Localizable.xcstrings\nToggle Full Screen\r\nFront Row/Localizable.xcstrings\nToggle Full Screen",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -2173,7 +2173,7 @@
       }
     },
     "Website": {
-      "comment": "Front Row/Localizable.xcstrings\nWebsite",
+      "comment": "Front Row/Localizable.xcstrings\nWebsite\r\nFront Row/Localizable.xcstrings\nWebsite",
       "localizations": {
         "en": {
           "stringUnit": {
