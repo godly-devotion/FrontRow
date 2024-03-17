@@ -8,6 +8,7 @@
 
 <p align="center">
 <a title="Discord" target="_blank" href="https://discord.gg/x2kartzxGv"><img src="https://img.shields.io/discord/1068185566782423092?color=blueviolet&label=discord"></a>
+<a title="Crowdin" target="_blank" href="https://crowdin.com/project/FrontRow"><img src="https://badges.crowdin.net/FrontRow/localized.svg"></a>
 <a title="License" target="_blank" href="https://github.com/godly-devotion/FrontRow/blob/main/LICENSE"><img src="https://img.shields.io/github/license/godly-devotion/FrontRow?color=blue"></a>
 </p>
 
