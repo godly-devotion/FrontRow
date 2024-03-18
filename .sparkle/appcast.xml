@@ -5,6 +5,28 @@
     <language>en</language>
 
     <item>
+      <title>v1.4</title>
+      <link>https://github.com/godly-devotion/FrontRow</link>
+      <sparkle:version>1.4</sparkle:version>
+      <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/godly-devotion/FrontRow/releases</sparkle:fullReleaseNotesLink>
+      <pubDate>Mon, 18 Mar 2024 23:37:21 +0000</pubDate>
+      <enclosure
+        url="https://github.com/godly-devotion/FrontRow/releases/download/v1.4/FrontRow_v1.4.dmg"
+        sparkle:edSignature="QDOSa+DYLR0OFIGQuBcyC4vZywyReZ0NMBZwh9fdT26Kcfzs56PgsiHJmgstl5uSYyGfdA5YQldylfyFUVsdCw=="
+        length="3246941"
+        type="application/octet-stream" />
+      <description><![CDATA[
+      <ul>
+      <li>Added ability to open URLs</li>
+      <li>Added Korean translation</li>
+      <li>Added link to help improve translation</li>
+      </ul>
+      ]]>
+      </description>
+    </item>
+
+    <item>
       <title>v1.3</title>
       <link>https://github.com/godly-devotion/FrontRow</link>
       <sparkle:version>1.3</sparkle:version>
