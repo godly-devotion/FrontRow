@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct FileCommands: Commands {
+    @Binding var isPresentingOpenURLView: Bool
+
     var body: some Commands {
         CommandGroup(replacing: .newItem) {
             Section {
@@ -20,6 +22,16 @@ struct FileCommands: Commands {
                     )
                 }
                 .keyboardShortcut("O", modifiers: [.command])
+
+                Button {
+                    isPresentingOpenURLView.toggle()
+                } label: {
+                    Text(
+                        "Open URL...",
+                        comment: "Show the open URL dialog"
+                    )
+                }
+                .keyboardShortcut("L", modifiers: [.command])
             }
         }
     }

@@ -8,11 +8,10 @@
 import SwiftUI
 
 struct PlaybackCommands: Commands {
-    var playEngine: PlayEngine
+    @Binding var playEngine: PlayEngine
+    @Binding var isPresentingOpenURLView: Bool
 
     var body: some Commands {
-        @Bindable var playEngine = playEngine
-
         CommandMenu("Playback") {
             Section {
                 Button {
@@ -33,7 +32,7 @@ struct PlaybackCommands: Commands {
                     Text("Step Forward 5s")
                 }
                 .keyboardShortcut(.rightArrow, modifiers: [])
-                .disabled(!playEngine.isLoaded)
+                .disabled(!playEngine.isLoaded || isPresentingOpenURLView)
 
                 Button {
                     playEngine.stepBackwards()
@@ -41,7 +40,7 @@ struct PlaybackCommands: Commands {
                     Text("Step Backward 5s")
                 }
                 .keyboardShortcut(.leftArrow, modifiers: [])
-                .disabled(!playEngine.isLoaded)
+                .disabled(!playEngine.isLoaded || isPresentingOpenURLView)
             }
             Section {
                 Toggle(isOn: $playEngine.isMuted) {

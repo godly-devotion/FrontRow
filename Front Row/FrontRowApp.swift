@@ -13,6 +13,7 @@ struct FrontRowApp: App {
     @NSApplicationDelegateAdaptor private var appDelegate: AppDelegate
     @State private var playEngine: PlayEngine
     @State private var windowController: WindowController
+    @State private var isPresentingOpenURLView = false
     private let updaterController: SPUStandardUpdaterController
 
     init() {
@@ -42,13 +43,19 @@ struct FrontRowApp: App {
                         windowController.hideTitlebar()
                     }
                 }
+                .sheet(isPresented: $isPresentingOpenURLView) {
+                    OpenURLView()
+                        .frame(minWidth: 600)
+                }
         }
         .windowStyle(.hiddenTitleBar)
         .commands {
             AppCommands(updater: updaterController.updater)
-            FileCommands()
-            ViewCommands(windowController: windowController)
-            PlaybackCommands(playEngine: playEngine)
+            FileCommands(isPresentingOpenURLView: $isPresentingOpenURLView)
+            ViewCommands(windowController: $windowController)
+            PlaybackCommands(
+                playEngine: $playEngine,
+                isPresentingOpenURLView: $isPresentingOpenURLView)
             HelpCommands()
         }
     }

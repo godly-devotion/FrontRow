@@ -8,11 +8,9 @@
 import SwiftUI
 
 struct ViewCommands: Commands {
-    var windowController: WindowController
+    @Binding var windowController: WindowController
 
     var body: some Commands {
-        @Bindable var windowController = windowController
-
         CommandGroup(replacing: .toolbar) {
             Section {
                 Button {

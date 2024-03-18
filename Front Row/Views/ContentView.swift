@@ -9,10 +9,8 @@ import AVKit
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(PlayEngine.self) private var playEngine: PlayEngine
-
     var body: some View {
-        VideoPlayer(player: playEngine.player)
+        VideoPlayer(player: PlayEngine.shared.player)
             .onDrop(
                 of: [.mpeg4Movie], isTargeted: nil,
                 perform: { providers -> Bool in
@@ -20,7 +18,7 @@ struct ContentView: View {
                     provider.loadItem(forTypeIdentifier: UTType.mpeg4Movie.identifier, options: nil)
                     { (urlData, _) in
                         guard let url = urlData as? URL else { return }
-                        playEngine.openFile(url: url)
+                        PlayEngine.shared.openFile(url: url)
                     }
                     return true
                 }

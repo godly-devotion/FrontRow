@@ -56,6 +56,15 @@ import SwiftUI
         }
     }
 
+    func isURLPlayable(url: URL) async -> Bool {
+        let asset = AVAsset(url: url)
+        do {
+            return try await asset.load(.isPlayable)
+        } catch {
+            return false
+        }
+    }
+
     @MainActor
     func showOpenFileDialog() async {
         let panel = NSOpenPanel()
