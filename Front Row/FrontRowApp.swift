@@ -12,13 +12,13 @@ import SwiftUI
 struct FrontRowApp: App {
     @NSApplicationDelegateAdaptor private var appDelegate: AppDelegate
     @State private var playEngine: PlayEngine
+    @State private var presentedViewManager: PresentedViewManager
     @State private var windowController: WindowController
-    @State private var isPresentingOpenURLView = false
-    @State private var isPresentingJumpToView = false
     private let updaterController: SPUStandardUpdaterController
 
     init() {
         self._playEngine = .init(wrappedValue: .shared)
+        self._presentedViewManager = .init(wrappedValue: .shared)
         self._windowController = .init(wrappedValue: .shared)
 
         updaterController = SPUStandardUpdaterController(
@@ -44,11 +44,11 @@ struct FrontRowApp: App {
                         windowController.hideTitlebar()
                     }
                 }
-                .sheet(isPresented: $isPresentingOpenURLView) {
+                .sheet(isPresented: $presentedViewManager.isPresentingOpenURLView) {
                     OpenURLView()
                         .frame(minWidth: 600)
                 }
-                .alert("Go to Time", isPresented: $isPresentingJumpToView) {
+                .alert("Go to Time", isPresented: $presentedViewManager.isPresentingGoToTimeView) {
                     GoToTimeView()
                 } message: {
                     Text("Enter the time you want to go to")
@@ -69,14 +69,11 @@ struct FrontRowApp: App {
         .windowStyle(.hiddenTitleBar)
         .commands {
             AppCommands(updater: updaterController.updater)
-            FileCommands(
-                playEngine: $playEngine,
-                isPresentingOpenURLView: $isPresentingOpenURLView)
+            FileCommands(playEngine: $playEngine)
             ViewCommands(windowController: $windowController)
             PlaybackCommands(
                 playEngine: $playEngine,
-                isPresentingOpenURLView: $isPresentingOpenURLView,
-                isPresentingGoToTimeView: $isPresentingJumpToView)
+                presentedViewManager: $presentedViewManager)
             WindowCommands(
                 playEngine: $playEngine,
                 windowController: $windowController)

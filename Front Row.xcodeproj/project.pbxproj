@@ -25,6 +25,7 @@
 		03EA686E2B968D92003348BE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA686D2B968D92003348BE /* Extensions.swift */; };
 		03EA68702B96BAD1003348BE /* ViewCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA686F2B96BAD1003348BE /* ViewCommands.swift */; };
 		03EE7B0C2BA9F396009F68C5 /* GoToTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EE7B0B2BA9F396009F68C5 /* GoToTimeView.swift */; };
+		03EE7B0E2BAA5176009F68C5 /* PresentedViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EE7B0D2BAA5176009F68C5 /* PresentedViewManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		03EA686D2B968D92003348BE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		03EA686F2B96BAD1003348BE /* ViewCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCommands.swift; sourceTree = "<group>"; };
 		03EE7B0B2BA9F396009F68C5 /* GoToTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoToTimeView.swift; sourceTree = "<group>"; };
+		03EE7B0D2BAA5176009F68C5 /* PresentedViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentedViewManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			children = (
 				03EA686D2B968D92003348BE /* Extensions.swift */,
 				03EA68662B9654A0003348BE /* PlayEngine.swift */,
+				03EE7B0D2BAA5176009F68C5 /* PresentedViewManager.swift */,
 				032BBB1D2B9FF671003D2FA8 /* WindowController.swift */,
 			);
 			path = Support;
@@ -276,6 +279,7 @@
 				03EA68612B96523B003348BE /* FileCommands.swift in Sources */,
 				03E8F3DD2B9F7B350008CE49 /* AppCommands.swift in Sources */,
 				03EA68702B96BAD1003348BE /* ViewCommands.swift in Sources */,
+				03EE7B0E2BAA5176009F68C5 /* PresentedViewManager.swift in Sources */,
 				03EE7B0C2BA9F396009F68C5 /* GoToTimeView.swift in Sources */,
 				03D77E952B9AA13700276A45 /* HelpCommands.swift in Sources */,
 				03EA68672B9654A0003348BE /* PlayEngine.swift in Sources */,

@@ -9,8 +9,7 @@ import SwiftUI
 
 struct PlaybackCommands: Commands {
     @Binding var playEngine: PlayEngine
-    @Binding var isPresentingOpenURLView: Bool
-    @Binding var isPresentingGoToTimeView: Bool
+    @Binding var presentedViewManager: PresentedViewManager
 
     var body: some Commands {
         CommandMenu("Playback") {
@@ -34,7 +33,7 @@ struct PlaybackCommands: Commands {
                 }
                 .keyboardShortcut(.rightArrow, modifiers: [])
                 .disabled(
-                    !playEngine.isLoaded || isPresentingOpenURLView || isPresentingGoToTimeView)
+                    !playEngine.isLoaded || presentedViewManager.isPresenting)
 
                 Button {
                     playEngine.goBackwards()
@@ -43,7 +42,7 @@ struct PlaybackCommands: Commands {
                 }
                 .keyboardShortcut(.leftArrow, modifiers: [])
                 .disabled(
-                    !playEngine.isLoaded || isPresentingOpenURLView || isPresentingGoToTimeView)
+                    !playEngine.isLoaded || presentedViewManager.isPresenting)
 
                 Button {
                     playEngine.goToTime(0.0)
@@ -53,7 +52,7 @@ struct PlaybackCommands: Commands {
                 .disabled(!playEngine.isLoaded)
 
                 Button {
-                    isPresentingGoToTimeView = true
+                    PresentedViewManager.shared.isPresentingGoToTimeView.toggle()
                 } label: {
                     Text("Go to Time...")
                 }
