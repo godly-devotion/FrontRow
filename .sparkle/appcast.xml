@@ -5,6 +5,28 @@
     <language>en</language>
 
     <item>
+      <title>v1.5</title>
+      <link>https://github.com/godly-devotion/FrontRow</link>
+      <sparkle:version>1.5</sparkle:version>
+      <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/godly-devotion/FrontRow/releases</sparkle:fullReleaseNotesLink>
+      <pubDate>Tue, 19 Mar 2024 01:17:09 +0000</pubDate>
+      <enclosure
+        url="https://github.com/godly-devotion/FrontRow/releases/download/v1.5/FrontRow_v1.5.dmg"
+        sparkle:edSignature="9lEJhDhb2LSBVcbkH/dTCUnZCvVtlbLIYLUpYeHvhUlj7ou4tJwVukOranaBYSseOS19305Z21veRSC5bV7TDg=="
+        length="3249156"
+        type="application/octet-stream" />
+      <description><![CDATA[
+      <ul>
+      <li>Added option to fit the window to video size (Window -&gt; Natural Size)</li>
+      <li>Added option to show playing file in Finder</li>
+      <li>Improved Full Screen menu action label based on current full screen state</li>
+      </ul>
+      ]]>
+      </description>
+    </item>
+
+    <item>
       <title>v1.4</title>
       <link>https://github.com/godly-devotion/FrontRow</link>
       <sparkle:version>1.4</sparkle:version>
