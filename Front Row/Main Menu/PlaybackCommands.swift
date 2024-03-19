@@ -10,6 +10,7 @@ import SwiftUI
 struct PlaybackCommands: Commands {
     @Binding var playEngine: PlayEngine
     @Binding var isPresentingOpenURLView: Bool
+    @Binding var isPresentingGoToTimeView: Bool
 
     var body: some Commands {
         CommandMenu("Playback") {
@@ -27,20 +28,37 @@ struct PlaybackCommands: Commands {
             }
             Section {
                 Button {
-                    playEngine.stepForwards()
+                    playEngine.goForwards()
                 } label: {
-                    Text("Step Forward 5s")
+                    Text("Go Forward 5s")
                 }
                 .keyboardShortcut(.rightArrow, modifiers: [])
-                .disabled(!playEngine.isLoaded || isPresentingOpenURLView)
+                .disabled(
+                    !playEngine.isLoaded || isPresentingOpenURLView || isPresentingGoToTimeView)
 
                 Button {
-                    playEngine.stepBackwards()
+                    playEngine.goBackwards()
                 } label: {
-                    Text("Step Backward 5s")
+                    Text("Go Backward 5s")
                 }
                 .keyboardShortcut(.leftArrow, modifiers: [])
-                .disabled(!playEngine.isLoaded || isPresentingOpenURLView)
+                .disabled(
+                    !playEngine.isLoaded || isPresentingOpenURLView || isPresentingGoToTimeView)
+
+                Button {
+                    playEngine.goToTime(0.0)
+                } label: {
+                    Text("Go to Beginning")
+                }
+                .disabled(!playEngine.isLoaded)
+
+                Button {
+                    isPresentingGoToTimeView = true
+                } label: {
+                    Text("Go to Time...")
+                }
+                .keyboardShortcut("J", modifiers: [.command])
+                .disabled(!playEngine.isLoaded)
             }
             Section {
                 Toggle(isOn: $playEngine.isMuted) {

@@ -14,6 +14,7 @@ struct FrontRowApp: App {
     @State private var playEngine: PlayEngine
     @State private var windowController: WindowController
     @State private var isPresentingOpenURLView = false
+    @State private var isPresentingJumpToView = false
     private let updaterController: SPUStandardUpdaterController
 
     init() {
@@ -47,6 +48,11 @@ struct FrontRowApp: App {
                     OpenURLView()
                         .frame(minWidth: 600)
                 }
+                .alert("Go to Time", isPresented: $isPresentingJumpToView) {
+                    GoToTimeView()
+                } message: {
+                    Text("Enter the time you want to go to")
+                }
                 .onReceive(
                     NotificationCenter.default.publisher(
                         for: NSWindow.didEnterFullScreenNotification)
@@ -69,7 +75,8 @@ struct FrontRowApp: App {
             ViewCommands(windowController: $windowController)
             PlaybackCommands(
                 playEngine: $playEngine,
-                isPresentingOpenURLView: $isPresentingOpenURLView)
+                isPresentingOpenURLView: $isPresentingOpenURLView,
+                isPresentingGoToTimeView: $isPresentingJumpToView)
             WindowCommands(
                 playEngine: $playEngine,
                 windowController: $windowController)

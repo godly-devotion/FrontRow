@@ -109,37 +109,56 @@ import SwiftUI
         }
     }
 
-    func stepForwards(_ duration: Double = 5.0) {
-        if !isLoaded {
-            return
-        }
-
+    func goForwards(_ duration: Double = 5.0) {
+        guard isLoaded else { return }
         let time = CMTimeAdd(
-            player.currentTime(), CMTimeMakeWithSeconds(duration, preferredTimescale: 1))
-        if CMTIME_IS_INVALID(time) {
-            return
-        }
+            player.currentTime(),
+            CMTimeMakeWithSeconds(duration, preferredTimescale: 1)
+        )
         player.seek(to: time, toleranceBefore: CMTime.zero, toleranceAfter: CMTime.zero)
     }
 
-    func stepBackwards(_ duration: Double = 5.0) {
-        if !isLoaded {
+    func goBackwards(_ duration: Double = 5.0) {
+        guard isLoaded else { return }
+        let time = CMTimeSubtract(
+            player.currentTime(),
+            CMTimeMakeWithSeconds(duration, preferredTimescale: 1)
+        )
+        player.seek(to: time, toleranceBefore: CMTime.zero, toleranceAfter: CMTime.zero)
+    }
+
+    func goToTime(_ timecode: Double) {
+        guard isLoaded else { return }
+        let time = CMTimeMakeWithSeconds(timecode, preferredTimescale: 1)
+        player.seek(to: time, toleranceBefore: CMTime.zero, toleranceAfter: CMTime.zero)
+    }
+
+    func goToTime(_ timecode: String) {
+        guard let item = player.currentItem else { return }
+
+        let split = Array(timecode.split(separator: ":").reversed())
+
+        let _hour: Int? = split.count > 2 ? Int(split[2]) : nil
+        let _minute: Int? = split.count > 1 ? Int(split[1]) : nil
+        let _second: Double? = !split.isEmpty ? Double(split[0]) : nil
+
+        if _hour == nil && _minute == nil && _second == nil {
             return
         }
 
-        let time = CMTimeSubtract(
-            player.currentTime(), CMTimeMakeWithSeconds(duration, preferredTimescale: 1))
-        if CMTIME_IS_INVALID(time) {
-            return
-        }
+        let hour = _hour ?? 0
+        let minute = _minute ?? 0
+        let second = _second ?? 0.0
+        let time = CMTimeMakeWithSeconds(
+            Double(hour * 3600 + minute * 60) + second, preferredTimescale: 1)
+
+        let validRange = CMTimeRange(start: CMTime.zero, end: item.duration)
+        guard validRange.containsTime(time) else { return }
         player.seek(to: time, toleranceBefore: CMTime.zero, toleranceAfter: CMTime.zero)
     }
 
     func fitToVideoSize() {
-        if !isLoaded || aspect == CGSize.zero {
-            return
-        }
-
+        guard isLoaded, aspect != CGSize.zero else { return }
         guard let window = NSApp.windows.first else { return }
         let screenFrame = (window.screen ?? NSScreen.main!).visibleFrame
         let newFrame: NSRect
