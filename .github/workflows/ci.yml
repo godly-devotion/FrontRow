@@ -19,18 +19,15 @@ jobs:
       - name: Build and Analyze
         run: >
           xcodebuild clean build analyze
-          -exportLocalizations
           -project "Front Row.xcodeproj"
           -scheme "Front Row"
-          -localizationPath "./locale"
-          -exportLanguage en
           CODE_SIGNING_ALLOWED=NO | xcpretty && exit ${PIPESTATUS[0]}
 
-      - name: Upload source locale artifact
+      - name: Upload string catalog
         uses: actions/upload-artifact@v4.3.1
         with:
-          name: en-source-locale
-          path: './locale/en.xcloc/Localized Contents/en.xliff'
+          name: string-catalog
+          path: "./Front Row/Localizable.xcstrings"
 
   crowdin:
     runs-on: ubuntu-latest
@@ -38,18 +35,18 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4.1.4
         with:
-          name: en-source-locale
+          name: string-catalog
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload source to Crowdin
+      - name: Upload string catalog to Crowdin
         uses: crowdin/github-action@v1.19.0
         with:
           upload_sources: true
           upload_translations: false
           download_translations: false
 
-          source: en.xliff
-          translation: '%osx_locale%.xliff'
+          source: Localizable.xcstrings
+          translation: "%osx_locale%.xcstrings"
 
           project_id: ${{ secrets.CROWDIN_PROJECT_ID }}
           token: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
