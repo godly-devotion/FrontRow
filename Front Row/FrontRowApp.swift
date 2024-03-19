@@ -47,6 +47,18 @@ struct FrontRowApp: App {
                     OpenURLView()
                         .frame(minWidth: 600)
                 }
+                .onReceive(
+                    NotificationCenter.default.publisher(
+                        for: NSWindow.didEnterFullScreenNotification)
+                ) { _ in
+                    windowController.setIsFullscreen(true)
+                }
+                .onReceive(
+                    NotificationCenter.default.publisher(
+                        for: NSWindow.didExitFullScreenNotification)
+                ) { _ in
+                    windowController.setIsFullscreen(false)
+                }
         }
         .windowStyle(.hiddenTitleBar)
         .commands {
@@ -58,6 +70,9 @@ struct FrontRowApp: App {
             PlaybackCommands(
                 playEngine: $playEngine,
                 isPresentingOpenURLView: $isPresentingOpenURLView)
+            WindowCommands(
+                playEngine: $playEngine,
+                windowController: $windowController)
             HelpCommands()
         }
     }

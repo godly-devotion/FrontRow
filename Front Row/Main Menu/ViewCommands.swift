@@ -16,7 +16,7 @@ struct ViewCommands: Commands {
                 Button {
                     NSApplication.shared.mainWindow?.toggleFullScreen(nil)
                 } label: {
-                    Text("Toggle Full Screen")
+                    Text(windowController.isFullscreen ? "Exit Full Screen" : "Enter Full Screen")
                 }
                 .keyboardShortcut(.return, modifiers: [])
 

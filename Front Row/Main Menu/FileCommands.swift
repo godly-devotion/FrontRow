@@ -46,7 +46,7 @@ struct FileCommands: Commands {
                         comment: "Show the currently playing file in Finder"
                     )
                 }
-                .disabled(!playEngine.isPlayingLocalFile)
+                .disabled(!playEngine.isLocalFile)
             }
         }
     }

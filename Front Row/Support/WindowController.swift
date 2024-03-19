@@ -11,6 +11,8 @@ import SwiftUI
 
     static let shared = WindowController()
 
+    private(set) var isFullscreen = false
+
     private var _isOnTop = false
 
     var isOnTop: Bool {
@@ -24,6 +26,10 @@ import SwiftUI
                 NSApplication.shared.mainWindow?.level = _isOnTop ? .floating : .normal
             }
         }
+    }
+
+    func setIsFullscreen(_ isFullscreen: Bool) {
+        self.isFullscreen = isFullscreen
     }
 
     private var _titlebarView: NSView?

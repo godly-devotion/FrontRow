@@ -334,6 +334,9 @@
         }
       }
     },
+    "Enter Full Screen" : {
+
+    },
     "Enter URL" : {
       "comment" : "Prompt text for Open URL sheet text field",
       "localizations" : {
@@ -500,6 +503,9 @@
           }
         }
       }
+    },
+    "Exit Full Screen" : {
+
     },
     "Float on Top" : {
       "localizations" : {
@@ -1164,6 +1170,9 @@
           }
         }
       }
+    },
+    "Natural Size" : {
+      "comment" : "Fit window to video size"
     },
     "Open File..." : {
       "comment" : "Show the open file dialog",
@@ -2164,7 +2173,7 @@
       }
     },
     "Show in Finder" : {
-      "comment" : "Show the currently playing file using Finder"
+      "comment" : "Show the currently playing file in Finder"
     },
     "Step Backward 5s" : {
       "localizations" : {
@@ -2494,172 +2503,6 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Step Forward 5s"
-          }
-        }
-      }
-    },
-    "Toggle Full Screen" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "전체 화면 전환"
-          }
-        },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Toggle Full Screen"
           }
         }
       }

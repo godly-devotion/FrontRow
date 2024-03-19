@@ -18,7 +18,7 @@ import SwiftUI
 
     var isPlaying = false
 
-    var isPlayingLocalFile = false
+    var isLocalFile = false
 
     var isMuted: Bool {
         get {
@@ -34,6 +34,8 @@ import SwiftUI
     }
 
     private var _isMuted = false
+
+    private var aspect = CGSize.zero
 
     private var sizeObserver: NSKeyValueObservation?
 
@@ -88,34 +90,15 @@ import SwiftUI
 
         sizeObserver = player.observe(\.currentItem?.presentationSize, options: .new) {
             player, change in
-            guard let value = change.newValue else { return }
-            if let aspect = value, aspect != NSSize.zero {
-                guard let window = NSApp.windows.first else { return }
-                let screenFrame = (window.screen ?? NSScreen.main!).visibleFrame
-                let newFrame: NSRect
-
-                if aspect.width < screenFrame.width && aspect.height < screenFrame.height {
-                    let newOrigin = CGPoint(
-                        x: screenFrame.origin.x + (screenFrame.width - aspect.width) / 2,
-                        y: screenFrame.origin.y + (screenFrame.height - aspect.height) / 2
-                    )
-                    newFrame = NSRect(origin: newOrigin, size: aspect)
-                } else {
-                    let newSize = aspect.shrink(toSize: screenFrame.size)
-                    let newOrigin = CGPoint(
-                        x: screenFrame.origin.x + (screenFrame.width - newSize.width) / 2,
-                        y: screenFrame.origin.y + (screenFrame.height - newSize.height) / 2
-                    )
-                    newFrame = NSRect(origin: newOrigin, size: newSize)
-                }
-                window.setFrame(newFrame, display: true, animate: true)
-                window.aspectRatio = aspect
-            }
+            guard let value = change.newValue, let aspect = value else { return }
+            guard aspect != CGSize.zero else { return }
+            self.aspect = aspect
+            self.fitToVideoSize()
         }
 
         player.play()
         isLoaded = true
-        isPlayingLocalFile = FileManager.default.fileExists(atPath: url.path(percentEncoded: false))
+        isLocalFile = FileManager.default.fileExists(atPath: url.path(percentEncoded: false))
     }
 
     func playPause() {
@@ -150,5 +133,32 @@ import SwiftUI
             return
         }
         player.seek(to: time, toleranceBefore: CMTime.zero, toleranceAfter: CMTime.zero)
+    }
+
+    func fitToVideoSize() {
+        if !isLoaded || aspect == CGSize.zero {
+            return
+        }
+
+        guard let window = NSApp.windows.first else { return }
+        let screenFrame = (window.screen ?? NSScreen.main!).visibleFrame
+        let newFrame: NSRect
+
+        if aspect.width < screenFrame.width && aspect.height < screenFrame.height {
+            let newOrigin = CGPoint(
+                x: screenFrame.origin.x + (screenFrame.width - aspect.width) / 2,
+                y: screenFrame.origin.y + (screenFrame.height - aspect.height) / 2
+            )
+            newFrame = NSRect(origin: newOrigin, size: aspect)
+        } else {
+            let newSize = aspect.shrink(toSize: screenFrame.size)
+            let newOrigin = CGPoint(
+                x: screenFrame.origin.x + (screenFrame.width - newSize.width) / 2,
+                y: screenFrame.origin.y + (screenFrame.height - newSize.height) / 2
+            )
+            newFrame = NSRect(origin: newOrigin, size: newSize)
+        }
+        window.setFrame(newFrame, display: true, animate: true)
+        window.aspectRatio = aspect
     }
 }
