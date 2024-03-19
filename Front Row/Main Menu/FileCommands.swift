@@ -5,9 +5,11 @@
 //  Created by Joshua Park on 3/4/24.
 //
 
+import AVKit
 import SwiftUI
 
 struct FileCommands: Commands {
+    @Binding var playEngine: PlayEngine
     @Binding var isPresentingOpenURLView: Bool
 
     var body: some Commands {
@@ -32,6 +34,19 @@ struct FileCommands: Commands {
                     )
                 }
                 .keyboardShortcut("L", modifiers: [.command])
+            }
+            Section {
+                Button {
+                    guard let item = PlayEngine.shared.player.currentItem else { return }
+                    guard let asset = item.asset as? AVURLAsset else { return }
+                    NSWorkspace.shared.activateFileViewerSelecting([asset.url])
+                } label: {
+                    Text(
+                        "Show in Finder",
+                        comment: "Show the currently playing file in Finder"
+                    )
+                }
+                .disabled(!playEngine.isPlayingLocalFile)
             }
         }
     }

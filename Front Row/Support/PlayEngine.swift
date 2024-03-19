@@ -18,6 +18,8 @@ import SwiftUI
 
     var isPlaying = false
 
+    var isPlayingLocalFile = false
+
     var isMuted: Bool {
         get {
             access(keyPath: \.isMuted)
@@ -113,6 +115,7 @@ import SwiftUI
 
         player.play()
         isLoaded = true
+        isPlayingLocalFile = FileManager.default.fileExists(atPath: url.path(percentEncoded: false))
     }
 
     func playPause() {

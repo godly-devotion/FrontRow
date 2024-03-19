@@ -51,7 +51,9 @@ struct FrontRowApp: App {
         .windowStyle(.hiddenTitleBar)
         .commands {
             AppCommands(updater: updaterController.updater)
-            FileCommands(isPresentingOpenURLView: $isPresentingOpenURLView)
+            FileCommands(
+                playEngine: $playEngine,
+                isPresentingOpenURLView: $isPresentingOpenURLView)
             ViewCommands(windowController: $windowController)
             PlaybackCommands(
                 playEngine: $playEngine,

@@ -2163,6 +2163,9 @@
         }
       }
     },
+    "Show in Finder" : {
+      "comment" : "Show the currently playing file using Finder"
+    },
     "Step Backward 5s" : {
       "localizations" : {
         "ar" : {
