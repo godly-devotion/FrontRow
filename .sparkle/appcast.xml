@@ -5,6 +5,29 @@
     <language>en</language>
 
     <item>
+      <title>v1.6</title>
+      <link>https://github.com/godly-devotion/FrontRow</link>
+      <sparkle:version>1.6</sparkle:version>
+      <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/godly-devotion/FrontRow/releases</sparkle:fullReleaseNotesLink>
+      <pubDate>Wed, 20 Mar 2024 00:18:10 +0000</pubDate>
+      <enclosure
+        url="https://github.com/godly-devotion/FrontRow/releases/download/v1.6/FrontRow_v1.6.dmg"
+        sparkle:edSignature="JysZjpS1xQ7c0SFy6r2F9hB4J+Z2lJ7D20KtQquIF5aeCnDJWziliLhuQjH+gJtnYricLH6tYFUmLYQOXOOzBQ=="
+        length="3261629"
+        type="application/octet-stream" />
+      <description><![CDATA[
+      <ul>
+      <li>Added ability to go to specific time</li>
+      <li>Added Chinese Simplified translation</li>
+      <li>Added Chinese Traditional translation</li>
+      <li>Added Japanese translation</li>
+      </ul>
+      ]]>
+      </description>
+    </item>
+
+    <item>
       <title>v1.5</title>
       <link>https://github.com/godly-devotion/FrontRow</link>
       <sparkle:version>1.5</sparkle:version>
