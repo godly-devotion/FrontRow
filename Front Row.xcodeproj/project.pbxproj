@@ -212,7 +212,6 @@
 				nb,
 				pl,
 				"pt-BR",
-				"pt-PT",
 				ro,
 				ru,
 				es,
