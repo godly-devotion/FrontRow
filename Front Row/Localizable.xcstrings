@@ -17,14 +17,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Cancel"
+            "state": "translated",
+            "value": "取消"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Cancel"
+            "state": "translated",
+            "value": "取消"
           }
         },
         "cs": {
@@ -89,14 +89,14 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Cancel"
+            "state": "translated",
+            "value": "キャンセル"
           }
         },
         "ko": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Cancel"
+            "state": "translated",
+            "value": "취소"
           }
         },
         "no": {
@@ -183,14 +183,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Check for Updates…"
+            "state": "translated",
+            "value": "检查更新..."
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Check for Updates…"
+            "state": "translated",
+            "value": "檢查更新 ..."
           }
         },
         "cs": {
@@ -255,8 +255,8 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Check for Updates…"
+            "state": "translated",
+            "value": "アップデートの確認..."
           }
         },
         "ko": {
@@ -349,14 +349,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Enter Full Screen"
+            "state": "translated",
+            "value": "进入全屏"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Enter Full Screen"
+            "state": "translated",
+            "value": "進入全螢幕"
           }
         },
         "cs": {
@@ -421,8 +421,8 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Enter Full Screen"
+            "state": "translated",
+            "value": "フルスクリーンにする"
           }
         },
         "ko": {
@@ -515,14 +515,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Enter the time you want to go to"
+            "state": "translated",
+            "value": "请输入所要跳转的时间"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Enter the time you want to go to"
+            "state": "translated",
+            "value": "請輸入您想要跳至的位置"
           }
         },
         "cs": {
@@ -587,14 +587,14 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Enter the time you want to go to"
+            "state": "translated",
+            "value": "ジャンプしたい位置の時間を入力してください"
           }
         },
         "ko": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Enter the time you want to go to"
+            "state": "translated",
+            "value": "이동하고 싶은 시간을 입력하세요"
           }
         },
         "no": {
@@ -681,14 +681,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Enter URL"
+            "state": "translated",
+            "value": "输入网址"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Enter URL"
+            "state": "translated",
+            "value": "輸入網址"
           }
         },
         "cs": {
@@ -753,8 +753,8 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Enter URL"
+            "state": "translated",
+            "value": "URLを入力"
           }
         },
         "ko": {
@@ -847,14 +847,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Exit Full Screen"
+            "state": "translated",
+            "value": "退出全屏"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Exit Full Screen"
+            "state": "translated",
+            "value": "離開全螢幕"
           }
         },
         "cs": {
@@ -919,8 +919,8 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Exit Full Screen"
+            "state": "translated",
+            "value": "フルスクリーンを解除"
           }
         },
         "ko": {
@@ -1013,14 +1013,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Float on Top"
+            "state": "translated",
+            "value": "窗口置顶"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Float on Top"
+            "state": "translated",
+            "value": "浮動於上方"
           }
         },
         "cs": {
@@ -1085,8 +1085,8 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Float on Top"
+            "state": "translated",
+            "value": "最前面に固定"
           }
         },
         "ko": {
@@ -1179,13 +1179,13 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
+            "state": "translated",
             "value": "Front Row"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
+            "state": "translated",
             "value": "Front Row"
           }
         },
@@ -1251,7 +1251,7 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
+            "state": "translated",
             "value": "Front Row"
           }
         },
@@ -1345,14 +1345,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go"
+            "state": "translated",
+            "value": "去"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go"
+            "state": "translated",
+            "value": "去"
           }
         },
         "cs": {
@@ -1417,14 +1417,14 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go"
+            "state": "translated",
+            "value": "行く"
           }
         },
         "ko": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go"
+            "state": "translated",
+            "value": "이동"
           }
         },
         "no": {
@@ -1511,14 +1511,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go Backward 5s"
+            "state": "translated",
+            "value": "后退5秒"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go Backward 5s"
+            "state": "translated",
+            "value": "倒轉 5 秒"
           }
         },
         "cs": {
@@ -1583,14 +1583,14 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go Backward 5s"
+            "state": "translated",
+            "value": "5秒 戻る"
           }
         },
         "ko": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go Backward 5s"
+            "state": "translated",
+            "value": "5초 뒤로 이동"
           }
         },
         "no": {
@@ -1677,14 +1677,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go Forward 5s"
+            "state": "translated",
+            "value": "前进5秒"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go Forward 5s"
+            "state": "translated",
+            "value": "快轉 5 秒"
           }
         },
         "cs": {
@@ -1749,14 +1749,14 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go Forward 5s"
+            "state": "translated",
+            "value": "5秒 進む"
           }
         },
         "ko": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go Forward 5s"
+            "state": "translated",
+            "value": "5초 앞으로 이동"
           }
         },
         "no": {
@@ -1843,14 +1843,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go to Beginning"
+            "state": "translated",
+            "value": "跳转到开始"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go to Beginning"
+            "state": "translated",
+            "value": "跳至起始處"
           }
         },
         "cs": {
@@ -1915,14 +1915,14 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go to Beginning"
+            "state": "translated",
+            "value": "最初に戻る"
           }
         },
         "ko": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go to Beginning"
+            "state": "translated",
+            "value": "시작으로 이동"
           }
         },
         "no": {
@@ -2009,14 +2009,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go to Time"
+            "state": "translated",
+            "value": "去时间"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go to Time"
+            "state": "translated",
+            "value": "跳至時間"
           }
         },
         "cs": {
@@ -2081,14 +2081,14 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go to Time"
+            "state": "translated",
+            "value": "次の時間へジャンプ"
           }
         },
         "ko": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go to Time"
+            "state": "translated",
+            "value": "시간으로 이동"
           }
         },
         "no": {
@@ -2175,14 +2175,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go to Time..."
+            "state": "translated",
+            "value": "去时间..."
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go to Time..."
+            "state": "translated",
+            "value": "跳至時間 ..."
           }
         },
         "cs": {
@@ -2247,14 +2247,14 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go to Time..."
+            "state": "translated",
+            "value": "次の時間へジャンプ..."
           }
         },
         "ko": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Go to Time..."
+            "state": "translated",
+            "value": "시간으로 이동..."
           }
         },
         "no": {
@@ -2341,14 +2341,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Improve Translation"
+            "state": "translated",
+            "value": "改进翻译"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Improve Translation"
+            "state": "translated",
+            "value": "改進翻譯"
           }
         },
         "cs": {
@@ -2413,8 +2413,8 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Improve Translation"
+            "state": "translated",
+            "value": "翻訳の改善に協力"
           }
         },
         "ko": {
@@ -2507,14 +2507,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Mute"
+            "state": "translated",
+            "value": "静音"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Mute"
+            "state": "translated",
+            "value": "靜音"
           }
         },
         "cs": {
@@ -2579,8 +2579,8 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Mute"
+            "state": "translated",
+            "value": "ミュート"
           }
         },
         "ko": {
@@ -2673,14 +2673,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Natural Size"
+            "state": "translated",
+            "value": "原始大小"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Natural Size"
+            "state": "translated",
+            "value": "原始大小"
           }
         },
         "cs": {
@@ -2745,8 +2745,8 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Natural Size"
+            "state": "translated",
+            "value": "本来のサイズ"
           }
         },
         "ko": {
@@ -2839,14 +2839,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Open File..."
+            "state": "translated",
+            "value": "打开文件"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Open File..."
+            "state": "translated",
+            "value": "打開檔案 ..."
           }
         },
         "cs": {
@@ -2911,8 +2911,8 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Open File..."
+            "state": "translated",
+            "value": "ファイルを開く"
           }
         },
         "ko": {
@@ -3005,14 +3005,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Open URL..."
+            "state": "translated",
+            "value": "打开 URL…"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Open URL..."
+            "state": "translated",
+            "value": "打開 URL ..."
           }
         },
         "cs": {
@@ -3077,8 +3077,8 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Open URL..."
+            "state": "translated",
+            "value": "URLを開く…"
           }
         },
         "ko": {
@@ -3171,14 +3171,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Pause"
+            "state": "translated",
+            "value": "暂停"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Pause"
+            "state": "translated",
+            "value": "暫停"
           }
         },
         "cs": {
@@ -3243,8 +3243,8 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Pause"
+            "state": "translated",
+            "value": "一時停止"
           }
         },
         "ko": {
@@ -3337,14 +3337,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Play"
+            "state": "translated",
+            "value": "播放"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Play"
+            "state": "translated",
+            "value": "播放"
           }
         },
         "cs": {
@@ -3409,8 +3409,8 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Play"
+            "state": "translated",
+            "value": "再生"
           }
         },
         "ko": {
@@ -3503,14 +3503,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Playback"
+            "state": "translated",
+            "value": "播放"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Playback"
+            "state": "translated",
+            "value": "播放"
           }
         },
         "cs": {
@@ -3575,8 +3575,8 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Playback"
+            "state": "translated",
+            "value": "制御"
           }
         },
         "ko": {
@@ -3669,14 +3669,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Release Notes"
+            "state": "translated",
+            "value": "版本说明"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Release Notes"
+            "state": "translated",
+            "value": "版本說明"
           }
         },
         "cs": {
@@ -3741,8 +3741,8 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Release Notes"
+            "state": "translated",
+            "value": "リリースノート"
           }
         },
         "ko": {
@@ -3835,14 +3835,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Show in Finder"
+            "state": "translated",
+            "value": "在访达中显示"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Show in Finder"
+            "state": "translated",
+            "value": "在 Finder中顯示"
           }
         },
         "cs": {
@@ -3907,8 +3907,8 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Show in Finder"
+            "state": "translated",
+            "value": "Finderで表示"
           }
         },
         "ko": {
@@ -4001,14 +4001,14 @@
         },
         "zh-Hans": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Website"
+            "state": "translated",
+            "value": "网站"
           }
         },
         "zh-Hant": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Website"
+            "state": "translated",
+            "value": "網站"
           }
         },
         "cs": {
@@ -4073,8 +4073,8 @@
         },
         "ja": {
           "stringUnit": {
-            "state": "needs_review",
-            "value": "Website"
+            "state": "translated",
+            "value": "Web サイト"
           }
         },
         "ko": {
