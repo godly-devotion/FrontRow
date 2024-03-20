@@ -1,2 +1,4 @@
-bundles:
-  - 8
+files:
+  - source: /Front Row/Localizable.xcstrings
+    translation: /Front Row/Localizable.xcstrings
+    multilingual: 1
