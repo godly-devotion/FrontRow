@@ -105,6 +105,12 @@
             "value" : "Cancel"
           }
         },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cancel"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -260,6 +266,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Check for Updates…"
+          }
+        },
+        "pt" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Check for Updates…"
@@ -425,6 +437,12 @@
             "value" : "Enter Full Screen"
           }
         },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Enter Full Screen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -580,6 +598,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Enter the time you want to go to"
+          }
+        },
+        "pt" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Enter the time you want to go to"
@@ -746,6 +770,12 @@
             "value" : "Enter URL"
           }
         },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Enter URL"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -901,6 +931,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Exit Full Screen"
+          }
+        },
+        "pt" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Exit Full Screen"
@@ -1066,6 +1102,12 @@
             "value" : "Float on Top"
           }
         },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Float on Top"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -1221,6 +1263,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Front Row"
+          }
+        },
+        "pt" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Front Row"
@@ -1386,6 +1434,12 @@
             "value" : "Go"
           }
         },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Go"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -1541,6 +1595,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Go Backward 5s"
+          }
+        },
+        "pt" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Go Backward 5s"
@@ -1706,6 +1766,12 @@
             "value" : "Go Forward 5s"
           }
         },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Go Forward 5s"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -1861,6 +1927,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Go to Beginning"
+          }
+        },
+        "pt" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Go to Beginning"
@@ -2026,6 +2098,12 @@
             "value" : "Go to Time"
           }
         },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Go to Time"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -2181,6 +2259,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Go to Time..."
+          }
+        },
+        "pt" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Go to Time..."
@@ -2346,6 +2430,12 @@
             "value" : "Improve Translation"
           }
         },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Improve Translation"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -2501,6 +2591,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mute"
+          }
+        },
+        "pt" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Mute"
@@ -2667,6 +2763,12 @@
             "value" : "Natural Size"
           }
         },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Natural Size"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -2823,6 +2925,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Open File..."
+          }
+        },
+        "pt" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Open File..."
@@ -2989,6 +3097,12 @@
             "value" : "Open URL..."
           }
         },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Open URL..."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -3144,6 +3258,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pause"
+          }
+        },
+        "pt" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Pause"
@@ -3309,6 +3429,12 @@
             "value" : "Play"
           }
         },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Play"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -3469,6 +3595,12 @@
             "value" : "Playback"
           }
         },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Playback"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -3624,6 +3756,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Release Notes"
+          }
+        },
+        "pt" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Release Notes"
@@ -3790,6 +3928,12 @@
             "value" : "Show in Finder"
           }
         },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Show in Finder"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -3945,6 +4089,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Website"
+          }
+        },
+        "pt" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Website"
