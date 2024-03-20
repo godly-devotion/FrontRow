@@ -13,7 +13,7 @@ struct OpenURLView: View {
     @State private var displayError = false
 
     var body: some View {
-        HStack {
+        HStack(spacing: 8) {
             if displayError {
                 Image(systemName: "play.slash")
                     .resizable()
@@ -59,8 +59,8 @@ struct OpenURLView: View {
             .font(.title)
             .textFieldStyle(.plain)
         }
-        .padding([.horizontal], 12)
-        .padding([.vertical], 8)
+        .padding([.horizontal], 16)
+        .padding([.vertical], 12)
     }
 }
 
