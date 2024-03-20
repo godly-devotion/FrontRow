@@ -7,7 +7,7 @@
 <p align="center">Play HDR videos &amp; spatial audio on Mac natively</p>
 
 <p align="center">
-<a title="Discord" target="_blank" href="https://discord.gg/x2kartzxGv"><img src="https://img.shields.io/discord/1068185566782423092?color=blueviolet&label=discord"></a>
+<a title="Release" target="_blank" href="https://github.com/godly-devotion/FrontRow/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/godly-devotion/FrontRow"></a>
 <a title="Crowdin" target="_blank" href="https://crowdin.com/project/FrontRow"><img src="https://badges.crowdin.net/FrontRow/localized.svg"></a>
 <a title="License" target="_blank" href="https://github.com/godly-devotion/FrontRow/blob/main/LICENSE"><img src="https://img.shields.io/github/license/godly-devotion/FrontRow?color=blue"></a>
 </p>
