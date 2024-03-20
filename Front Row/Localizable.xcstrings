@@ -1,2913 +1,4156 @@
 {
-  "sourceLanguage" : "en",
-  "strings" : {
-    "Cancel" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cancel"
+  "sourceLanguage": "en",
+  "strings": {
+    "Cancel": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取消"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取消"
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キャンセル"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "취소"
+          }
+        },
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cancel"
           }
         }
       }
     },
-    "Check for Updates…" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+    "Check for Updates…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check for Updates…"
           }
         },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "da" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "检查更新..."
           }
         },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "檢查更新 ..."
           }
         },
-        "el" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Check for Updates…"
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "업데이트 확인…"
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アップデートの確認..."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "업데이트 확인…"
           }
         },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Check for Updates…"
-          }
-        }
-      }
-    },
-    "Enter Full Screen" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "전체 화면 시작"
-          }
-        },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter Full Screen"
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Check for Updates…"
           }
         }
       }
     },
-    "Enter the time you want to go to" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enter the time you want to go to"
+    "Enter Full Screen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter Full Screen"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "进入全屏"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進入全螢幕"
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フルスクリーンにする"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "전체 화면 시작"
+          }
+        },
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter Full Screen"
           }
         }
       }
     },
-    "Enter URL" : {
-      "comment" : "Prompt text for Open URL sheet text field",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+    "Enter the time you want to go to": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter the time you want to go to"
           }
         },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "da" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请输入所要跳转的时间"
           }
         },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "請輸入您想要跳至的位置"
           }
         },
-        "el" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enter URL"
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "URL 입력"
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ジャンプしたい位置の時間を入力してください"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이동하고 싶은 시간을 입력하세요"
           }
         },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Enter URL"
-          }
-        }
-      }
-    },
-    "Exit Full Screen" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "전체 화면 종료"
-          }
-        },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Exit Full Screen"
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter the time you want to go to"
           }
         }
       }
     },
-    "Float on Top" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+    "Enter URL": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter URL"
           }
         },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "da" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "输入网址"
           }
         },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "輸入網址"
           }
         },
-        "el" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Float on Top"
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "상단에 띄우기"
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URLを入力"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL 입력"
           }
         },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Float on Top"
-          }
-        }
-      }
-    },
-    "Front Row" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Front Row"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Front Row"
-          }
-        },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Front Row"
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Enter URL"
           }
         }
       }
     },
-    "Go" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Go"
+    "Exit Full Screen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exit Full Screen"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "退出全屏"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "離開全螢幕"
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フルスクリーンを解除"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "전체 화면 종료"
+          }
+        },
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exit Full Screen"
           }
         }
       }
     },
-    "Go Backward 5s" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Go Backward 5s"
+    "Float on Top": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Float on Top"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "窗口置顶"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "浮動於上方"
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最前面に固定"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "상단에 띄우기"
+          }
+        },
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Float on Top"
           }
         }
       }
     },
-    "Go Forward 5s" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Go Forward 5s"
+    "Front Row": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Front Row"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Front Row"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Front Row"
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Front Row"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Front Row"
+          }
+        },
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Front Row"
           }
         }
       }
     },
-    "Go to Beginning" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Go to Beginning"
+    "Go": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "去"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "去"
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "行く"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이동"
+          }
+        },
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go"
           }
         }
       }
     },
-    "Go to Time" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Go to Time"
+    "Go Backward 5s": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go Backward 5s"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "后退5秒"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "倒轉 5 秒"
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5秒 戻る"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5초 뒤로 이동"
+          }
+        },
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Backward 5s"
           }
         }
       }
     },
-    "Go to Time..." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Go to Time..."
+    "Go Forward 5s": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go Forward 5s"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "前进5秒"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "快轉 5 秒"
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5秒 進む"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5초 앞으로 이동"
+          }
+        },
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go Forward 5s"
           }
         }
       }
     },
-    "Improve Translation" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+    "Go to Beginning": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go to Beginning"
           }
         },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "da" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "跳转到开始"
           }
         },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "跳至起始處"
           }
         },
-        "el" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Improve Translation"
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "번역 개선하기"
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最初に戻る"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "시작으로 이동"
           }
         },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Improve Translation"
-          }
-        }
-      }
-    },
-    "Mute" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mute"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "음소거"
-          }
-        },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mute"
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Beginning"
           }
         }
       }
     },
-    "Natural Size" : {
-      "comment" : "Fit window to video size",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+    "Go to Time": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go to Time"
           }
         },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "da" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "去时间"
           }
         },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "跳至時間"
           }
         },
-        "el" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Natural Size"
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "보통 크기"
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次の時間へジャンプ"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "시간으로 이동"
           }
         },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Natural Size"
-          }
-        }
-      }
-    },
-    "Open File..." : {
-      "comment" : "Show the open file dialog",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Open File..."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "파일 열기..."
-          }
-        },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open File..."
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time"
           }
         }
       }
     },
-    "Open URL..." : {
-      "comment" : "Show the open URL dialog",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+    "Go to Time...": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go to Time..."
           }
         },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "da" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "去时间..."
           }
         },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "跳至時間 ..."
           }
         },
-        "el" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Open URL..."
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "URL 열기..."
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次の時間へジャンプ..."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "시간으로 이동..."
           }
         },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open URL..."
-          }
-        }
-      }
-    },
-    "Pause" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pause"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "일시 정지"
-          }
-        },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pause"
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Go to Time..."
           }
         }
       }
     },
-    "Play" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+    "Improve Translation": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Improve Translation"
           }
         },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "da" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "改进翻译"
           }
         },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "改進翻譯"
           }
         },
-        "el" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Play"
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "재생"
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "翻訳の改善に協力"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "번역 개선하기"
           }
         },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Play"
-          }
-        }
-      }
-    },
-    "Playback" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Playback"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "재생"
-          }
-        },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Playback"
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Improve Translation"
           }
         }
       }
     },
-    "Release Notes" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+    "Mute": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mute"
           }
         },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "da" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "静音"
           }
         },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "靜音"
           }
         },
-        "el" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Release Notes"
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "릴리스 노트"
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ミュート"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "음소거"
           }
         },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Release Notes"
-          }
-        }
-      }
-    },
-    "Show in Finder" : {
-      "comment" : "Show the currently playing file in Finder",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Show in Finder"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Finder에서 보기"
-          }
-        },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show in Finder"
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mute"
           }
         }
       }
     },
-    "Website" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+    "Natural Size": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Natural Size"
           }
         },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "da" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "原始大小"
           }
         },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "原始大小"
           }
         },
-        "el" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Website"
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "웹사이트"
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本来のサイズ"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "보통 크기"
           }
         },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Website"
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Natural Size"
+          }
+        }
+      }
+    },
+    "Open File...": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open File..."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打开文件"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打開檔案 ..."
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイルを開く"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "파일 열기..."
+          }
+        },
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open File..."
+          }
+        }
+      }
+    },
+    "Open URL...": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open URL..."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打开 URL…"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打開 URL ..."
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URLを開く…"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL 열기..."
+          }
+        },
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Open URL..."
+          }
+        }
+      }
+    },
+    "Pause": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "暂停"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "暫停"
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一時停止"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "일시 정지"
+          }
+        },
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pause"
+          }
+        }
+      }
+    },
+    "Play": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Play"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "播放"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "播放"
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "再生"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "재생"
+          }
+        },
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Play"
+          }
+        }
+      }
+    },
+    "Playback": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Playback"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "播放"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "播放"
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "制御"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "재생"
+          }
+        },
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Playback"
+          }
+        }
+      }
+    },
+    "Release Notes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Release Notes"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "版本说明"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "版本說明"
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リリースノート"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "릴리스 노트"
+          }
+        },
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Release Notes"
+          }
+        }
+      }
+    },
+    "Show in Finder": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show in Finder"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在访达中显示"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 Finder中顯示"
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finderで表示"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finder에서 보기"
+          }
+        },
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show in Finder"
+          }
+        }
+      }
+    },
+    "Website": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Website"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "网站"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "網站"
+          }
+        },
+        "cs": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Web サイト"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "웹사이트"
+          }
+        },
+        "no": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "ro": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Website"
           }
         }
       }
     }
   },
-  "version" : "1.0"
+  "version": "1.0"
 }
