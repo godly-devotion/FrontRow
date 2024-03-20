@@ -5,31 +5,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
@@ -41,37 +41,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
@@ -87,63 +87,63 @@
             "value" : "취소"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cancel"
           }
         },
@@ -165,31 +165,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
@@ -201,37 +201,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
@@ -247,63 +247,63 @@
             "value" : "업데이트 확인…"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Check for Updates…"
           }
         },
@@ -325,31 +325,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
@@ -361,37 +361,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
@@ -407,63 +407,63 @@
             "value" : "전체 화면 시작"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter Full Screen"
           }
         },
@@ -485,31 +485,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
@@ -521,37 +521,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
@@ -567,63 +567,63 @@
             "value" : "이동하고 싶은 시간을 입력하세요"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter the time you want to go to"
           }
         },
@@ -646,31 +646,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
@@ -682,37 +682,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
@@ -728,63 +728,63 @@
             "value" : "URL 입력"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Enter URL"
           }
         },
@@ -806,31 +806,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
@@ -842,37 +842,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
@@ -888,63 +888,63 @@
             "value" : "전체 화면 종료"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Exit Full Screen"
           }
         },
@@ -966,31 +966,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
@@ -1002,37 +1002,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
@@ -1048,63 +1048,63 @@
             "value" : "상단에 띄우기"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Float on Top"
           }
         },
@@ -1126,31 +1126,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
@@ -1162,37 +1162,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
@@ -1208,63 +1208,63 @@
             "value" : "Front Row"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Front Row"
           }
         },
@@ -1286,31 +1286,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
@@ -1322,37 +1322,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
@@ -1368,63 +1368,63 @@
             "value" : "이동"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go"
           }
         },
@@ -1446,31 +1446,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
@@ -1482,37 +1482,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
@@ -1528,63 +1528,63 @@
             "value" : "5초 뒤로 이동"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Backward 5s"
           }
         },
@@ -1606,31 +1606,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
@@ -1642,37 +1642,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
@@ -1688,63 +1688,63 @@
             "value" : "5초 앞으로 이동"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go Forward 5s"
           }
         },
@@ -1766,31 +1766,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
@@ -1802,37 +1802,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
@@ -1848,63 +1848,63 @@
             "value" : "시작으로 이동"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Beginning"
           }
         },
@@ -1926,31 +1926,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
@@ -1962,37 +1962,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
@@ -2008,63 +2008,63 @@
             "value" : "시간으로 이동"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time"
           }
         },
@@ -2086,31 +2086,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
@@ -2122,37 +2122,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
@@ -2168,63 +2168,63 @@
             "value" : "시간으로 이동..."
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Go to Time..."
           }
         },
@@ -2246,31 +2246,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
@@ -2282,37 +2282,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
@@ -2328,63 +2328,63 @@
             "value" : "번역 개선하기"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Improve Translation"
           }
         },
@@ -2406,31 +2406,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
@@ -2442,37 +2442,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
@@ -2488,63 +2488,63 @@
             "value" : "음소거"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Mute"
           }
         },
@@ -2567,31 +2567,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
@@ -2603,37 +2603,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
@@ -2649,63 +2649,63 @@
             "value" : "보통 크기"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Natural Size"
           }
         },
@@ -2728,31 +2728,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
@@ -2764,37 +2764,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
@@ -2810,63 +2810,63 @@
             "value" : "파일 열기..."
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open File..."
           }
         },
@@ -2889,31 +2889,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
@@ -2925,37 +2925,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
@@ -2971,63 +2971,63 @@
             "value" : "URL 열기..."
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Open URL..."
           }
         },
@@ -3049,31 +3049,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
@@ -3085,37 +3085,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
@@ -3131,63 +3131,63 @@
             "value" : "일시 정지"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Pause"
           }
         },
@@ -3209,31 +3209,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
@@ -3245,37 +3245,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
@@ -3291,63 +3291,63 @@
             "value" : "재생"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Play"
           }
         },
@@ -3369,31 +3369,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
@@ -3405,37 +3405,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
@@ -3451,63 +3451,63 @@
             "value" : "재생"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Playback"
           }
         },
@@ -3529,31 +3529,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
@@ -3565,37 +3565,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
@@ -3611,63 +3611,63 @@
             "value" : "릴리스 노트"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Release Notes"
           }
         },
@@ -3690,31 +3690,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
@@ -3726,37 +3726,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
@@ -3772,63 +3772,63 @@
             "value" : "Finder에서 보기"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Show in Finder"
           }
         },
@@ -3850,31 +3850,31 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
@@ -3886,37 +3886,37 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
@@ -3932,63 +3932,63 @@
             "value" : "웹사이트"
           }
         },
-        "nb" : {
+        "nb-NO" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
-        "pt-BR" : {
+        "pt" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
         "ro" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Website"
           }
         },
