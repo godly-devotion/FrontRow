@@ -49,7 +49,8 @@ struct PlaybackCommands: Commands {
                 } label: {
                     Text("Go to Beginning")
                 }
-                .disabled(!playEngine.isLoaded)
+                .keyboardShortcut(.leftArrow, modifiers: [.command])
+                .disabled(!playEngine.isLoaded || presentedViewManager.isPresenting)
 
                 Button {
                     PresentedViewManager.shared.isPresentingGoToTimeView.toggle()
