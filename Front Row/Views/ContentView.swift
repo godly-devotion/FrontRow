@@ -12,16 +12,24 @@ struct ContentView: View {
     var body: some View {
         VideoPlayer(player: PlayEngine.shared.player)
             .onDrop(
-                of: [.mpeg4Movie], isTargeted: nil,
-                perform: { providers -> Bool in
-                    guard let provider = providers.first else { return false }
-                    provider.loadItem(forTypeIdentifier: UTType.mpeg4Movie.identifier, options: nil)
-                    { (urlData, _) in
-                        guard let url = urlData as? URL else { return }
-                        PlayEngine.shared.openFile(url: url)
+                of: [.fileURL],
+                delegate: AnyDropDelegate(
+                    onValidate: {
+                        $0.hasItemsConforming(to: PlayEngine.supportedFileTypes)
+                    },
+                    onPerform: {
+                        guard let provider = $0.itemProviders(for: [.fileURL]).first else {
+                            return false
+                        }
+
+                        Task {
+                            guard let url = await provider.getURL() else { return }
+                            PlayEngine.shared.openFile(url: url)
+                        }
+
+                        return true
                     }
-                    return true
-                }
+                )
             )
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
             .ignoresSafeArea()

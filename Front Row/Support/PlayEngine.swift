@@ -12,6 +12,14 @@ import SwiftUI
 
     static let shared = PlayEngine()
 
+    static let supportedFileTypes: [UTType] = [
+        .mp3,
+        .mpeg2TransportStream,
+        .mpeg4Audio,
+        .mpeg4Movie,
+        .quickTimeMovie,
+    ]
+
     var player = AVPlayer()
 
     var isLoaded = false
@@ -72,7 +80,7 @@ import SwiftUI
     @MainActor
     func showOpenFileDialog() async {
         let panel = NSOpenPanel()
-        panel.allowedContentTypes = [.mpeg4Movie]
+        panel.allowedContentTypes = PlayEngine.supportedFileTypes
         panel.allowsMultipleSelection = false
         panel.canChooseDirectories = false
         panel.canChooseFiles = true
