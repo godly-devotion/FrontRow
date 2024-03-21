@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct GoToTimeView: View {
+    @Namespace private var timeNamespace
     @Environment(\.dismiss) private var dismiss
     @State private var timecode = ""
 
@@ -20,6 +21,7 @@ struct GoToTimeView: View {
                 }
                 .autocorrectionDisabled()
                 .lineLimit(1)
+                .prefersDefaultFocus(in: timeNamespace)
 
             Button("Go") {
                 dismiss()
@@ -29,6 +31,7 @@ struct GoToTimeView: View {
                 dismiss()
             }
         }
+        .focusScope(timeNamespace)
     }
 }
 
