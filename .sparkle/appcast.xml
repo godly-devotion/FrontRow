@@ -5,6 +5,29 @@
     <language>en</language>
 
     <item>
+      <title>v1.7</title>
+      <link>https://github.com/godly-devotion/FrontRow</link>
+      <sparkle:version>1.7</sparkle:version>
+      <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/godly-devotion/FrontRow/releases</sparkle:fullReleaseNotesLink>
+      <pubDate>Fri, 22 Mar 2024 14:03:22 +0000</pubDate>
+      <enclosure
+        url="https://github.com/godly-devotion/FrontRow/releases/download/v1.7/FrontRow_v1.7.dmg"
+        sparkle:edSignature="2ZFFqtsbYE48XOn61C4tibKs6uEt+050f1qGRGCN/gRGywnH2Oc/t+MfOfTDhVJqvJvBF83aUdTyaT8e02wPAg=="
+        length="3266152"
+        type="application/octet-stream" />
+      <description><![CDATA[
+      <ul>
+      <li>Added ability to open more media file types (<a href="https://github.com/godly-devotion/FrontRow#help-my-video-file-is-in-mkv-and-doesnt-open-with-front-row">read about mkv files</a>)</li>
+      <li>Added keyboard shortcut for Restart playback menu action</li>
+      <li>Improved organization of Playback menu</li>
+      <li>Improved padding of open URL dialog</li>
+      </ul>
+      ]]>
+      </description>
+    </item>
+
+    <item>
       <title>v1.6</title>
       <link>https://github.com/godly-devotion/FrontRow</link>
       <sparkle:version>1.6</sparkle:version>
