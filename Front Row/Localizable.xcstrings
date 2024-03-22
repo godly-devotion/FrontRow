@@ -3132,6 +3132,72 @@
     "Restart" : {
       "comment" : "Restart playback from the beginning",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3142,6 +3208,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다시 재생"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Restart"
           }
         },
         "zh-Hans" : {
