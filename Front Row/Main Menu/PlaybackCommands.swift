@@ -24,6 +24,17 @@ struct PlaybackCommands: Commands {
                 }
                 .keyboardShortcut(.space, modifiers: [])
                 .disabled(!playEngine.isLoaded)
+
+                Button {
+                    playEngine.goToTime(0.0)
+                } label: {
+                    Text(
+                        "Restart",
+                        comment: "Restart playback from the beginning"
+                    )
+                }
+                .keyboardShortcut(.leftArrow, modifiers: [.command])
+                .disabled(!playEngine.isLoaded || presentedViewManager.isPresenting)
             }
             Section {
                 Button {
@@ -45,19 +56,11 @@ struct PlaybackCommands: Commands {
                     !playEngine.isLoaded || presentedViewManager.isPresenting)
 
                 Button {
-                    playEngine.goToTime(0.0)
-                } label: {
-                    Text("Go to Beginning")
-                }
-                .keyboardShortcut(.leftArrow, modifiers: [.command])
-                .disabled(!playEngine.isLoaded || presentedViewManager.isPresenting)
-
-                Button {
                     PresentedViewManager.shared.isPresentingGoToTimeView.toggle()
                 } label: {
                     Text("Go to Time...")
                 }
-                .keyboardShortcut("J", modifiers: [.command])
+                .keyboardShortcut("G", modifiers: [.command])
                 .disabled(!playEngine.isLoaded)
             }
             Section {
