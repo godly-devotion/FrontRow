@@ -6,6 +6,7 @@
 //
 
 import AVKit
+import Combine
 import SwiftUI
 
 @Observable public final class PlayEngine {
@@ -43,29 +44,30 @@ import SwiftUI
 
     private var _isMuted = false
 
-    private var aspect = CGSize.zero
+    private var videoSize = CGSize.zero
 
-    private var sizeObserver: NSKeyValueObservation?
+    private var subs = Set<AnyCancellable>()
 
-    private var rateObserver: NSKeyValueObservation?
-
-    private var muteObserver: NSKeyValueObservation?
+    private var currentItemSubs = Set<AnyCancellable>()
 
     init() {
         player.preventsDisplaySleepDuringVideoPlayback = true
 
-        rateObserver = player.observe(\.rate, options: .new) { player, change in
-            guard let value = change.newValue else {
-                self.isPlaying = false
-                return
+        player.publisher(for: \.timeControlStatus)
+            .receive(on: DispatchQueue.main)
+            .map { $0 == AVPlayer.TimeControlStatus.playing }
+            .sink { isPlaying in
+                self.isPlaying = isPlaying
             }
-            self.isPlaying = !value.isZero
-        }
+            .store(in: &subs)
 
-        muteObserver = player.observe(\.isMuted, options: .new) { player, change in
-            guard let value = change.newValue else { return }
-            self._isMuted = value
-        }
+        player.publisher(for: \.isMuted)
+            .removeDuplicates()
+            .receive(on: DispatchQueue.main)
+            .sink { isMuted in
+                self.isMuted = isMuted
+            }
+            .store(in: &subs)
     }
 
     func isURLPlayable(url: URL) async -> Bool {
@@ -94,19 +96,43 @@ import SwiftUI
     }
 
     func openFile(url: URL) {
-        player.replaceCurrentItem(with: AVPlayerItem(url: url))
+        for sub in currentItemSubs { sub.cancel() }
+        currentItemSubs = []
 
-        sizeObserver = player.observe(\.currentItem?.presentationSize, options: .new) {
-            player, change in
-            guard let value = change.newValue, let aspect = value else { return }
-            guard aspect != CGSize.zero else { return }
-            self.aspect = aspect
-            self.fitToVideoSize()
-        }
+        let playerItem = AVPlayerItem(url: url)
 
+        playerItem.publisher(for: \.status)
+            .removeDuplicates()
+            .receive(on: DispatchQueue.main)
+            .sink { [weak self] status in
+                guard let self else { return }
+                switch status {
+                case .readyToPlay:
+                    isLoaded = true
+                    isLocalFile = FileManager.default.fileExists(
+                        atPath: url.path(percentEncoded: false))
+                case .failed:
+                    isLoaded = false
+                    isLocalFile = false
+                default:
+                    break
+                }
+            }
+            .store(in: &currentItemSubs)
+
+        playerItem.publisher(for: \.presentationSize)
+            .removeDuplicates()
+            .receive(on: DispatchQueue.main)
+            .sink { [weak self] size in
+                guard let self else { return }
+                guard size != CGSize.zero else { return }
+                videoSize = size
+                fitToVideoSize()
+            }
+            .store(in: &currentItemSubs)
+
+        player.replaceCurrentItem(with: playerItem)
         player.play()
-        isLoaded = true
-        isLocalFile = FileManager.default.fileExists(atPath: url.path(percentEncoded: false))
     }
 
     func playPause() {
@@ -166,19 +192,19 @@ import SwiftUI
     }
 
     func fitToVideoSize() {
-        guard isLoaded, aspect != CGSize.zero else { return }
+        guard videoSize != CGSize.zero else { return }
         guard let window = NSApp.windows.first else { return }
         let screenFrame = (window.screen ?? NSScreen.main!).visibleFrame
         let newFrame: NSRect
 
-        if aspect.width < screenFrame.width && aspect.height < screenFrame.height {
+        if videoSize.width < screenFrame.width && videoSize.height < screenFrame.height {
             let newOrigin = CGPoint(
-                x: screenFrame.origin.x + (screenFrame.width - aspect.width) / 2,
-                y: screenFrame.origin.y + (screenFrame.height - aspect.height) / 2
+                x: screenFrame.origin.x + (screenFrame.width - videoSize.width) / 2,
+                y: screenFrame.origin.y + (screenFrame.height - videoSize.height) / 2
             )
-            newFrame = NSRect(origin: newOrigin, size: aspect)
+            newFrame = NSRect(origin: newOrigin, size: videoSize)
         } else {
-            let newSize = aspect.shrink(toSize: screenFrame.size)
+            let newSize = videoSize.shrink(toSize: screenFrame.size)
             let newOrigin = CGPoint(
                 x: screenFrame.origin.x + (screenFrame.width - newSize.width) / 2,
                 y: screenFrame.origin.y + (screenFrame.height - newSize.height) / 2
@@ -186,6 +212,6 @@ import SwiftUI
             newFrame = NSRect(origin: newOrigin, size: newSize)
         }
         window.setFrame(newFrame, display: true, animate: true)
-        window.aspectRatio = aspect
+        window.aspectRatio = videoSize
     }
 }
