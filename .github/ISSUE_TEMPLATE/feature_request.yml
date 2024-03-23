@@ -1,0 +1,17 @@
+name: Feature Request
+description: Suggest an idea
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: What do you want Front Row to do?
+    validations:
+      required: true
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Why do you think this should be added?
+      description: Describe a use case. Be specific.
+    validations:
+      required: true
