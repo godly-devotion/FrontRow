@@ -65,7 +65,7 @@ import SwiftUI
             .removeDuplicates()
             .receive(on: DispatchQueue.main)
             .sink { isMuted in
-                self.isMuted = isMuted
+                self._isMuted = isMuted
             }
             .store(in: &subs)
     }
