@@ -16,7 +16,7 @@ struct GoToTimeView: View {
         VStack {
             TextField(text: $timecode, prompt: Text(verbatim: "0:00:00")) {}
                 .onSubmit {
-                    PlayEngine.shared.goToTime(timecode)
+                    Task { await PlayEngine.shared.goToTime(timecode) }
                     dismiss()
                 }
                 .autocorrectionDisabled()

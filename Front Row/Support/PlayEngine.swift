@@ -143,31 +143,31 @@ import SwiftUI
         }
     }
 
-    func goForwards(_ duration: Double = 5.0) {
+    func goForwards(_ duration: Double = 5.0) async {
         guard isLoaded else { return }
         let time = CMTimeAdd(
             player.currentTime(),
             CMTimeMakeWithSeconds(duration, preferredTimescale: 1)
         )
-        player.seek(to: time, toleranceBefore: CMTime.zero, toleranceAfter: CMTime.zero)
+        await player.seek(to: time, toleranceBefore: .zero, toleranceAfter: .zero)
     }
 
-    func goBackwards(_ duration: Double = 5.0) {
+    func goBackwards(_ duration: Double = 5.0) async {
         guard isLoaded else { return }
         let time = CMTimeSubtract(
             player.currentTime(),
             CMTimeMakeWithSeconds(duration, preferredTimescale: 1)
         )
-        player.seek(to: time, toleranceBefore: CMTime.zero, toleranceAfter: CMTime.zero)
+        await player.seek(to: time, toleranceBefore: .zero, toleranceAfter: .zero)
     }
 
-    func goToTime(_ timecode: Double) {
+    func goToTime(_ timecode: Double) async {
         guard isLoaded else { return }
         let time = CMTimeMakeWithSeconds(timecode, preferredTimescale: 1)
-        player.seek(to: time, toleranceBefore: CMTime.zero, toleranceAfter: CMTime.zero)
+        await player.seek(to: time, toleranceBefore: .zero, toleranceAfter: .zero)
     }
 
-    func goToTime(_ timecode: String) {
+    func goToTime(_ timecode: String) async {
         guard let item = player.currentItem else { return }
 
         let split = Array(timecode.split(separator: ":").reversed())
@@ -186,9 +186,9 @@ import SwiftUI
         let time = CMTimeMakeWithSeconds(
             Double(hour * 3600 + minute * 60) + second, preferredTimescale: 1)
 
-        let validRange = CMTimeRange(start: CMTime.zero, end: item.duration)
+        let validRange = CMTimeRange(start: .zero, end: item.duration)
         guard validRange.containsTime(time) else { return }
-        player.seek(to: time, toleranceBefore: CMTime.zero, toleranceAfter: CMTime.zero)
+        await player.seek(to: time, toleranceBefore: .zero, toleranceAfter: .zero)
     }
 
     func fitToVideoSize() {

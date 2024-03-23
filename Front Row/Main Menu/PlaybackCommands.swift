@@ -26,7 +26,7 @@ struct PlaybackCommands: Commands {
                 .disabled(!playEngine.isLoaded)
 
                 Button {
-                    playEngine.goToTime(0.0)
+                    Task { await playEngine.goToTime(0.0) }
                 } label: {
                     Text(
                         "Restart",
@@ -38,7 +38,7 @@ struct PlaybackCommands: Commands {
             }
             Section {
                 Button {
-                    playEngine.goForwards()
+                    Task { await playEngine.goForwards() }
                 } label: {
                     Text("Go Forward 5s")
                 }
@@ -47,7 +47,7 @@ struct PlaybackCommands: Commands {
                     !playEngine.isLoaded || presentedViewManager.isPresenting)
 
                 Button {
-                    playEngine.goBackwards()
+                    Task { await playEngine.goBackwards() }
                 } label: {
                     Text("Go Backward 5s")
                 }
