@@ -5,6 +5,27 @@
     <language>en</language>
 
     <item>
+      <title>v1.7.1</title>
+      <link>https://github.com/godly-devotion/FrontRow</link>
+      <sparkle:version>1.7.1</sparkle:version>
+      <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/godly-devotion/FrontRow/releases</sparkle:fullReleaseNotesLink>
+      <pubDate>Sun, 24 Mar 2024 01:49:59 +0000</pubDate>
+      <enclosure
+        url="https://github.com/godly-devotion/FrontRow/releases/download/v1.7.1/FrontRow_v1.7.1.dmg"
+        sparkle:edSignature="I4mhm4zKw05gLFLQ3lhWdFi34x0FWHUJnxQLjM32YfwI7O/heJ6UVjFdnsv4GwdyedLzOm9aW16p/MKd8C78Aw=="
+        length="3416721"
+        type="application/octet-stream" />
+      <description><![CDATA[
+      <ul>
+      <li>Added more app icon sizes</li>
+      <li>Minor performance improvements</li>
+      </ul>
+      ]]>
+      </description>
+    </item>
+
+    <item>
       <title>v1.7</title>
       <link>https://github.com/godly-devotion/FrontRow</link>
       <sparkle:version>1.7</sparkle:version>
