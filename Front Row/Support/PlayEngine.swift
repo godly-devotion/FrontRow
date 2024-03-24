@@ -21,13 +21,13 @@ import SwiftUI
         .quickTimeMovie,
     ]
 
-    var player = AVPlayer()
+    private(set) var player = AVPlayer()
 
-    var isLoaded = false
+    private(set) var isLoaded = false
 
-    var isPlaying = false
+    private(set) var isPlaying = false
 
-    var isLocalFile = false
+    private(set) var isLocalFile = false
 
     var isMuted: Bool {
         get {
