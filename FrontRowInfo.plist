@@ -68,6 +68,18 @@
 			<key>LSHandlerRank</key>
 			<string>Default</string>
 		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>wav</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>Waveform Audio</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSHandlerRank</key>
+			<string>Default</string>
+		</dict>
 	</array>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>

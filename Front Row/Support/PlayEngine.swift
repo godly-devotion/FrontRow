@@ -19,6 +19,7 @@ import SwiftUI
         .mpeg4Audio,
         .mpeg4Movie,
         .quickTimeMovie,
+        .wav,
     ]
 
     private(set) var player = AVPlayer()
