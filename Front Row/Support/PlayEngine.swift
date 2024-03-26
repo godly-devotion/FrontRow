@@ -30,6 +30,25 @@ import SwiftUI
 
     private(set) var isLocalFile = false
 
+    private var _currentTime: TimeInterval = 0.0
+
+    var currentTime: Double {
+        get {
+            access(keyPath: \.currentTime)
+            return _currentTime
+        }
+        set {
+            withMutation(keyPath: \.currentTime) {
+                let time = CMTimeMakeWithSeconds(newValue, preferredTimescale: 1)
+                player.seek(to: time)
+            }
+        }
+    }
+
+    private(set) var duration: TimeInterval = 0.0
+
+    private var _isMuted = false
+
     var isMuted: Bool {
         get {
             access(keyPath: \.isMuted)
@@ -43,13 +62,13 @@ import SwiftUI
         }
     }
 
-    private var _isMuted = false
-
     private var videoSize = CGSize.zero
 
     private var subs = Set<AnyCancellable>()
 
     private var currentItemSubs = Set<AnyCancellable>()
+
+    private var timeObserver: Any?
 
     init() {
         player.preventsDisplaySleepDuringVideoPlayback = true
@@ -69,6 +88,14 @@ import SwiftUI
                 self._isMuted = isMuted
             }
             .store(in: &subs)
+
+        addPeriodicTimeObserver()
+    }
+
+    deinit {
+        for sub in currentItemSubs { sub.cancel() }
+        currentItemSubs.removeAll()
+        removePeriodicTimeObserver()
     }
 
     func isURLPlayable(url: URL) async -> Bool {
@@ -98,7 +125,7 @@ import SwiftUI
 
     func openFile(url: URL) {
         for sub in currentItemSubs { sub.cancel() }
-        currentItemSubs = []
+        currentItemSubs.removeAll()
 
         let playerItem = AVPlayerItem(url: url)
 
@@ -214,5 +241,23 @@ import SwiftUI
         }
         window.setFrame(newFrame, display: true, animate: true)
         window.aspectRatio = videoSize
+    }
+
+    private func addPeriodicTimeObserver() {
+        let interval = CMTime(seconds: 0.5, preferredTimescale: CMTimeScale(NSEC_PER_SEC))
+        timeObserver = player.addPeriodicTimeObserver(
+            forInterval: interval,
+            queue: .main
+        ) { [weak self] time in
+            guard let self else { return }
+            _currentTime = time.seconds
+            duration = player.currentItem?.duration.seconds ?? 0.0
+        }
+    }
+
+    private func removePeriodicTimeObserver() {
+        guard let timeObserver else { return }
+        player.removeTimeObserver(timeObserver)
+        self.timeObserver = nil
     }
 }

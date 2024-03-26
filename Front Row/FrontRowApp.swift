@@ -34,16 +34,8 @@ struct FrontRowApp: App {
     var body: some Scene {
         Window("Front Row", id: "main") {
             ContentView()
+                .environment(\.colorScheme, .dark)
                 .environment(playEngine)
-                .onContinuousHover { phase in
-                    switch phase {
-                    case .active:
-                        windowController.resetMouseIdleTimer()
-                        windowController.showTitlebar()
-                    case .ended:
-                        windowController.hideTitlebar()
-                    }
-                }
                 .sheet(isPresented: $presentedViewManager.isPresentingOpenURLView) {
                     OpenURLView()
                         .frame(minWidth: 600)

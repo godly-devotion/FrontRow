@@ -43,8 +43,7 @@ struct PlaybackCommands: Commands {
                     Text("Go Forward 5s")
                 }
                 .keyboardShortcut(.rightArrow, modifiers: [])
-                .disabled(
-                    !playEngine.isLoaded || presentedViewManager.isPresenting)
+                .disabled(!playEngine.isLoaded || presentedViewManager.isPresenting)
 
                 Button {
                     Task { await playEngine.goBackwards() }

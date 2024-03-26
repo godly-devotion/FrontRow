@@ -18,12 +18,11 @@ import SwiftUI
     var isOnTop: Bool {
         get {
             access(keyPath: \.isOnTop)
-            return _isOnTop
+            return NSApplication.shared.mainWindow?.level == .floating
         }
         set {
             withMutation(keyPath: \.isOnTop) {
-                _isOnTop = newValue
-                NSApplication.shared.mainWindow?.level = _isOnTop ? .floating : .normal
+                NSApplication.shared.mainWindow?.level = newValue ? .floating : .normal
             }
         }
     }

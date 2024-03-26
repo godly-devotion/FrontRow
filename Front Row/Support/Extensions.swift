@@ -118,3 +118,9 @@ extension NSSize {
         }
     }
 }
+
+extension Double {
+    var asTimecode: String {
+        Duration.seconds(self).formatted(.time(pattern: .hourMinuteSecond(padHourToLength: 0)))
+    }
+}
