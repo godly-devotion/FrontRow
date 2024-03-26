@@ -8,10 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(PlayEngine.self) var playEngine: PlayEngine
     @State private var playerControlsShown = true
     @State private var mouseIdleTimer: Timer!
 
     var body: some View {
+        @Bindable var playEngine = playEngine
+
         ZStack(alignment: .bottom) {
             PlayerView(player: PlayEngine.shared.player)
                 .onDrop(
@@ -27,7 +30,7 @@ struct ContentView: View {
 
                             Task {
                                 guard let url = await provider.getURL() else { return }
-                                PlayEngine.shared.openFile(url: url)
+                                await PlayEngine.shared.openFile(url: url)
                             }
 
                             return true
@@ -39,6 +42,11 @@ struct ContentView: View {
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
                 .ignoresSafeArea()
+
+            if playEngine.timeControlStatus == .waitingToPlayAtSpecifiedRate {
+                ProgressView()
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
+            }
 
             if playerControlsShown {
                 PlayerControlsView()

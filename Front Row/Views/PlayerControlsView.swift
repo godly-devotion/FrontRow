@@ -33,11 +33,15 @@ struct PlayerControlsView: View {
             Button {
                 PlayEngine.shared.playPause()
             } label: {
-                Image(systemName: playEngine.isPlaying ? "pause.fill" : "play.fill")
-                    .resizable()
-                    .scaledToFit()
-                    .foregroundStyle(foregroundColor)
-                    .frame(width: 24, height: 24)
+                Image(
+                    systemName: playEngine.timeControlStatus == .playing
+                        ? "pause.fill"
+                        : "play.fill"
+                )
+                .resizable()
+                .scaledToFit()
+                .foregroundStyle(foregroundColor)
+                .frame(width: 24, height: 24)
             }
             .buttonStyle(PlainButtonStyle())
             .keyboardShortcut("K", modifiers: [])

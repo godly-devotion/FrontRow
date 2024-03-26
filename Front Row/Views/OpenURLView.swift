@@ -10,10 +10,16 @@ import SwiftUI
 struct OpenURLView: View {
     @Environment(\.dismiss) private var dismiss
     @State private var url = ""
+    @State private var displayLoading = false
     @State private var displayError = false
 
     var body: some View {
-        HStack(spacing: 8) {
+        HStack(spacing: 14) {
+            if displayLoading {
+                ProgressView()
+                    .controlSize(.small)
+            }
+
             if displayError {
                 Image(systemName: "play.slash")
                     .resizable()
@@ -29,7 +35,9 @@ struct OpenURLView: View {
                 )
             ) {}
             .onChange(of: url) {
+                PlayEngine.shared.cancelLoading()
                 withAnimation {
+                    displayLoading = false
                     displayError = false
                 }
             }
@@ -37,20 +45,23 @@ struct OpenURLView: View {
                 Task {
                     guard let url = URL(string: url) else {
                         withAnimation {
+                            displayLoading = false
                             displayError = true
                         }
                         return
                     }
-                    if await !PlayEngine.shared.isURLPlayable(url: url) {
+                    displayLoading = true
+                    guard await PlayEngine.shared.openFile(url: url) else {
                         withAnimation {
+                            displayLoading = false
                             displayError = true
                         }
                         return
                     }
                     withAnimation {
+                        displayLoading = false
                         displayError = false
                     }
-                    PlayEngine.shared.openFile(url: url)
                     dismiss()
                 }
             }

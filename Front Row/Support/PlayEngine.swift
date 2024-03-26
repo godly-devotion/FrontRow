@@ -22,11 +22,13 @@ import SwiftUI
         .wav,
     ]
 
+    private var asset: AVAsset?
+
     private(set) var player = AVPlayer()
 
     private(set) var isLoaded = false
 
-    private(set) var isPlaying = false
+    private(set) var timeControlStatus: AVPlayer.TimeControlStatus = .paused
 
     private(set) var isLocalFile = false
 
@@ -75,9 +77,8 @@ import SwiftUI
 
         player.publisher(for: \.timeControlStatus)
             .receive(on: DispatchQueue.main)
-            .map { $0 == AVPlayer.TimeControlStatus.playing }
-            .sink { isPlaying in
-                self.isPlaying = isPlaying
+            .sink { status in
+                self.timeControlStatus = status
             }
             .store(in: &subs)
 
@@ -98,15 +99,6 @@ import SwiftUI
         removePeriodicTimeObserver()
     }
 
-    func isURLPlayable(url: URL) async -> Bool {
-        let asset = AVAsset(url: url)
-        do {
-            return try await asset.load(.isPlayable)
-        } catch {
-            return false
-        }
-    }
-
     @MainActor
     func showOpenFileDialog() async {
         let panel = NSOpenPanel()
@@ -120,10 +112,26 @@ import SwiftUI
         }
 
         guard let url = panel.url else { return }
-        openFile(url: url)
+        await openFile(url: url)
     }
 
-    func openFile(url: URL) {
+    /// Attempts to open file at url. If its not playable, returns false.
+    /// - Parameter url: A URL to a local, remote, or HTTP Live Streaming media resource.
+    /// - Returns: A Boolean value that indicates whether an asset contains playable content.
+    @discardableResult func openFile(url: URL) async -> Bool {
+        if asset != nil {
+            asset?.cancelLoading()
+        }
+        asset = AVAsset(url: url)
+        do {
+            let isPlayable = try await asset!.load(.isPlayable)
+            guard isPlayable else {
+                return false
+            }
+        } catch {
+            return false
+        }
+
         for sub in currentItemSubs { sub.cancel() }
         currentItemSubs.removeAll()
 
@@ -161,10 +169,16 @@ import SwiftUI
 
         player.replaceCurrentItem(with: playerItem)
         player.play()
+        return true
+    }
+
+    func cancelLoading() {
+        guard let asset else { return }
+        asset.cancelLoading()
     }
 
     func playPause() {
-        if isPlaying {
+        if timeControlStatus == .playing {
             player.pause()
         } else {
             player.play()

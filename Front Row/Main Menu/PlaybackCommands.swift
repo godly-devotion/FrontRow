@@ -18,7 +18,7 @@ struct PlaybackCommands: Commands {
                     playEngine.playPause()
                 } label: {
                     Text(
-                        playEngine.isPlaying ? "Pause" : "Play",
+                        playEngine.timeControlStatus == .playing ? "Pause" : "Play",
                         comment: "Toggle playback status"
                     )
                 }

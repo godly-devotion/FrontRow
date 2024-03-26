@@ -77,7 +77,9 @@ struct FrontRowApp: App {
 class AppDelegate: NSObject, NSApplicationDelegate {
     func application(_ application: NSApplication, open urls: [URL]) {
         guard urls.count == 1, let url = urls.first else { return }
-        PlayEngine.shared.openFile(url: url)
+        Task {
+            await PlayEngine.shared.openFile(url: url)
+        }
     }
 
     func applicationDidFinishLaunching(_ notification: Notification) {
