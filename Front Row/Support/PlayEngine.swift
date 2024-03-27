@@ -273,7 +273,10 @@ import SwiftUI
         ) { [weak self] time in
             guard let self else { return }
             _currentTime = time.seconds
-            duration = player.currentItem?.duration.seconds ?? 0.0
+
+            guard let seconds = player.currentItem?.duration.seconds else { return }
+            guard !seconds.isNaN && !seconds.isInfinite else { return }
+            duration = seconds
         }
     }
 
