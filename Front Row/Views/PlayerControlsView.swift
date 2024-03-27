@@ -61,27 +61,21 @@ struct PlayerControlsView: View {
             .keyboardShortcut("L", modifiers: [])
             .disabled(!playEngine.isLoaded)
 
-            Group {
-                // MARK: Current time
-                Text(verbatim: playEngine.currentTime.asTimecode)
-                    .font(.system(size: 11))
-                    .foregroundStyle(foregroundColor)
-                    .frame(width: 50, alignment: .center)
+            // MARK: Current time
+            Text(verbatim: playEngine.currentTime.asTimecode)
+                .font(.system(size: 11))
+                .foregroundStyle(foregroundColor)
+                .frame(width: 50, alignment: .center)
 
-                // MARK: Seek slider
-                Slider(
-                    value: $playEngine.currentTime,
-                    in: 0...playEngine.duration
-                )
-                .tint(foregroundColor)
+            // MARK: Seek slider
+            SeekSliderView(value: $playEngine.currentTime, maxValue: playEngine.duration)
                 .disabled(!playEngine.isLoaded)
 
-                // MARK: Time remaining
-                Text(verbatim: playEngine.duration.asTimecode)
-                    .font(.system(size: 11))
-                    .foregroundStyle(foregroundColor)
-                    .frame(width: 50, alignment: .center)
-            }
+            // MARK: Time remaining
+            Text(verbatim: playEngine.duration.asTimecode)
+                .font(.system(size: 11))
+                .foregroundStyle(foregroundColor)
+                .frame(width: 50, alignment: .center)
         }
         .padding([.horizontal], 16)
         .padding([.vertical], 8)

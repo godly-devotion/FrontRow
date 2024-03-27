@@ -120,7 +120,7 @@ import SwiftUI
     /// - Returns: A Boolean value that indicates whether an asset contains playable content.
     @discardableResult func openFile(url: URL) async -> Bool {
         if asset != nil {
-            asset?.cancelLoading()
+            asset!.cancelLoading()
         }
         asset = AVAsset(url: url)
         do {
@@ -177,11 +177,19 @@ import SwiftUI
         asset.cancelLoading()
     }
 
+    func play() {
+        player.play()
+    }
+
+    func pause() {
+        player.pause()
+    }
+
     func playPause() {
         if timeControlStatus == .playing {
-            player.pause()
+            pause()
         } else {
-            player.play()
+            play()
         }
     }
 
