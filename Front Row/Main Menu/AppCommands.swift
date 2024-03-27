@@ -19,6 +19,22 @@ struct AppCommands: Commands {
                 Text("Check for Updates…")
             }
             .disabled(!updater.canCheckForUpdates)
+
+            Section {
+                Button {
+                    Task {
+                        guard
+                            let url = URL(
+                                string:
+                                    "https://media.developer.dolby.com/DDP/MP4_HPL40_30fps_channel_id_51.mp4"
+                            )
+                        else { return }
+                        await PlayEngine.shared.openFile(url: url)
+                    }
+                } label: {
+                    Text("Experience Spatial Audio")
+                }
+            }
         }
     }
 
