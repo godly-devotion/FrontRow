@@ -137,7 +137,7 @@ import SwiftUI
         for sub in currentItemSubs { sub.cancel() }
         currentItemSubs.removeAll()
 
-        let playerItem = AVPlayerItem(url: url)
+        let playerItem = AVPlayerItem(asset: asset!)
 
         playerItem.publisher(for: \.status)
             .removeDuplicates()
