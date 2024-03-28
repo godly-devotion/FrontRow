@@ -34,7 +34,7 @@ struct FrontRowApp: App {
     var body: some Scene {
         Window("Front Row", id: "main") {
             ContentView()
-                .environment(\.colorScheme, .dark)
+                .preferredColorScheme(.dark)
                 .environment(playEngine)
                 .sheet(isPresented: $presentedViewManager.isPresentingOpenURLView) {
                     OpenURLView()
