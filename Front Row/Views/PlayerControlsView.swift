@@ -16,52 +16,54 @@ struct PlayerControlsView: View {
     var body: some View {
         @Bindable var playEngine = playEngine
 
-        HStack(spacing: 16) {
-            // MARK: Backwards
-            Button {
-                Task { await PlayEngine.shared.goBackwards() }
-            } label: {
-                Image(systemName: "gobackward.5")
+        HStack(spacing: 8) {
+            HStack(spacing: 16) {
+                // MARK: Backwards
+                Button {
+                    Task { await PlayEngine.shared.goBackwards() }
+                } label: {
+                    Image(systemName: "gobackward.5")
+                        .resizable()
+                        .scaledToFit()
+                        .foregroundStyle(foregroundColor)
+                        .frame(height: 20)
+                }
+                .buttonStyle(PlainButtonStyle())
+                .keyboardShortcut("J", modifiers: [])
+                .disabled(!playEngine.isLoaded)
+
+                // MARK: Pause/Play
+                Button {
+                    PlayEngine.shared.playPause()
+                } label: {
+                    Image(
+                        systemName: playEngine.timeControlStatus == .playing
+                            ? "pause.fill"
+                            : "play.fill"
+                    )
                     .resizable()
                     .scaledToFit()
                     .foregroundStyle(foregroundColor)
-                    .frame(height: 20)
-            }
-            .buttonStyle(PlainButtonStyle())
-            .keyboardShortcut("J", modifiers: [])
-            .disabled(!playEngine.isLoaded)
+                    .frame(width: 24, height: 24)
+                }
+                .buttonStyle(PlainButtonStyle())
+                .keyboardShortcut("K", modifiers: [])
+                .disabled(!playEngine.isLoaded)
 
-            // MARK: Pause/Play
-            Button {
-                PlayEngine.shared.playPause()
-            } label: {
-                Image(
-                    systemName: playEngine.timeControlStatus == .playing
-                        ? "pause.fill"
-                        : "play.fill"
-                )
-                .resizable()
-                .scaledToFit()
-                .foregroundStyle(foregroundColor)
-                .frame(width: 24, height: 24)
+                // MARK: Forwards
+                Button {
+                    Task { await PlayEngine.shared.goForwards() }
+                } label: {
+                    Image(systemName: "goforward.5")
+                        .resizable()
+                        .scaledToFit()
+                        .foregroundStyle(foregroundColor)
+                        .frame(height: 20)
+                }
+                .buttonStyle(PlainButtonStyle())
+                .keyboardShortcut("L", modifiers: [])
+                .disabled(!playEngine.isLoaded)
             }
-            .buttonStyle(PlainButtonStyle())
-            .keyboardShortcut("K", modifiers: [])
-            .disabled(!playEngine.isLoaded)
-
-            // MARK: Forwards
-            Button {
-                Task { await PlayEngine.shared.goForwards() }
-            } label: {
-                Image(systemName: "goforward.5")
-                    .resizable()
-                    .scaledToFit()
-                    .foregroundStyle(foregroundColor)
-                    .frame(height: 20)
-            }
-            .buttonStyle(PlainButtonStyle())
-            .keyboardShortcut("L", modifiers: [])
-            .disabled(!playEngine.isLoaded)
 
             // MARK: Current time
             Text(verbatim: playEngine.currentTime.asTimecode(using: playEngine.duration))
