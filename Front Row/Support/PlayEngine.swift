@@ -49,6 +49,8 @@ import SwiftUI
 
     private(set) var duration: TimeInterval = 0.0
 
+    private(set) var timeRemaining: TimeInterval = 0.0
+
     private var _isMuted = false
 
     var isMuted: Bool {
@@ -285,9 +287,10 @@ import SwiftUI
             guard let self else { return }
             _currentTime = time.seconds
 
-            guard let seconds = player.currentItem?.duration.seconds else { return }
-            guard !seconds.isNaN && !seconds.isInfinite else { return }
-            duration = seconds
+            guard let duration = player.currentItem?.duration.seconds else { return }
+            guard !duration.isNaN && !duration.isInfinite else { return }
+            self.duration = duration
+            timeRemaining = duration - _currentTime
         }
     }
 

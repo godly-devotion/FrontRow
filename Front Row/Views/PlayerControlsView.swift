@@ -9,7 +9,9 @@ import SwiftUI
 
 struct PlayerControlsView: View {
     @Environment(PlayEngine.self) private var playEngine: PlayEngine
-    private let foregroundColor = Color.white.opacity(0.8)
+    @AppStorage("ShowTimeRemaining") var showTimeRemaining = true
+    private let foregroundColor = Color.white.opacity(0.7)
+    private let disabledControlTextColor = Color(nsColor: NSColor.disabledControlTextColor)
 
     var body: some View {
         @Bindable var playEngine = playEngine
@@ -62,20 +64,34 @@ struct PlayerControlsView: View {
             .disabled(!playEngine.isLoaded)
 
             // MARK: Current time
-            Text(verbatim: playEngine.currentTime.asTimecode)
+            Text(verbatim: playEngine.currentTime.asTimecode(using: playEngine.duration))
                 .font(.system(size: 11))
-                .foregroundStyle(foregroundColor)
-                .frame(width: 50, alignment: .center)
+                .foregroundStyle(playEngine.isLoaded ? foregroundColor : disabledControlTextColor)
+                .frame(minWidth: 50, alignment: .center)
 
             // MARK: Seek slider
             SeekSliderView(value: $playEngine.currentTime, maxValue: playEngine.duration)
                 .disabled(!playEngine.isLoaded)
 
-            // MARK: Time remaining
-            Text(verbatim: playEngine.duration.asTimecode)
-                .font(.system(size: 11))
-                .foregroundStyle(foregroundColor)
-                .frame(width: 50, alignment: .center)
+            // MARK: Time remaining or Duration
+            Text(
+                verbatim: showTimeRemaining
+                    ? "-\(playEngine.timeRemaining.asTimecode(using: playEngine.duration))"
+                    : playEngine.duration.asTimecode(using: playEngine.duration)
+            )
+            .font(.system(size: 11))
+            .foregroundStyle(playEngine.isLoaded ? foregroundColor : disabledControlTextColor)
+            .frame(minWidth: 50, alignment: .center)
+            .onHover { inside in
+                if inside {
+                    NSCursor.pointingHand.push()
+                } else {
+                    NSCursor.pop()
+                }
+            }
+            .onTapGesture {
+                showTimeRemaining.toggle()
+            }
         }
         .padding([.horizontal], 16)
         .padding([.vertical], 8)

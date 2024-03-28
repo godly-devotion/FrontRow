@@ -82,7 +82,7 @@ struct SeekSliderView: NSViewRepresentable {
                 knobRect.width,
                 knobHeight)
             let path = NSBezierPath(roundedRect: rect, xRadius: knobRadius, yRadius: knobRadius)
-            NSColor.white.withAlphaComponent(0.8).setFill()
+            NSColor.white.withAlphaComponent(0.7).setFill()
             path.fill()
         }
 
