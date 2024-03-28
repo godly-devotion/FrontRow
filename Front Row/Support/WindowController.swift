@@ -11,7 +11,15 @@ import SwiftUI
 
     static let shared = WindowController()
 
+    // MARK: - Fullscreen
+
     private(set) var isFullscreen = false
+
+    func setIsFullscreen(_ isFullscreen: Bool) {
+        self.isFullscreen = isFullscreen
+    }
+
+    // MARK: - Float on Top
 
     private var _isOnTop = false
 
@@ -27,9 +35,17 @@ import SwiftUI
         }
     }
 
-    func setIsFullscreen(_ isFullscreen: Bool) {
-        self.isFullscreen = isFullscreen
+    // MARK: - Autohide Cursor
+
+    func hideCursor() {
+        CGDisplayHideCursor(CGMainDisplayID())
     }
+
+    func showCursor() {
+        CGDisplayShowCursor(CGMainDisplayID())
+    }
+
+    // MARK: - Autohide Titlebar
 
     private var _titlebarView: NSView?
 
@@ -42,23 +58,13 @@ import SwiftUI
                 .first(where: { $0.isKind(of: containerClass) })
         else { return nil }
 
-        _titlebarView = containerView
+        guard let titlebarClass = NSClassFromString("NSTitlebarView") else { return nil }
+        guard let titlebar = containerView.subviews.first(where: { $0.isKind(of: titlebarClass) })
+        else { return nil }
+
+        _titlebarView = titlebar
 
         return _titlebarView
-    }
-
-    private var mouseIdleTimer: Timer!
-
-    func resetMouseIdleTimer() {
-        if mouseIdleTimer != nil {
-            mouseIdleTimer.invalidate()
-            mouseIdleTimer = nil
-        }
-
-        mouseIdleTimer = Timer.scheduledTimer(withTimeInterval: 3.0, repeats: false) {
-            [weak self] in
-            self?.mouseIdleTimerAction($0)
-        }
     }
 
     func hideTitlebar() {
@@ -67,10 +73,6 @@ import SwiftUI
 
     func showTitlebar() {
         setTitlebarOpacity(1.0)
-    }
-
-    private func mouseIdleTimerAction(_ sender: Timer) {
-        hideTitlebar()
     }
 
     private func setTitlebarOpacity(_ opacity: CGFloat) {

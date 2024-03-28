@@ -174,18 +174,25 @@ import SwiftUI
 
     func cancelLoading() {
         guard let asset else { return }
+
         asset.cancelLoading()
     }
 
     func play() {
+        guard isLoaded else { return }
+
         player.play()
     }
 
     func pause() {
+        guard isLoaded else { return }
+
         player.pause()
     }
 
     func playPause() {
+        guard isLoaded else { return }
+
         if timeControlStatus == .playing {
             pause()
         } else {
@@ -195,6 +202,7 @@ import SwiftUI
 
     func goForwards(_ duration: Double = 5.0) async {
         guard isLoaded else { return }
+
         let time = CMTimeAdd(
             player.currentTime(),
             CMTimeMakeWithSeconds(duration, preferredTimescale: 1)
@@ -204,6 +212,7 @@ import SwiftUI
 
     func goBackwards(_ duration: Double = 5.0) async {
         guard isLoaded else { return }
+
         let time = CMTimeSubtract(
             player.currentTime(),
             CMTimeMakeWithSeconds(duration, preferredTimescale: 1)
@@ -213,6 +222,7 @@ import SwiftUI
 
     func goToTime(_ timecode: Double) async {
         guard isLoaded else { return }
+
         let time = CMTimeMakeWithSeconds(timecode, preferredTimescale: 1)
         await player.seek(to: time, toleranceBefore: .zero, toleranceAfter: .zero)
     }
@@ -244,6 +254,7 @@ import SwiftUI
     func fitToVideoSize() {
         guard videoSize != CGSize.zero else { return }
         guard let window = NSApp.windows.first else { return }
+
         let screenFrame = (window.screen ?? NSScreen.main!).visibleFrame
         let newFrame: NSRect
 

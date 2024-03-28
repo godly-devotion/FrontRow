@@ -12,10 +12,24 @@ struct PlayerView: NSViewRepresentable {
     let player: AVPlayer
 
     class PlayerNSView: NSView, CALayerDelegate {
+
         private let playerLayer = AVPlayerLayer()
 
         override func makeBackingLayer() -> CALayer {
             playerLayer
+        }
+
+        override func mouseDown(with event: NSEvent) {
+            if event.type == .leftMouseDown && event.clickCount == 2 {
+                NSApplication.shared.mainWindow?.toggleFullScreen(nil)
+            } else {
+                super.mouseDown(with: event)
+            }
+        }
+
+        override func rightMouseUp(with event: NSEvent) {
+            PlayEngine.shared.playPause()
+            super.rightMouseUp(with: event)
         }
 
         init(player: AVPlayer) {

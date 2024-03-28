@@ -9,8 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(PlayEngine.self) var playEngine: PlayEngine
-    @State private var playerControlsShown = true
     @State private var mouseIdleTimer: Timer!
+    @State private var mouseInsideWindow = false
+    @State private var playerControlsShown = true
 
     var body: some View {
         @Bindable var playEngine = playEngine
@@ -37,13 +38,12 @@ struct ContentView: View {
                         }
                     )
                 )
-                .onTapGesture(count: 2) {
-                    NSApplication.shared.mainWindow?.toggleFullScreen(nil)
-                }
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
                 .ignoresSafeArea()
 
-            if playEngine.timeControlStatus == .waitingToPlayAtSpecifiedRate {
+            if !playEngine.isLocalFile
+                && playEngine.timeControlStatus == .waitingToPlayAtSpecifiedRate
+            {
                 ProgressView()
                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
             }
@@ -59,25 +59,17 @@ struct ContentView: View {
         .onContinuousHover { phase in
             switch phase {
             case .active:
+                mouseInsideWindow = true
                 resetMouseIdleTimer()
                 showPlayerControls()
-                WindowController.shared.resetMouseIdleTimer()
                 WindowController.shared.showTitlebar()
+                WindowController.shared.showCursor()
             case .ended:
+                mouseInsideWindow = false
                 hidePlayerControls()
                 WindowController.shared.hideTitlebar()
+                WindowController.shared.showCursor()
             }
-        }
-    }
-
-    private func resetMouseIdleTimer() {
-        if mouseIdleTimer != nil {
-            mouseIdleTimer.invalidate()
-            mouseIdleTimer = nil
-        }
-
-        mouseIdleTimer = Timer.scheduledTimer(withTimeInterval: 3.0, repeats: false) {
-            mouseIdleTimerAction($0)
         }
     }
 
@@ -93,8 +85,23 @@ struct ContentView: View {
         }
     }
 
+    private func resetMouseIdleTimer() {
+        if mouseIdleTimer != nil {
+            mouseIdleTimer.invalidate()
+            mouseIdleTimer = nil
+        }
+
+        mouseIdleTimer = Timer.scheduledTimer(withTimeInterval: 3.0, repeats: false) {
+            mouseIdleTimerAction($0)
+        }
+    }
+
     private func mouseIdleTimerAction(_ sender: Timer) {
         hidePlayerControls()
+        WindowController.shared.hideTitlebar()
+        if mouseInsideWindow {
+            WindowController.shared.hideCursor()
+        }
     }
 }
 
