@@ -4,15 +4,18 @@
 
 <h1 align="center">Front Row</h1>
 
-<p align="center">Play HDR videos &amp; spatial audio on Mac natively</p>
+<p align="center">Play HDR videos &amp; spatial audio natively</p>
 
 <p align="center">
-<a title="Release" target="_blank" href="https://github.com/godly-devotion/FrontRow/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/godly-devotion/FrontRow"></a>
 <a title="Crowdin" target="_blank" href="https://crowdin.com/project/FrontRow"><img src="https://badges.crowdin.net/FrontRow/localized.svg"></a>
 <a title="License" target="_blank" href="https://github.com/godly-devotion/FrontRow/blob/main/LICENSE"><img src="https://img.shields.io/github/license/godly-devotion/FrontRow?color=blue"></a>
 </p>
 
 ![Screenshot](.github/images/screenshot.png)
+
+## Download
+
+[![](.github/images/download-on-app-store-badge.svg)](https://apps.apple.com/us/app/front-row-video-player/id6480318506)
 
 ## Compatibility
 

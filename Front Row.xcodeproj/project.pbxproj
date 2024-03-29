@@ -16,7 +16,6 @@
 		03B712272B96C40C00C1F753 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B712262B96C40C00C1F753 /* AVKit.framework */; };
 		03D77E952B9AA13700276A45 /* HelpCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D77E942B9AA13700276A45 /* HelpCommands.swift */; };
 		03E78C582BA7D2D40063BF06 /* OpenURLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E78C572BA7D2D40063BF06 /* OpenURLView.swift */; };
-		03E8F3D62B9F79ED0008CE49 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 03E8F3D52B9F79ED0008CE49 /* Sparkle */; };
 		03E8F3DD2B9F7B350008CE49 /* AppCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E8F3DC2B9F7B350008CE49 /* AppCommands.swift */; };
 		03EA68512B9630CF003348BE /* FrontRowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA68502B9630CF003348BE /* FrontRowApp.swift */; };
 		03EA68532B9630CF003348BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA68522B9630CF003348BE /* ContentView.swift */; };
@@ -64,7 +63,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				03B712272B96C40C00C1F753 /* AVKit.framework in Frameworks */,
-				03E8F3D62B9F79ED0008CE49 /* Sparkle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +173,6 @@
 			);
 			name = "Front Row";
 			packageProductDependencies = (
-				03E8F3D52B9F79ED0008CE49 /* Sparkle */,
 			);
 			productName = "Front Row";
 			productReference = 03EA684D2B9630CF003348BE /* Front Row.app */;
@@ -229,7 +226,6 @@
 			);
 			mainGroup = 03EA68442B9630CF003348BE;
 			packageReferences = (
-				03E8F3D42B9F79ED0008CE49 /* XCRemoteSwiftPackageReference "Sparkle" */,
 			);
 			productRefGroup = 03EA684E2B9630CF003348BE /* Products */;
 			projectDirPath = "";
@@ -430,7 +426,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Front Row/FrontRow.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.8;
+				CURRENT_PROJECT_VERSION = 2.0;
 				DEVELOPMENT_ASSET_PATHS = "\"Front Row/Preview Content\"";
 				DEVELOPMENT_TEAM = TCQ6328PP6;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -443,8 +439,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.8;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.joshua-park.Front-Row";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuapark.FrontRow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -459,7 +455,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Front Row/FrontRow.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.8;
+				CURRENT_PROJECT_VERSION = 2.0;
 				DEVELOPMENT_ASSET_PATHS = "\"Front Row/Preview Content\"";
 				DEVELOPMENT_TEAM = TCQ6328PP6;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -472,8 +468,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.8;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.joshua-park.Front-Row";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuapark.FrontRow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -502,25 +498,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		03E8F3D42B9F79ED0008CE49 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/sparkle-project/Sparkle";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.6.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		03E8F3D52B9F79ED0008CE49 /* Sparkle */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03E8F3D42B9F79ED0008CE49 /* XCRemoteSwiftPackageReference "Sparkle" */;
-			productName = Sparkle;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 03EA68452B9630CF003348BE /* Project object */;
 }

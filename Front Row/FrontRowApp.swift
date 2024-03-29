@@ -5,7 +5,6 @@
 //  Created by Joshua Park on 3/4/24.
 //
 
-import Sparkle
 import SwiftUI
 
 @main
@@ -14,18 +13,11 @@ struct FrontRowApp: App {
     @State private var playEngine: PlayEngine
     @State private var presentedViewManager: PresentedViewManager
     @State private var windowController: WindowController
-    private let updaterController: SPUStandardUpdaterController
 
     init() {
         self._playEngine = .init(wrappedValue: .shared)
         self._presentedViewManager = .init(wrappedValue: .shared)
         self._windowController = .init(wrappedValue: .shared)
-
-        updaterController = SPUStandardUpdaterController(
-            startingUpdater: true,
-            updaterDelegate: nil,
-            userDriverDelegate: nil
-        )
 
         UserDefaults.standard.removeObject(forKey: "NSWindow Frame main")
         UserDefaults.standard.set(false, forKey: "NSFullScreenMenuItemEverywhere")
@@ -60,7 +52,7 @@ struct FrontRowApp: App {
         }
         .windowStyle(.hiddenTitleBar)
         .commands {
-            AppCommands(updater: updaterController.updater)
+            AppCommands()
             FileCommands(playEngine: $playEngine)
             ViewCommands(
                 playEngine: $playEngine,

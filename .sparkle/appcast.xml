@@ -5,185 +5,19 @@
     <language>en</language>
 
     <item>
-      <title>v1.8</title>
+      <title>v2.0</title>
       <link>https://github.com/godly-devotion/FrontRow</link>
-      <sparkle:version>1.8</sparkle:version>
+      <sparkle:version>2.0</sparkle:version>
       <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-      <sparkle:fullReleaseNotesLink>https://github.com/godly-devotion/FrontRow/releases</sparkle:fullReleaseNotesLink>
-      <pubDate>Fri, 29 Mar 2024 03:13:15 +0000</pubDate>
-      <enclosure
-        url="https://github.com/godly-devotion/FrontRow/releases/download/v1.7.1/FrontRow_v1.7.1.dmg"
-        sparkle:edSignature="1aVI4lBrc9ZwvRUnTN+QXYcmq58v5XQhMt+AmubdEjdIw3gB7EsU8EQNwAb/kvHSJRPvzKDAVrIYp6mrIpwtBg=="
-        length="3449077"
-        type="application/octet-stream" />
+      <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
+      <link>https://apps.apple.com/us/app/front-row-video-player/id6480318506</link>
       <description><![CDATA[
-      <h3 id="whats-new">What&#39;s New</h3>
+      <p>Front Row has moved to the Mac App Store!</p>
+      <p>Please remove existing version before switching to the app store release.</p>
       <ul>
-      <li>Subtitle &amp; audio tracks are now displayed and can be selected from the View menu</li>
-      <li>Double click on the video to enter and exit full screen</li>
-      <li>Right click on the video to pause and play</li>
-      <li>Opening online files is now a bit faster</li>
-      <li>Opening online files now show a loading indicator</li>
-      <li>Waveform audio files can be opened</li>
-      <li>Experience spatial audio by playing a sample file (Front Row -&gt; Experience Spatial Audio)</li>
-      </ul>
-      <h3 id="bug-fixes">Bug Fixes</h3>
-      <ul>
-      <li>Dark mode is applied everywhere</li>
-      </ul>
-      ]]>
-      </description>
-    </item>
-
-    <item>
-      <title>v1.7.1</title>
-      <link>https://github.com/godly-devotion/FrontRow</link>
-      <sparkle:version>1.7.1</sparkle:version>
-      <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-      <sparkle:fullReleaseNotesLink>https://github.com/godly-devotion/FrontRow/releases</sparkle:fullReleaseNotesLink>
-      <pubDate>Sun, 24 Mar 2024 01:49:59 +0000</pubDate>
-      <enclosure
-        url="https://github.com/godly-devotion/FrontRow/releases/download/v1.7.1/FrontRow_v1.7.1.dmg"
-        sparkle:edSignature="I4mhm4zKw05gLFLQ3lhWdFi34x0FWHUJnxQLjM32YfwI7O/heJ6UVjFdnsv4GwdyedLzOm9aW16p/MKd8C78Aw=="
-        length="3416721"
-        type="application/octet-stream" />
-      <description><![CDATA[
-      <ul>
-      <li>Added more app icon sizes</li>
-      <li>Minor performance improvements</li>
-      </ul>
-      ]]>
-      </description>
-    </item>
-
-    <item>
-      <title>v1.7</title>
-      <link>https://github.com/godly-devotion/FrontRow</link>
-      <sparkle:version>1.7</sparkle:version>
-      <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-      <sparkle:fullReleaseNotesLink>https://github.com/godly-devotion/FrontRow/releases</sparkle:fullReleaseNotesLink>
-      <pubDate>Fri, 22 Mar 2024 14:03:22 +0000</pubDate>
-      <enclosure
-        url="https://github.com/godly-devotion/FrontRow/releases/download/v1.7/FrontRow_v1.7.dmg"
-        sparkle:edSignature="2ZFFqtsbYE48XOn61C4tibKs6uEt+050f1qGRGCN/gRGywnH2Oc/t+MfOfTDhVJqvJvBF83aUdTyaT8e02wPAg=="
-        length="3266152"
-        type="application/octet-stream" />
-      <description><![CDATA[
-      <ul>
-      <li>Added ability to open more media file types (<a href="https://github.com/godly-devotion/FrontRow#help-my-video-file-is-in-mkv-and-doesnt-open-with-front-row">read about mkv files</a>)</li>
-      <li>Added keyboard shortcut for Restart playback menu action</li>
-      <li>Improved organization of Playback menu</li>
-      <li>Improved padding of open URL dialog</li>
-      </ul>
-      ]]>
-      </description>
-    </item>
-
-    <item>
-      <title>v1.6</title>
-      <link>https://github.com/godly-devotion/FrontRow</link>
-      <sparkle:version>1.6</sparkle:version>
-      <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-      <sparkle:fullReleaseNotesLink>https://github.com/godly-devotion/FrontRow/releases</sparkle:fullReleaseNotesLink>
-      <pubDate>Wed, 20 Mar 2024 00:18:10 +0000</pubDate>
-      <enclosure
-        url="https://github.com/godly-devotion/FrontRow/releases/download/v1.6/FrontRow_v1.6.dmg"
-        sparkle:edSignature="JysZjpS1xQ7c0SFy6r2F9hB4J+Z2lJ7D20KtQquIF5aeCnDJWziliLhuQjH+gJtnYricLH6tYFUmLYQOXOOzBQ=="
-        length="3261629"
-        type="application/octet-stream" />
-      <description><![CDATA[
-      <ul>
-      <li>Added ability to go to specific time</li>
-      <li>Added Chinese Simplified translation</li>
-      <li>Added Chinese Traditional translation</li>
-      <li>Added Japanese translation</li>
-      </ul>
-      ]]>
-      </description>
-    </item>
-
-    <item>
-      <title>v1.5</title>
-      <link>https://github.com/godly-devotion/FrontRow</link>
-      <sparkle:version>1.5</sparkle:version>
-      <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-      <sparkle:fullReleaseNotesLink>https://github.com/godly-devotion/FrontRow/releases</sparkle:fullReleaseNotesLink>
-      <pubDate>Tue, 19 Mar 2024 01:17:09 +0000</pubDate>
-      <enclosure
-        url="https://github.com/godly-devotion/FrontRow/releases/download/v1.5/FrontRow_v1.5.dmg"
-        sparkle:edSignature="9lEJhDhb2LSBVcbkH/dTCUnZCvVtlbLIYLUpYeHvhUlj7ou4tJwVukOranaBYSseOS19305Z21veRSC5bV7TDg=="
-        length="3249156"
-        type="application/octet-stream" />
-      <description><![CDATA[
-      <ul>
-      <li>Added option to fit the window to video size (Window -&gt; Natural Size)</li>
-      <li>Added option to show playing file in Finder</li>
-      <li>Improved Full Screen menu action label based on current full screen state</li>
-      </ul>
-      ]]>
-      </description>
-    </item>
-
-    <item>
-      <title>v1.4</title>
-      <link>https://github.com/godly-devotion/FrontRow</link>
-      <sparkle:version>1.4</sparkle:version>
-      <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-      <sparkle:fullReleaseNotesLink>https://github.com/godly-devotion/FrontRow/releases</sparkle:fullReleaseNotesLink>
-      <pubDate>Mon, 18 Mar 2024 23:37:21 +0000</pubDate>
-      <enclosure
-        url="https://github.com/godly-devotion/FrontRow/releases/download/v1.4/FrontRow_v1.4.dmg"
-        sparkle:edSignature="QDOSa+DYLR0OFIGQuBcyC4vZywyReZ0NMBZwh9fdT26Kcfzs56PgsiHJmgstl5uSYyGfdA5YQldylfyFUVsdCw=="
-        length="3246941"
-        type="application/octet-stream" />
-      <description><![CDATA[
-      <ul>
-      <li>Added ability to open URLs</li>
-      <li>Added Korean translation</li>
-      <li>Added link to help improve translation</li>
-      </ul>
-      ]]>
-      </description>
-    </item>
-
-    <item>
-      <title>v1.3</title>
-      <link>https://github.com/godly-devotion/FrontRow</link>
-      <sparkle:version>1.3</sparkle:version>
-      <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-      <sparkle:fullReleaseNotesLink>https://github.com/godly-devotion/FrontRow/releases</sparkle:fullReleaseNotesLink>
-      <pubDate>Tue, 12 Mar 2024 03:42:10 +0000</pubDate>
-      <enclosure
-        url="https://github.com/godly-devotion/FrontRow/releases/download/v1.3/FrontRow_v1.3.dmg"
-        sparkle:edSignature="+5+LSW1lF6j+h5c58V9dvJxXkkD78wnKnw8Hs1raWI9uEDKj8XyVQmO7v4bhLAnjCSZtgo3b4SjOWecYfAuNBw=="
-        length="5710617"
-        type="application/octet-stream" />
-      <description><![CDATA[
-      <ul>
-      <li>Automatically show and hide the window title bar</li>
-      <li>Added ability to float on top of other windows</li>
-      </ul>
-      ]]>
-      </description>
-    </item>
-
-    <item>
-      <title>v1.2</title>
-      <link>https://github.com/godly-devotion/FrontRow</link>
-      <sparkle:version>1.2</sparkle:version>
-      <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-      <sparkle:fullReleaseNotesLink>https://github.com/godly-devotion/FrontRow/releases</sparkle:fullReleaseNotesLink>
-      <pubDate>Mon, 11 Mar 2024 18:39:35 +0000</pubDate>
-      <enclosure
-        url="https://github.com/godly-devotion/FrontRow/releases/download/v1.2/FrontRow_v1.2.dmg"
-        sparkle:edSignature="FC2WUbyLLNHV41lWou3nVt5JXtlp+M2zfV0HDsKZwpTndDcDvVJWmJ8nGkMsvY2l0ycKX4X1scIL90RyypXXCw=="
-        length="5708009"
-        type="application/octet-stream" />
-      <description><![CDATA[
-      <ul>
-      <li>Fixed appearance of Mute menu item</li>
-      <li>Added ability to move window by clicking and dragging anywhere in its background</li>
-      <li>Added ability to check for updates automatically</li>
+      <li>New: App icon</li>
+      <li>Changed: Audio track list moved to Playback menu</li>
+      <li>Fixed: Correctly reset subtitle, audio track, and aspect ratio configuration when opening new file</li>
       </ul>
       ]]>
       </description>
