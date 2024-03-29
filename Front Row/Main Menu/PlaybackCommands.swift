@@ -5,6 +5,7 @@
 //  Created by Joshua Park on 3/4/24.
 //
 
+import AVKit
 import SwiftUI
 
 struct PlaybackCommands: Commands {
@@ -63,10 +64,28 @@ struct PlaybackCommands: Commands {
 
             Divider()
 
+            audioTrackPicker
+
             Toggle(isOn: $playEngine.isMuted) {
                 Text("Mute")
             }
             .keyboardShortcut("M", modifiers: [])
+        }
+    }
+
+    @ViewBuilder private var audioTrackPicker: some View {
+        if let group = playEngine.audioGroup {
+            Picker("Audio Track", selection: $playEngine.audioTrack) {
+                Text("Off").tag(nil as AVMediaSelectionOption?)
+                ForEach(group.options) { option in
+                    Text(verbatim: option.displayName).tag(Optional(option))
+                }
+            }
+        } else {
+            Picker("Audio Track", selection: .constant(0)) {
+                Text("None").tag(0)
+            }
+            .disabled(true)
         }
     }
 }

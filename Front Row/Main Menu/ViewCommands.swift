@@ -28,7 +28,6 @@ struct ViewCommands: Commands {
             Divider()
 
             subtitlePicker
-            audioTrackPicker
         }
     }
 
@@ -48,24 +47,6 @@ struct ViewCommands: Commands {
             .pickerStyle(.inline)
         } else {
             Picker("Subtitle", selection: .constant(0)) {
-                Text("None").tag(0)
-            }
-            .pickerStyle(.inline)
-            .disabled(true)
-        }
-    }
-
-    @ViewBuilder private var audioTrackPicker: some View {
-        if let group = playEngine.audioGroup {
-            Picker("Audio Track", selection: $playEngine.audioTrack) {
-                Text("Off").tag(nil as AVMediaSelectionOption?)
-                ForEach(group.options) { option in
-                    Text(verbatim: option.displayName).tag(Optional(option))
-                }
-            }
-            .pickerStyle(.inline)
-        } else {
-            Picker("Audio Track", selection: .constant(0)) {
                 Text("None").tag(0)
             }
             .pickerStyle(.inline)
