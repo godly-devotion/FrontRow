@@ -151,10 +151,14 @@ import SwiftUI
 
             if let subtitleGroup = try await asset!.loadMediaSelectionGroup(for: .legible) {
                 self.subtitleGroup = subtitleGroup
+            } else {
+                self.subtitleGroup = nil
             }
 
             if let audioGroup = try await asset!.loadMediaSelectionGroup(for: .audible) {
                 self.audioGroup = audioGroup
+            } else {
+                self.audioGroup = nil
             }
         } catch {
             return false
@@ -189,7 +193,6 @@ import SwiftUI
             .receive(on: DispatchQueue.main)
             .sink { [weak self] size in
                 guard let self else { return }
-                guard size != CGSize.zero else { return }
                 videoSize = size
                 fitToVideoSize()
             }
@@ -200,10 +203,14 @@ import SwiftUI
 
         if let subtitleGroup {
             subtitle = subtitleGroup.options.first
+        } else {
+            subtitle = nil
         }
 
         if let audioGroup {
             audioTrack = audioGroup.options.first
+        } else {
+            audioTrack = nil
         }
 
         return true
@@ -289,8 +296,12 @@ import SwiftUI
     }
 
     func fitToVideoSize() {
-        guard videoSize != CGSize.zero else { return }
         guard let window = NSApp.windows.first else { return }
+        guard videoSize != CGSize.zero else {
+            /// reset aspect ratio setting
+            window.resizeIncrements = NSMakeSize(1.0, 1.0)
+            return
+        }
 
         let screenFrame = (window.screen ?? NSScreen.main!).visibleFrame
         let newFrame: NSRect
