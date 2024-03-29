@@ -3697,6 +3697,9 @@
         }
       }
     },
+    "Report an Issue" : {
+
+    },
     "Restart" : {
       "comment" : "Restart playback from the beginning",
       "localizations" : {

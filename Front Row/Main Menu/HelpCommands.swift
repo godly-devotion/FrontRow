@@ -11,16 +11,23 @@ struct HelpCommands: Commands {
     var body: some Commands {
         CommandGroup(replacing: .help) {
             Link(
-                "Release Notes",
-                destination: URL(string: "https://github.com/godly-devotion/FrontRow/releases")!
-            )
-            Link(
                 "Website",
                 destination: URL(string: "https://github.com/godly-devotion/FrontRow")!
             )
             Link(
+                "Release Notes",
+                destination: URL(string: "https://github.com/godly-devotion/FrontRow/releases")!
+            )
+
+            Divider()
+
+            Link(
                 "Improve Translation",
                 destination: URL(string: "https://crowdin.com/project/FrontRow")!
+            )
+            Link(
+                "Report an Issue",
+                destination: URL(string: "https://github.com/godly-devotion/FrontRow/issues")!
             )
         }
     }
