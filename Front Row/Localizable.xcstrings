@@ -1,9 +1,6 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Audio Track" : {
-
-    },
     "Cancel" : {
       "localizations" : {
         "ar" : {
@@ -2281,12 +2278,6 @@
         }
       }
     },
-    "None" : {
-
-    },
-    "Off" : {
-
-    },
     "Open File..." : {
       "comment" : "Show the open file dialog",
       "localizations" : {
@@ -3426,9 +3417,6 @@
           }
         }
       }
-    },
-    "Subtitle" : {
-
     },
     "Website" : {
       "localizations" : {
