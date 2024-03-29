@@ -13,61 +13,60 @@ struct PlaybackCommands: Commands {
 
     var body: some Commands {
         CommandMenu("Playback") {
-            Section {
-                Button {
-                    playEngine.playPause()
-                } label: {
-                    Text(
-                        playEngine.timeControlStatus == .playing ? "Pause" : "Play",
-                        comment: "Toggle playback status"
-                    )
-                }
-                .keyboardShortcut(.space, modifiers: [])
-                .disabled(!playEngine.isLoaded)
-
-                Button {
-                    Task { await playEngine.goToTime(0.0) }
-                } label: {
-                    Text(
-                        "Restart",
-                        comment: "Restart playback from the beginning"
-                    )
-                }
-                .keyboardShortcut(.leftArrow, modifiers: [.command])
-                .disabled(!playEngine.isLoaded || presentedViewManager.isPresenting)
+            Button {
+                playEngine.playPause()
+            } label: {
+                Text(
+                    playEngine.timeControlStatus == .playing ? "Pause" : "Play",
+                    comment: "Toggle playback status"
+                )
             }
-            Section {
-                Button {
-                    Task { await playEngine.goForwards() }
-                } label: {
-                    Text("Go Forward 5s")
-                }
-                .keyboardShortcut(.rightArrow, modifiers: [])
-                .disabled(!playEngine.isLoaded || presentedViewManager.isPresenting)
+            .keyboardShortcut(.space, modifiers: [])
+            .disabled(!playEngine.isLoaded)
 
-                Button {
-                    Task { await playEngine.goBackwards() }
-                } label: {
-                    Text("Go Backward 5s")
-                }
-                .keyboardShortcut(.leftArrow, modifiers: [])
-                .disabled(
-                    !playEngine.isLoaded || presentedViewManager.isPresenting)
+            Button {
+                Task { await playEngine.goToTime(0.0) }
+            } label: {
+                Text(
+                    "Restart",
+                    comment: "Restart playback from the beginning"
+                )
+            }
+            .keyboardShortcut(.leftArrow, modifiers: [.command])
+            .disabled(!playEngine.isLoaded || presentedViewManager.isPresenting)
 
-                Button {
-                    PresentedViewManager.shared.isPresentingGoToTimeView.toggle()
-                } label: {
-                    Text("Go to Time...")
-                }
-                .keyboardShortcut("G", modifiers: [.command])
-                .disabled(!playEngine.isLoaded)
+            Divider()
+
+            Button {
+                Task { await playEngine.goForwards() }
+            } label: {
+                Text("Go Forward 5s")
             }
-            Section {
-                Toggle(isOn: $playEngine.isMuted) {
-                    Text("Mute")
-                }
-                .keyboardShortcut("M", modifiers: [])
+            .keyboardShortcut(.rightArrow, modifiers: [])
+            .disabled(!playEngine.isLoaded || presentedViewManager.isPresenting)
+
+            Button {
+                Task { await playEngine.goBackwards() }
+            } label: {
+                Text("Go Backward 5s")
             }
+            .keyboardShortcut(.leftArrow, modifiers: [])
+            .disabled(!playEngine.isLoaded || presentedViewManager.isPresenting)
+
+            Button {
+                PresentedViewManager.shared.isPresentingGoToTimeView.toggle()
+            } label: {
+                Text("Go to Time...")
+            }
+            .keyboardShortcut("G", modifiers: [.command])
+            .disabled(!playEngine.isLoaded)
+
+            Divider()
+
+            Toggle(isOn: $playEngine.isMuted) {
+                Text("Mute")
+            }
+            .keyboardShortcut("M", modifiers: [])
         }
     }
 }

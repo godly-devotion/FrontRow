@@ -14,22 +14,21 @@ struct ViewCommands: Commands {
 
     var body: some Commands {
         CommandGroup(replacing: .toolbar) {
-            Section {
-                Button {
-                    NSApplication.shared.mainWindow?.toggleFullScreen(nil)
-                } label: {
-                    Text(windowController.isFullscreen ? "Exit Full Screen" : "Enter Full Screen")
-                }
-                .keyboardShortcut(.return, modifiers: [])
+            Button {
+                NSApplication.shared.mainWindow?.toggleFullScreen(nil)
+            } label: {
+                Text(windowController.isFullscreen ? "Exit Full Screen" : "Enter Full Screen")
+            }
+            .keyboardShortcut(.return, modifiers: [])
 
-                Toggle(isOn: $windowController.isOnTop) {
-                    Text("Float on Top")
-                }
+            Toggle(isOn: $windowController.isOnTop) {
+                Text("Float on Top")
             }
-            Section {
-                subtitlePicker
-                audioTrackPicker
-            }
+
+            Divider()
+
+            subtitlePicker
+            audioTrackPicker
         }
     }
 
