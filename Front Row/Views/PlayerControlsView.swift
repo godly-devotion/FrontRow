@@ -5,6 +5,7 @@
 //  Created by Joshua Park on 3/25/24.
 //
 
+import AVKit
 import SwiftUI
 
 struct PlayerControlsView: View {
@@ -14,90 +15,141 @@ struct PlayerControlsView: View {
     private let disabledControlTextColor = Color(nsColor: NSColor.disabledControlTextColor)
 
     var body: some View {
-        @Bindable var playEngine = playEngine
-
         HStack(spacing: 8) {
             HStack(spacing: 16) {
-                // MARK: Backwards
-                Button {
-                    Task { await PlayEngine.shared.goBackwards() }
-                } label: {
-                    Image(systemName: "gobackward.5")
-                        .resizable()
-                        .scaledToFit()
-                        .foregroundStyle(foregroundColor)
-                        .frame(height: 20)
-                }
-                .buttonStyle(PlainButtonStyle())
-                .keyboardShortcut("J", modifiers: [])
-                .disabled(!playEngine.isLoaded)
-
-                // MARK: Pause/Play
-                Button {
-                    PlayEngine.shared.playPause()
-                } label: {
-                    Image(
-                        systemName: playEngine.timeControlStatus == .playing
-                            ? "pause.fill"
-                            : "play.fill"
-                    )
-                    .resizable()
-                    .scaledToFit()
-                    .foregroundStyle(foregroundColor)
-                    .frame(width: 24, height: 24)
-                }
-                .buttonStyle(PlainButtonStyle())
-                .keyboardShortcut("K", modifiers: [])
-                .disabled(!playEngine.isLoaded)
-
-                // MARK: Forwards
-                Button {
-                    Task { await PlayEngine.shared.goForwards() }
-                } label: {
-                    Image(systemName: "goforward.5")
-                        .resizable()
-                        .scaledToFit()
-                        .foregroundStyle(foregroundColor)
-                        .frame(height: 20)
-                }
-                .buttonStyle(PlainButtonStyle())
-                .keyboardShortcut("L", modifiers: [])
-                .disabled(!playEngine.isLoaded)
+                backwards
+                playPause
+                forwards
             }
-
-            // MARK: Current time
-            Text(verbatim: playEngine.currentTime.asTimecode(using: playEngine.duration))
-                .font(.system(size: 11))
-                .foregroundStyle(playEngine.isLoaded ? foregroundColor : disabledControlTextColor)
-                .frame(minWidth: 50, alignment: .center)
-
-            // MARK: Seek slider
-            SeekSliderView(value: $playEngine.currentTime, maxValue: playEngine.duration)
-                .disabled(!playEngine.isLoaded)
-
-            // MARK: Time remaining or Duration
-            Text(
-                verbatim: showTimeRemaining
-                    ? "-\(playEngine.timeRemaining.asTimecode(using: playEngine.duration))"
-                    : playEngine.duration.asTimecode(using: playEngine.duration)
-            )
-            .font(.system(size: 11))
-            .foregroundStyle(playEngine.isLoaded ? foregroundColor : disabledControlTextColor)
-            .frame(minWidth: 50, alignment: .center)
-            .onHover { inside in
-                if inside {
-                    NSCursor.pointingHand.push()
-                } else {
-                    NSCursor.pop()
-                }
-            }
-            .onTapGesture {
-                showTimeRemaining.toggle()
-            }
+            currentTime
+            seekSlider
+            duration
+            subtitlePicker
         }
         .padding([.horizontal], 16)
         .padding([.vertical], 8)
         .background(.ultraThickMaterial)
+    }
+
+    @ViewBuilder private var backwards: some View {
+        @Bindable var playEngine = playEngine
+
+        Button {
+            Task { await PlayEngine.shared.goBackwards() }
+        } label: {
+            Image(systemName: "gobackward.5")
+                .resizable()
+                .scaledToFit()
+                .foregroundStyle(foregroundColor)
+                .frame(height: 20)
+        }
+        .buttonStyle(PlainButtonStyle())
+        .keyboardShortcut("J", modifiers: [])
+        .disabled(!playEngine.isLoaded)
+    }
+
+    @ViewBuilder private var playPause: some View {
+        @Bindable var playEngine = playEngine
+
+        Button {
+            PlayEngine.shared.playPause()
+        } label: {
+            Image(
+                systemName: playEngine.timeControlStatus == .playing
+                    ? "pause.fill"
+                    : "play.fill"
+            )
+            .resizable()
+            .scaledToFit()
+            .foregroundStyle(foregroundColor)
+            .frame(width: 24, height: 24)
+        }
+        .buttonStyle(PlainButtonStyle())
+        .keyboardShortcut("K", modifiers: [])
+        .disabled(!playEngine.isLoaded)
+    }
+
+    @ViewBuilder private var forwards: some View {
+        @Bindable var playEngine = playEngine
+
+        Button {
+            Task { await PlayEngine.shared.goForwards() }
+        } label: {
+            Image(systemName: "goforward.5")
+                .resizable()
+                .scaledToFit()
+                .foregroundStyle(foregroundColor)
+                .frame(height: 20)
+        }
+        .buttonStyle(PlainButtonStyle())
+        .keyboardShortcut("L", modifiers: [])
+        .disabled(!playEngine.isLoaded)
+    }
+
+    @ViewBuilder private var currentTime: some View {
+        @Bindable var playEngine = playEngine
+
+        Text(verbatim: playEngine.currentTime.asTimecode(using: playEngine.duration))
+            .font(.system(size: 11))
+            .foregroundStyle(playEngine.isLoaded ? foregroundColor : disabledControlTextColor)
+            .frame(minWidth: 50, alignment: .center)
+    }
+
+    @ViewBuilder private var seekSlider: some View {
+        @Bindable var playEngine = playEngine
+
+        SeekSliderView(value: $playEngine.currentTime, maxValue: playEngine.duration)
+            .disabled(!playEngine.isLoaded)
+    }
+
+    @ViewBuilder private var duration: some View {
+        @Bindable var playEngine = playEngine
+
+        Text(
+            verbatim: showTimeRemaining
+                ? "-\(playEngine.timeRemaining.asTimecode(using: playEngine.duration))"
+                : playEngine.duration.asTimecode(using: playEngine.duration)
+        )
+        .font(.system(size: 11))
+        .foregroundStyle(playEngine.isLoaded ? foregroundColor : disabledControlTextColor)
+        .frame(minWidth: 50, alignment: .center)
+        .onHover { inside in
+            if inside {
+                NSCursor.pointingHand.push()
+            } else {
+                NSCursor.pop()
+            }
+        }
+        .onTapGesture {
+            showTimeRemaining.toggle()
+        }
+    }
+
+    @ViewBuilder private var subtitlePicker: some View {
+        @Bindable var playEngine = playEngine
+
+        if let group = playEngine.subtitleGroup {
+            Menu {
+                Picker(selection: $playEngine.subtitle) {
+                    Text("Off").tag(nil as AVMediaSelectionOption?)
+
+                    let optionsWithoutForcedSubs = group.options.filter {
+                        !$0.displayName.contains("Forced")
+                    }
+                    ForEach(optionsWithoutForcedSubs) {
+                        option in
+                        Text(verbatim: option.displayName).tag(Optional(option))
+                    }
+                } label: {
+                }
+                .pickerStyle(.inline)
+                .labelsHidden()
+            } label: {
+                Image(systemName: "captions.bubble")
+            }
+            .menuStyle(.borderlessButton)
+            .frame(width: 40)
+        }
     }
 }
 

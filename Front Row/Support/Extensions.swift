@@ -5,6 +5,7 @@
 //  Created by Joshua Park on 3/4/24.
 //
 
+import AVKit
 import Foundation
 import SwiftUI
 
@@ -133,5 +134,22 @@ extension TimeInterval {
             return Duration.seconds(self).formatted(
                 .time(pattern: .minuteSecond(padMinuteToLength: 2)))
         }
+    }
+}
+
+extension AVMediaSelectionOption: Identifiable {
+    public var id: String {
+        let dict = propertyList() as? NSDictionary
+        guard let dict, let id = dict.value(forKey: "MediaSelectionOptionsPersistentID") as? Int
+        else {
+            return displayName
+        }
+        guard
+            let nonforcedSubtitles = dict.value(
+                forKey: "MediaSelectionOptionsDisplaysNonForcedSubtitles") as? Int
+        else {
+            return "\(id)"
+        }
+        return "\(id)\(nonforcedSubtitles)"
     }
 }

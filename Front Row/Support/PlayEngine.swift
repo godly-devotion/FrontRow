@@ -66,6 +66,24 @@ import SwiftUI
         }
     }
 
+    private(set) var subtitleGroup: AVMediaSelectionGroup?
+
+    var subtitle: AVMediaSelectionOption? {
+        didSet {
+            guard let subtitleGroup else { return }
+            selectTrack(subtitle, in: subtitleGroup)
+        }
+    }
+
+    private(set) var audioGroup: AVMediaSelectionGroup?
+
+    var audioTrack: AVMediaSelectionOption? {
+        didSet {
+            guard let audioGroup else { return }
+            selectTrack(audioTrack, in: audioGroup)
+        }
+    }
+
     private var videoSize = CGSize.zero
 
     private var subs = Set<AnyCancellable>()
@@ -76,6 +94,7 @@ import SwiftUI
 
     init() {
         player.preventsDisplaySleepDuringVideoPlayback = true
+        player.appliesMediaSelectionCriteriaAutomatically = false
 
         player.publisher(for: \.timeControlStatus)
             .receive(on: DispatchQueue.main)
@@ -120,6 +139,7 @@ import SwiftUI
     /// Attempts to open file at url. If its not playable, returns false.
     /// - Parameter url: A URL to a local, remote, or HTTP Live Streaming media resource.
     /// - Returns: A Boolean value that indicates whether an asset contains playable content.
+    @MainActor
     @discardableResult func openFile(url: URL) async -> Bool {
         if asset != nil {
             asset!.cancelLoading()
@@ -127,8 +147,14 @@ import SwiftUI
         asset = AVAsset(url: url)
         do {
             let isPlayable = try await asset!.load(.isPlayable)
-            guard isPlayable else {
-                return false
+            guard isPlayable else { return false }
+
+            if let subtitleGroup = try await asset!.loadMediaSelectionGroup(for: .legible) {
+                self.subtitleGroup = subtitleGroup
+            }
+
+            if let audioGroup = try await asset!.loadMediaSelectionGroup(for: .audible) {
+                self.audioGroup = audioGroup
             }
         } catch {
             return false
@@ -171,6 +197,15 @@ import SwiftUI
 
         player.replaceCurrentItem(with: playerItem)
         player.play()
+
+        if let subtitleGroup {
+            subtitle = subtitleGroup.options.first
+        }
+
+        if let audioGroup {
+            audioTrack = audioGroup.options.first
+        }
+
         return true
     }
 
@@ -276,6 +311,11 @@ import SwiftUI
         }
         window.setFrame(newFrame, display: true, animate: true)
         window.aspectRatio = videoSize
+    }
+
+    private func selectTrack(_ option: AVMediaSelectionOption?, in group: AVMediaSelectionGroup) {
+        guard let item = player.currentItem else { return }
+        item.select(option, in: group)
     }
 
     private func addPeriodicTimeObserver() {

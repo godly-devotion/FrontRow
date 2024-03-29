@@ -62,7 +62,9 @@ struct FrontRowApp: App {
         .commands {
             AppCommands(updater: updaterController.updater)
             FileCommands(playEngine: $playEngine)
-            ViewCommands(windowController: $windowController)
+            ViewCommands(
+                playEngine: $playEngine,
+                windowController: $windowController)
             PlaybackCommands(
                 playEngine: $playEngine,
                 presentedViewManager: $presentedViewManager)
