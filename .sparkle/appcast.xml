@@ -5,6 +5,37 @@
     <language>en</language>
 
     <item>
+      <title>v1.8</title>
+      <link>https://github.com/godly-devotion/FrontRow</link>
+      <sparkle:version>1.8</sparkle:version>
+      <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/godly-devotion/FrontRow/releases</sparkle:fullReleaseNotesLink>
+      <pubDate>Fri, 29 Mar 2024 03:13:15 +0000</pubDate>
+      <enclosure
+        url="https://github.com/godly-devotion/FrontRow/releases/download/v1.7.1/FrontRow_v1.7.1.dmg"
+        sparkle:edSignature="1aVI4lBrc9ZwvRUnTN+QXYcmq58v5XQhMt+AmubdEjdIw3gB7EsU8EQNwAb/kvHSJRPvzKDAVrIYp6mrIpwtBg=="
+        length="3449077"
+        type="application/octet-stream" />
+      <description><![CDATA[
+      <h3 id="whats-new">What&#39;s New</h3>
+      <ul>
+      <li>Subtitle &amp; audio tracks are now displayed and can be selected from the View menu</li>
+      <li>Double click on the video to enter and exit full screen</li>
+      <li>Right click on the video to pause and play</li>
+      <li>Opening online files is now a bit faster</li>
+      <li>Opening online files now show a loading indicator</li>
+      <li>Waveform audio files can be opened</li>
+      <li>Experience spatial audio by playing a sample file (Front Row -&gt; Experience Spatial Audio)</li>
+      </ul>
+      <h3 id="bug-fixes">Bug Fixes</h3>
+      <ul>
+      <li>Dark mode is applied everywhere</li>
+      </ul>
+      ]]>
+      </description>
+    </item>
+
+    <item>
       <title>v1.7.1</title>
       <link>https://github.com/godly-devotion/FrontRow</link>
       <sparkle:version>1.7.1</sparkle:version>
