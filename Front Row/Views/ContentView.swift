@@ -48,10 +48,9 @@ struct ContentView: View {
                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
             }
 
-            if playerControlsShown {
-                PlayerControlsView()
-                    .animation(.linear(duration: 0.4), value: playerControlsShown)
-            }
+            PlayerControlsView()
+                .animation(.linear(duration: 0.4), value: playerControlsShown)
+                .opacity(playerControlsShown ? 1.0 : 0.0)
         }
         .background {
             Color.black.ignoresSafeArea()
