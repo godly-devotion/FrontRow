@@ -13,7 +13,7 @@
 
 ![Screenshot](.github/images/screenshot.png)
 
-Experience HDR videos with color accurate rendering. Hear audio with full surround sound using spatial audio.
+Experience color accurate HDR videos with full surround sound using spatial audio.
 
 ## Download
 
