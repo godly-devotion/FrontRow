@@ -39,6 +39,12 @@ struct FrontRowApp: App {
                 }
                 .onReceive(
                     NotificationCenter.default.publisher(
+                        for: NSWindow.willEnterFullScreenNotification)
+                ) { _ in
+                    windowController.showTitlebar(immediately: true)
+                }
+                .onReceive(
+                    NotificationCenter.default.publisher(
                         for: NSWindow.didEnterFullScreenNotification)
                 ) { _ in
                     windowController.setIsFullscreen(true)

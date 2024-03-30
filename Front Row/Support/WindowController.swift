@@ -71,13 +71,18 @@ import SwiftUI
         setTitlebarOpacity(0.0)
     }
 
-    func showTitlebar() {
-        setTitlebarOpacity(1.0)
+    func showTitlebar(immediately: Bool = false) {
+        setTitlebarOpacity(1.0, immediately: immediately)
     }
 
-    private func setTitlebarOpacity(_ opacity: CGFloat) {
+    private func setTitlebarOpacity(_ opacity: CGFloat, immediately: Bool = false) {
         /// when the window is in full screen, the titlebar view is in another window (the "toolbar window")
         guard titlebarView?.window == NSApp.windows.first else { return }
+
+        if immediately {
+            self.titlebarView?.animator().alphaValue = opacity
+            return
+        }
 
         NSAnimationContext.runAnimationGroup(
             { ctx in
