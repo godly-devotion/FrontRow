@@ -13,6 +13,8 @@
 
 ![Screenshot](.github/images/screenshot.png)
 
+Experience HDR videos with color accurate rendering. Hear audio with full surround sound using spatial audio.
+
 ## Download
 
 [![](.github/images/download-on-app-store-badge.svg)](https://apps.apple.com/us/app/front-row-video-player/id6480318506)

@@ -14,11 +14,6 @@
       <description><![CDATA[
       <p>Front Row has moved to the Mac App Store!</p>
       <p>Please remove existing version before switching to the app store release.</p>
-      <ul>
-      <li>New: App icon</li>
-      <li>Changed: Audio track list moved to Playback menu</li>
-      <li>Fixed: Correctly reset subtitle, audio track, and aspect ratio configuration when opening new file</li>
-      </ul>
       ]]>
       </description>
     </item>
