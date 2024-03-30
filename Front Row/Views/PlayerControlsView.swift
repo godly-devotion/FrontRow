@@ -24,6 +24,7 @@ struct PlayerControlsView: View {
             currentTime
             seekSlider
             duration
+            speedIndicator
             subtitlePicker
         }
         .padding([.horizontal], 16)
@@ -125,12 +126,57 @@ struct PlayerControlsView: View {
         }
     }
 
+    @ViewBuilder private var speedIndicator: some View {
+        @Bindable var playEngine = playEngine
+
+        if !playEngine.player.rate.isZero
+            && !Float.isApproxEqual(lhs: playEngine.player.rate, rhs: 1.0)
+        {
+            Menu {
+                Text("Speed")
+                    .font(.system(size: 11).weight(.semibold))
+
+                Button {
+                    playEngine.setSpeed(0.05, isRelative: true)
+                } label: {
+                    Text(
+                        "Increase by 5%",
+                        comment: "Increase playback speed by 5%"
+                    )
+                }
+
+                Button {
+                    playEngine.setSpeed(-0.05, isRelative: true)
+                } label: {
+                    Text(
+                        "Decrease by 5%",
+                        comment: "Decrease playback speed by 5%"
+                    )
+                }
+
+                Button {
+                    playEngine.setSpeed(1.0, isRelative: false)
+                } label: {
+                    Text(
+                        "Reset",
+                        comment: "Reset playback speed to 100%"
+                    )
+                }
+            } label: {
+                Text(verbatim: String(format: "%.2f×", playEngine.player.rate))
+                    .font(.system(size: 11))
+            }
+            .menuStyle(.borderlessButton)
+            .frame(width: 50)
+        }
+    }
+
     @ViewBuilder private var subtitlePicker: some View {
         @Bindable var playEngine = playEngine
 
         if let group = playEngine.subtitleGroup {
             Menu {
-                Picker(selection: $playEngine.subtitle) {
+                Picker("Subtitle", selection: $playEngine.subtitle) {
                     Text("Off").tag(nil as AVMediaSelectionOption?)
 
                     let optionsWithoutForcedSubs = group.options.filter {
@@ -140,10 +186,8 @@ struct PlayerControlsView: View {
                         option in
                         Text(verbatim: option.displayName).tag(Optional(option))
                     }
-                } label: {
                 }
                 .pickerStyle(.inline)
-                .labelsHidden()
             } label: {
                 Image(systemName: "captions.bubble")
             }

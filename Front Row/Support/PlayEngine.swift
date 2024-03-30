@@ -244,6 +244,17 @@ import SwiftUI
         }
     }
 
+    func setSpeed(_ speed: Float, isRelative: Bool) {
+        guard isLoaded else { return }
+
+        if isRelative {
+            player.rate += speed
+            return
+        }
+
+        player.rate = speed
+    }
+
     func goForwards(_ duration: Double = 5.0) async {
         guard isLoaded else { return }
 

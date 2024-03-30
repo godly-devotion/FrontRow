@@ -36,6 +36,48 @@ struct PlaybackCommands: Commands {
             .keyboardShortcut(.leftArrow, modifiers: [.command])
             .disabled(!playEngine.isLoaded || presentedViewManager.isPresenting)
 
+            Menu {
+                Button {
+                    PlayEngine.shared.setSpeed(0.05, isRelative: true)
+                } label: {
+                    Text(
+                        "Increase by 5%",
+                        comment: "Increase playback speed by 5%"
+                    )
+                }
+                .keyboardShortcut("]", modifiers: [.command])
+                .disabled(!playEngine.isLoaded)
+
+                Button {
+                    PlayEngine.shared.setSpeed(-0.05, isRelative: true)
+                } label: {
+                    Text(
+                        "Decrease by 5%",
+                        comment: "Decrease playback speed by 5%"
+                    )
+                }
+                .keyboardShortcut("[", modifiers: [.command])
+                .disabled(!playEngine.isLoaded)
+
+                Divider()
+
+                Button {
+                    PlayEngine.shared.setSpeed(1.0, isRelative: false)
+                } label: {
+                    Text(
+                        "Reset",
+                        comment: "Reset playback speed to 100%"
+                    )
+                }
+                .keyboardShortcut("/", modifiers: [.command])
+                .disabled(!playEngine.isLoaded)
+            } label: {
+                Text(
+                    "Speed",
+                    comment: "Playback speed"
+                )
+            }
+
             Divider()
 
             Button {

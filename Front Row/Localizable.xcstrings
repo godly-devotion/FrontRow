@@ -285,6 +285,35 @@
         }
       }
     },
+    "Decrease by 5%" : {
+      "comment" : "Decrease playback speed by 5%",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "速度を5%低下させる"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5% 느리게"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "速度降低 5%"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "速度降低 5%"
+          }
+        }
+      }
+    },
     "Enter Full Screen" : {
       "localizations" : {
         "ar" : {
@@ -2132,6 +2161,35 @@
         }
       }
     },
+    "Increase by 5%" : {
+      "comment" : "Increase playback speed by 5%",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "速度が5%増加します"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5% 빠르게"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "速度提高 5%"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "速度提高 5%"
+          }
+        }
+      }
+    },
     "Mute" : {
       "localizations" : {
         "ar" : {
@@ -3583,6 +3641,35 @@
         }
       }
     },
+    "Reset" : {
+      "comment" : "Reset playback speed to 100%",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リセット"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "초기화"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置"
+          }
+        }
+      }
+    },
     "Restart" : {
       "comment" : "Restart playback from the beginning",
       "localizations" : {
@@ -3865,6 +3952,35 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "在 Finder中顯示"
+          }
+        }
+      }
+    },
+    "Speed" : {
+      "comment" : "Playback speed",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "速度"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "재생속도"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "速度"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "速度"
           }
         }
       }
