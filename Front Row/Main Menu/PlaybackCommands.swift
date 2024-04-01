@@ -38,7 +38,7 @@ struct PlaybackCommands: Commands {
 
             Menu {
                 Button {
-                    PlayEngine.shared.setSpeed(0.05, isRelative: true)
+                    playEngine.playbackSpeed += 0.05
                 } label: {
                     Text(
                         "Increase by 5%",
@@ -49,7 +49,7 @@ struct PlaybackCommands: Commands {
                 .disabled(!playEngine.isLoaded)
 
                 Button {
-                    PlayEngine.shared.setSpeed(-0.05, isRelative: true)
+                    playEngine.playbackSpeed -= 0.05
                 } label: {
                     Text(
                         "Decrease by 5%",
@@ -62,7 +62,7 @@ struct PlaybackCommands: Commands {
                 Divider()
 
                 Button {
-                    PlayEngine.shared.setSpeed(1.0, isRelative: false)
+                    playEngine.playbackSpeed = 1.0
                 } label: {
                     Text(
                         "Reset",

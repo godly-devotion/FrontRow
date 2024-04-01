@@ -129,15 +129,13 @@ struct PlayerControlsView: View {
     @ViewBuilder private var speedIndicator: some View {
         @Bindable var playEngine = playEngine
 
-        if !playEngine.player.rate.isZero
-            && !Float.isApproxEqual(lhs: playEngine.player.rate, rhs: 1.0)
-        {
+        if !Float.isApproxEqual(lhs: playEngine.playbackSpeed, rhs: 1.0) {
             Menu {
                 Text("Speed")
                     .font(.system(size: 11).weight(.semibold))
 
                 Button {
-                    playEngine.setSpeed(0.05, isRelative: true)
+                    playEngine.playbackSpeed += 0.05
                 } label: {
                     Text(
                         "Increase by 5%",
@@ -146,7 +144,7 @@ struct PlayerControlsView: View {
                 }
 
                 Button {
-                    playEngine.setSpeed(-0.05, isRelative: true)
+                    playEngine.playbackSpeed -= 0.05
                 } label: {
                     Text(
                         "Decrease by 5%",
@@ -155,7 +153,7 @@ struct PlayerControlsView: View {
                 }
 
                 Button {
-                    playEngine.setSpeed(1.0, isRelative: false)
+                    playEngine.playbackSpeed = 1.0
                 } label: {
                     Text(
                         "Reset",
@@ -163,7 +161,7 @@ struct PlayerControlsView: View {
                     )
                 }
             } label: {
-                Text(verbatim: String(format: "%.2f×", playEngine.player.rate))
+                Text(verbatim: String(format: "%.2f×", playEngine.playbackSpeed))
                     .font(.system(size: 11))
             }
             .menuStyle(.borderlessButton)

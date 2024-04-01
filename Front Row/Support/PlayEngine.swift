@@ -51,6 +51,35 @@ import SwiftUI
 
     private(set) var timeRemaining: TimeInterval = 0.0
 
+    var playbackSpeed: Float {
+        get {
+            access(keyPath: \.playbackSpeed)
+            return player.defaultRate
+        }
+        set {
+            withMutation(keyPath: \.playbackSpeed) {
+                if Float.isApproxEqual(lhs: newValue, rhs: 1.0) {
+                    player.rate = 1.0
+                    player.defaultRate = 1.0
+                    return
+                }
+
+                if newValue > player.defaultRate {
+                    let newSpeed = min(newValue, 2.0)
+                    player.rate = newSpeed
+                    player.defaultRate = newSpeed
+                } else if newValue < player.defaultRate {
+                    let newSpeed = max(newValue, 0.05)
+                    player.rate = newSpeed
+                    player.defaultRate = newSpeed
+                } else {
+                    player.rate = newValue
+                    player.defaultRate = newValue
+                }
+            }
+        }
+    }
+
     private var _isMuted = false
 
     var isMuted: Bool {
@@ -242,17 +271,6 @@ import SwiftUI
         } else {
             play()
         }
-    }
-
-    func setSpeed(_ speed: Float, isRelative: Bool) {
-        guard isLoaded else { return }
-
-        if isRelative {
-            player.rate += speed
-            return
-        }
-
-        player.rate = speed
     }
 
     func goForwards(_ duration: Double = 5.0) async {
