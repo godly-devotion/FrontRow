@@ -128,6 +128,18 @@ struct SeekSliderView: NSViewRepresentable {
         }
     }
 
+    class Coordinator: NSObject {
+        var seekSlider: SeekSliderView
+
+        init(_ slider: SeekSliderView) {
+            self.seekSlider = slider
+        }
+
+        @objc func valueChanged(_ sender: SeekSlider) {
+            seekSlider.value = sender.doubleValue
+        }
+    }
+
     func makeNSView(context: Context) -> SeekSlider {
         let slider = SeekSlider(
             value: value,
@@ -145,17 +157,5 @@ struct SeekSliderView: NSViewRepresentable {
 
     func makeCoordinator() -> Coordinator {
         Coordinator(self)
-    }
-
-    class Coordinator: NSObject {
-        var seekSlider: SeekSliderView
-
-        init(_ slider: SeekSliderView) {
-            self.seekSlider = slider
-        }
-
-        @objc func valueChanged(_ sender: SeekSlider) {
-            seekSlider.value = sender.doubleValue
-        }
     }
 }

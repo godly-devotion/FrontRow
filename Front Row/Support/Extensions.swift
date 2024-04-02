@@ -128,12 +128,12 @@ extension AVMediaSelectionOption: Identifiable {
             return displayName
         }
         guard
-            let nonforcedSubtitles = dict.value(
+            let nonForcedSubtitles = dict.value(
                 forKey: "MediaSelectionOptionsDisplaysNonForcedSubtitles") as? Int
         else {
             return "\(id)"
         }
-        return "\(id)\(nonforcedSubtitles)"
+        return "\(id)\(nonForcedSubtitles)"
     }
 }
 
