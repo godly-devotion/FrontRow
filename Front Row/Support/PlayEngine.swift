@@ -301,7 +301,7 @@ import SwiftUI
     }
 
     func goToTime(_ timecode: String) async {
-        guard let item = player.currentItem else { return }
+        guard isLoaded, let item = player.currentItem else { return }
 
         let split = Array(timecode.split(separator: ":").reversed())
 
@@ -326,7 +326,7 @@ import SwiftUI
 
     @MainActor
     func frameStep(_ byCount: Int) {
-        guard let item = player.currentItem else { return }
+        guard isLoaded, let item = player.currentItem else { return }
 
         item.step(byCount: byCount)
     }
