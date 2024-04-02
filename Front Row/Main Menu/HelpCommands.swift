@@ -15,13 +15,6 @@ struct HelpCommands: Commands {
                 destination: URL(string: "https://github.com/godly-devotion/FrontRow")!
             )
             Link(
-                "Release Notes",
-                destination: URL(string: "https://github.com/godly-devotion/FrontRow/releases")!
-            )
-
-            Divider()
-
-            Link(
                 "Improve Translation",
                 destination: URL(string: "https://crowdin.com/project/FrontRow")!
             )
