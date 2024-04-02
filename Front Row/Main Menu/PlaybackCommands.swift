@@ -81,6 +81,22 @@ struct PlaybackCommands: Commands {
             Divider()
 
             Button {
+                Task { await playEngine.frameStep(1) }
+            } label: {
+                Text("Next Frame")
+            }
+            .keyboardShortcut(".", modifiers: [])
+            .disabled(!playEngine.isLoaded || presentedViewManager.isPresenting)
+
+            Button {
+                Task { await playEngine.frameStep(-1) }
+            } label: {
+                Text("Previous Frame")
+            }
+            .keyboardShortcut(",", modifiers: [])
+            .disabled(!playEngine.isLoaded || presentedViewManager.isPresenting)
+
+            Button {
                 Task { await playEngine.goForwards() }
             } label: {
                 Text("Go Forward 5s")

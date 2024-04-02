@@ -324,6 +324,13 @@ import SwiftUI
         await player.seek(to: time, toleranceBefore: .zero, toleranceAfter: .zero)
     }
 
+    @MainActor
+    func frameStep(_ byCount: Int) {
+        guard let item = player.currentItem else { return }
+
+        item.step(byCount: byCount)
+    }
+
     func fitToVideoSize() {
         guard let window = NSApp.windows.first else { return }
         guard videoSize != CGSize.zero else {
