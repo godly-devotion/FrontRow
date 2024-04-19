@@ -23,8 +23,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Audio Track"
+            "state" : "translated",
+            "value" : "Audiospur"
           }
         },
         "el" : {
@@ -35,8 +35,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Audio Track"
+            "state" : "translated",
+            "value" : "Pista de audio"
           }
         },
         "fi" : {
@@ -47,8 +47,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Audio Track"
+            "state" : "translated",
+            "value" : "Piste audio"
           }
         },
         "he" : {
@@ -65,8 +65,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Audio Track"
+            "state" : "translated",
+            "value" : "Traccia audio"
           }
         },
         "ja" : {
@@ -165,8 +165,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Cancel"
+            "state" : "translated",
+            "value" : "Abbrechen"
           }
         },
         "el" : {
@@ -177,8 +177,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Cancel"
+            "state" : "translated",
+            "value" : "Cancelar"
           }
         },
         "fi" : {
@@ -189,8 +189,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Cancel"
+            "state" : "translated",
+            "value" : "Annuler"
           }
         },
         "he" : {
@@ -207,8 +207,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Cancel"
+            "state" : "translated",
+            "value" : "Annulla"
           }
         },
         "ja" : {
@@ -288,6 +288,72 @@
     "Decrease by 5%" : {
       "comment" : "Decrease playback speed by 5%",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Decrease by 5%"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Decrease by 5%"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Decrease by 5%"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlangsamen auf 5%"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Decrease by 5%"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reducir velocidad 5%"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Decrease by 5%"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ralentir de 5%"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Decrease by 5%"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Decrease by 5%"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più lento del 5%"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -298,6 +364,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "5% 느리게"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Decrease by 5%"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Decrease by 5%"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Decrease by 5%"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Decrease by 5%"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Decrease by 5%"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Decrease by 5%"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Decrease by 5%"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Decrease by 5%"
           }
         },
         "zh-Hans" : {
@@ -336,8 +450,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Enter Full Screen"
+            "state" : "translated",
+            "value" : "Vollbildmodus"
           }
         },
         "el" : {
@@ -348,8 +462,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Enter Full Screen"
+            "state" : "translated",
+            "value" : "Ver a pantalla completa"
           }
         },
         "fi" : {
@@ -360,8 +474,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Enter Full Screen"
+            "state" : "translated",
+            "value" : "Plein écran"
           }
         },
         "he" : {
@@ -378,8 +492,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Enter Full Screen"
+            "state" : "translated",
+            "value" : "Attiva modalità a tutto schermo"
           }
         },
         "ja" : {
@@ -478,8 +592,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Enter the time you want to go to"
+            "state" : "translated",
+            "value" : "Geben Sie die Uhrzeit ein, zu der Sie gehen möchten"
           }
         },
         "el" : {
@@ -490,8 +604,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Enter the time you want to go to"
+            "state" : "translated",
+            "value" : "Introduce la hora a la que quieres ir"
           }
         },
         "fi" : {
@@ -502,8 +616,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Enter the time you want to go to"
+            "state" : "translated",
+            "value" : "Entrez l'heure à laquelle vous souhaitez vous rendre"
           }
         },
         "he" : {
@@ -520,8 +634,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Enter the time you want to go to"
+            "state" : "translated",
+            "value" : "Inserisci l'orario in cui vuoi andare"
           }
         },
         "ja" : {
@@ -621,8 +735,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Enter URL"
+            "state" : "translated",
+            "value" : "Adresse eingeben"
           }
         },
         "el" : {
@@ -633,8 +747,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Enter URL"
+            "state" : "translated",
+            "value" : "Introducir URL"
           }
         },
         "fi" : {
@@ -645,8 +759,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Enter URL"
+            "state" : "translated",
+            "value" : "Entrer l’URL"
           }
         },
         "he" : {
@@ -663,8 +777,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Enter URL"
+            "state" : "translated",
+            "value" : "Inserisci l'URL"
           }
         },
         "ja" : {
@@ -763,8 +877,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Exit Full Screen"
+            "state" : "translated",
+            "value" : "Vollbildmodus beenden"
           }
         },
         "el" : {
@@ -775,8 +889,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Exit Full Screen"
+            "state" : "translated",
+            "value" : "Salir de pantalla completa"
           }
         },
         "fi" : {
@@ -787,8 +901,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Exit Full Screen"
+            "state" : "translated",
+            "value" : "Quitter le mode plein écran"
           }
         },
         "he" : {
@@ -805,8 +919,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Exit Full Screen"
+            "state" : "translated",
+            "value" : "Disattiva modalità a tutto schermo"
           }
         },
         "ja" : {
@@ -905,8 +1019,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Experience Spatial Audio"
+            "state" : "translated",
+            "value" : "3D-Audio erleben"
           }
         },
         "el" : {
@@ -917,8 +1031,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Experience Spatial Audio"
+            "state" : "translated",
+            "value" : "Experiencia de audio espacial"
           }
         },
         "fi" : {
@@ -929,8 +1043,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Experience Spatial Audio"
+            "state" : "translated",
+            "value" : "Écouter l’audio spatial"
           }
         },
         "he" : {
@@ -947,8 +1061,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Experience Spatial Audio"
+            "state" : "translated",
+            "value" : "Prova l'audio spaziale"
           }
         },
         "ja" : {
@@ -1047,8 +1161,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Float on Top"
+            "state" : "translated",
+            "value" : "Oben schweben"
           }
         },
         "el" : {
@@ -1059,8 +1173,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Float on Top"
+            "state" : "translated",
+            "value" : "Flotar por encima"
           }
         },
         "fi" : {
@@ -1071,8 +1185,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Float on Top"
+            "state" : "translated",
+            "value" : "Garder au premier plan"
           }
         },
         "he" : {
@@ -1089,8 +1203,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Float on Top"
+            "state" : "translated",
+            "value" : "Sempre in primo piano"
           }
         },
         "ja" : {
@@ -1189,7 +1303,7 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Front Row"
           }
         },
@@ -1201,7 +1315,7 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Front Row"
           }
         },
@@ -1213,7 +1327,7 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Front Row"
           }
         },
@@ -1231,7 +1345,7 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Front Row"
           }
         },
@@ -1331,8 +1445,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go"
+            "state" : "translated",
+            "value" : "Gehe"
           }
         },
         "el" : {
@@ -1343,8 +1457,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go"
+            "state" : "translated",
+            "value" : "Ir"
           }
         },
         "fi" : {
@@ -1355,8 +1469,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go"
+            "state" : "translated",
+            "value" : "Aller"
           }
         },
         "he" : {
@@ -1373,8 +1487,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go"
+            "state" : "translated",
+            "value" : "Vai"
           }
         },
         "ja" : {
@@ -1473,8 +1587,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go Backward 5s"
+            "state" : "translated",
+            "value" : "Gehe 5 Sekunden rückwärts"
           }
         },
         "el" : {
@@ -1485,8 +1599,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go Backward 5s"
+            "state" : "translated",
+            "value" : "Retroceder 5s"
           }
         },
         "fi" : {
@@ -1497,8 +1611,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go Backward 5s"
+            "state" : "translated",
+            "value" : "Reculer 5s"
           }
         },
         "he" : {
@@ -1515,8 +1629,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go Backward 5s"
+            "state" : "translated",
+            "value" : "Indietro 5s"
           }
         },
         "ja" : {
@@ -1615,8 +1729,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go Forward 5s"
+            "state" : "translated",
+            "value" : "Gehe 5 Sekunden vor"
           }
         },
         "el" : {
@@ -1627,8 +1741,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go Forward 5s"
+            "state" : "translated",
+            "value" : "Adelantar 5s"
           }
         },
         "fi" : {
@@ -1639,8 +1753,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go Forward 5s"
+            "state" : "translated",
+            "value" : "Avancer de 5s"
           }
         },
         "he" : {
@@ -1657,8 +1771,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go Forward 5s"
+            "state" : "translated",
+            "value" : "Avanti 5s"
           }
         },
         "ja" : {
@@ -1757,8 +1871,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go to Time"
+            "state" : "translated",
+            "value" : "Gehe zu Zeit"
           }
         },
         "el" : {
@@ -1769,8 +1883,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go to Time"
+            "state" : "translated",
+            "value" : "Ir al tiempo"
           }
         },
         "fi" : {
@@ -1781,8 +1895,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go to Time"
+            "state" : "translated",
+            "value" : "Aller à l'heure"
           }
         },
         "he" : {
@@ -1799,8 +1913,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go to Time"
+            "state" : "translated",
+            "value" : "Vai a Tempo"
           }
         },
         "ja" : {
@@ -1899,8 +2013,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go to Time..."
+            "state" : "translated",
+            "value" : "Gehe zu Zeit..."
           }
         },
         "el" : {
@@ -1911,8 +2025,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go to Time..."
+            "state" : "translated",
+            "value" : "Ir al tiempo..."
           }
         },
         "fi" : {
@@ -1923,8 +2037,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go to Time..."
+            "state" : "translated",
+            "value" : "Aller à l'heure..."
           }
         },
         "he" : {
@@ -1941,8 +2055,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go to Time..."
+            "state" : "translated",
+            "value" : "Vai a Tempo..."
           }
         },
         "ja" : {
@@ -2041,8 +2155,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Improve Translation"
+            "state" : "translated",
+            "value" : "Übersetzung verbessern"
           }
         },
         "el" : {
@@ -2053,8 +2167,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Improve Translation"
+            "state" : "translated",
+            "value" : "Mejorar traducción"
           }
         },
         "fi" : {
@@ -2065,8 +2179,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Improve Translation"
+            "state" : "translated",
+            "value" : "Participer à la traduction"
           }
         },
         "he" : {
@@ -2083,8 +2197,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Improve Translation"
+            "state" : "translated",
+            "value" : "Migliora la traduzione"
           }
         },
         "ja" : {
@@ -2164,6 +2278,72 @@
     "Increase by 5%" : {
       "comment" : "Increase playback speed by 5%",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Increase by 5%"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Increase by 5%"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Increase by 5%"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beschleunigen auf 5%"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Increase by 5%"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aumentar velocidad 5%"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Increase by 5%"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accélérer de 5%"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Increase by 5%"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Increase by 5%"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più veloce del 5%"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2174,6 +2354,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "5% 빠르게"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Increase by 5%"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Increase by 5%"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Increase by 5%"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Increase by 5%"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Increase by 5%"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Increase by 5%"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Increase by 5%"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Increase by 5%"
           }
         },
         "zh-Hans" : {
@@ -2212,8 +2440,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Mute"
+            "state" : "translated",
+            "value" : "Stumm"
           }
         },
         "el" : {
@@ -2224,8 +2452,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Mute"
+            "state" : "translated",
+            "value" : "Silenciar"
           }
         },
         "fi" : {
@@ -2236,8 +2464,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Mute"
+            "state" : "translated",
+            "value" : "Couper le son"
           }
         },
         "he" : {
@@ -2254,8 +2482,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Mute"
+            "state" : "translated",
+            "value" : "Muto"
           }
         },
         "ja" : {
@@ -2355,8 +2583,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Natural Size"
+            "state" : "translated",
+            "value" : "Originalgröße"
           }
         },
         "el" : {
@@ -2367,8 +2595,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Natural Size"
+            "state" : "translated",
+            "value" : "Tamaño natural"
           }
         },
         "fi" : {
@@ -2379,8 +2607,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Natural Size"
+            "state" : "translated",
+            "value" : "Taille normale"
           }
         },
         "he" : {
@@ -2397,8 +2625,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Natural Size"
+            "state" : "translated",
+            "value" : "Dimensioni predefinite"
           }
         },
         "ja" : {
@@ -2477,6 +2705,72 @@
     },
     "Next Frame" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Next Frame"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Next Frame"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Next Frame"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nächster Frame"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Next Frame"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotograma siguiente"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Next Frame"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Image suivante"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Next Frame"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Next Frame"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotogramma successivo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2487,6 +2781,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다음 프레임"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Next Frame"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Next Frame"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Next Frame"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Next Frame"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Next Frame"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Next Frame"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Next Frame"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Next Frame"
           }
         },
         "zh-Hans" : {
@@ -2525,8 +2867,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "None"
+            "state" : "translated",
+            "value" : "Keine"
           }
         },
         "el" : {
@@ -2537,8 +2879,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "None"
+            "state" : "translated",
+            "value" : "Ninguno"
           }
         },
         "fi" : {
@@ -2549,8 +2891,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "None"
+            "state" : "translated",
+            "value" : "Aucun"
           }
         },
         "he" : {
@@ -2567,8 +2909,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "None"
+            "state" : "translated",
+            "value" : "Nessuno"
           }
         },
         "ja" : {
@@ -2667,8 +3009,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Off"
+            "state" : "translated",
+            "value" : "Aus"
           }
         },
         "el" : {
@@ -2679,8 +3021,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Off"
+            "state" : "translated",
+            "value" : "Apagado"
           }
         },
         "fi" : {
@@ -2691,8 +3033,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Off"
+            "state" : "translated",
+            "value" : "Désactivé"
           }
         },
         "he" : {
@@ -2709,7 +3051,7 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Off"
           }
         },
@@ -2810,8 +3152,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Open File..."
+            "state" : "translated",
+            "value" : "Datei öffnen..."
           }
         },
         "el" : {
@@ -2822,8 +3164,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Open File..."
+            "state" : "translated",
+            "value" : "Abrir Archivo..."
           }
         },
         "fi" : {
@@ -2834,8 +3176,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Open File..."
+            "state" : "translated",
+            "value" : "Ouvrir un fichier..."
           }
         },
         "he" : {
@@ -2852,8 +3194,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Open File..."
+            "state" : "translated",
+            "value" : "Apri file..."
           }
         },
         "ja" : {
@@ -2953,8 +3295,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Open URL..."
+            "state" : "translated",
+            "value" : "Adresse öffnen..."
           }
         },
         "el" : {
@@ -2965,8 +3307,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Open URL..."
+            "state" : "translated",
+            "value" : "Abrir URL..."
           }
         },
         "fi" : {
@@ -2977,8 +3319,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Open URL..."
+            "state" : "translated",
+            "value" : "Ouvrir une adresse…"
           }
         },
         "he" : {
@@ -2995,8 +3337,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Open URL..."
+            "state" : "translated",
+            "value" : "Apri URL..."
           }
         },
         "ja" : {
@@ -3095,8 +3437,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Pause"
+            "state" : "translated",
+            "value" : "Pausieren"
           }
         },
         "el" : {
@@ -3107,8 +3449,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Pause"
+            "state" : "translated",
+            "value" : "Pausa"
           }
         },
         "fi" : {
@@ -3119,8 +3461,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Pause"
+            "state" : "translated",
+            "value" : "Mettre en pause"
           }
         },
         "he" : {
@@ -3137,8 +3479,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Pause"
+            "state" : "translated",
+            "value" : "Pausa"
           }
         },
         "ja" : {
@@ -3237,8 +3579,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Play"
+            "state" : "translated",
+            "value" : "Wiedergeben"
           }
         },
         "el" : {
@@ -3249,8 +3591,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Play"
+            "state" : "translated",
+            "value" : "Reproducir"
           }
         },
         "fi" : {
@@ -3261,8 +3603,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Play"
+            "state" : "translated",
+            "value" : "Ouvrir"
           }
         },
         "he" : {
@@ -3279,8 +3621,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Play"
+            "state" : "translated",
+            "value" : "Apri"
           }
         },
         "ja" : {
@@ -3379,8 +3721,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Playback"
+            "state" : "translated",
+            "value" : "Wiedergabe"
           }
         },
         "el" : {
@@ -3391,8 +3733,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Playback"
+            "state" : "translated",
+            "value" : "Reproducción"
           }
         },
         "fi" : {
@@ -3403,8 +3745,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Playback"
+            "state" : "translated",
+            "value" : "Lecture"
           }
         },
         "he" : {
@@ -3421,8 +3763,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Playback"
+            "state" : "translated",
+            "value" : "Riproduzione"
           }
         },
         "ja" : {
@@ -3501,6 +3843,72 @@
     },
     "Previous Frame" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Frame"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Frame"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Frame"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorheriger Frame"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Frame"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotograma anterior"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Frame"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Image précédente"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Frame"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Frame"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotogramma precedente"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3511,6 +3919,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이전 프레임"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Frame"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Frame"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Frame"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Frame"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Frame"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Frame"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Frame"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Frame"
           }
         },
         "zh-Hans" : {
@@ -3529,6 +3985,72 @@
     },
     "Report a Problem" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Report a Problem"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Report a Problem"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Report a Problem"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein Problem melden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Report a Problem"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informar de un problema"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Report a Problem"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signaler un problème"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Report a Problem"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Report a Problem"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Segnala un problema"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3539,6 +4061,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "문제 신고"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Report a Problem"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Report a Problem"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Report a Problem"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Report a Problem"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Report a Problem"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Report a Problem"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Report a Problem"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Report a Problem"
           }
         },
         "zh-Hans" : {
@@ -3558,6 +4128,72 @@
     "Reset" : {
       "comment" : "Reset playback speed to 100%",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zurücksetzen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restablecer"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réinitialiser"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ripristina"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3568,6 +4204,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "초기화"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset"
           }
         },
         "zh-Hans" : {
@@ -3607,8 +4291,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Restart"
+            "state" : "translated",
+            "value" : "Neustart"
           }
         },
         "el" : {
@@ -3619,8 +4303,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Restart"
+            "state" : "translated",
+            "value" : "Reiniciar"
           }
         },
         "fi" : {
@@ -3631,8 +4315,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Restart"
+            "state" : "translated",
+            "value" : "Redémarrer la lecture"
           }
         },
         "he" : {
@@ -3649,8 +4333,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Restart"
+            "state" : "translated",
+            "value" : "Riavvia"
           }
         },
         "ja" : {
@@ -3750,8 +4434,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Show in Finder"
+            "state" : "translated",
+            "value" : "In Finder anzeigen"
           }
         },
         "el" : {
@@ -3762,8 +4446,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Show in Finder"
+            "state" : "translated",
+            "value" : "Mostrar en el Finder"
           }
         },
         "fi" : {
@@ -3774,8 +4458,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Show in Finder"
+            "state" : "translated",
+            "value" : "Afficher dans le Finder"
           }
         },
         "he" : {
@@ -3792,8 +4476,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Show in Finder"
+            "state" : "translated",
+            "value" : "Mostra nel Finder"
           }
         },
         "ja" : {
@@ -3873,6 +4557,72 @@
     "Speed" : {
       "comment" : "Playback speed",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Speed"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Speed"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Speed"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geschwindigkeit"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Speed"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velocidad"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Speed"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vitesse"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Speed"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Speed"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velocità"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3883,6 +4633,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "재생속도"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Speed"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Speed"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Speed"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Speed"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Speed"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Speed"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Speed"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Speed"
           }
         },
         "zh-Hans" : {
@@ -3921,8 +4719,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Subtitle"
+            "state" : "translated",
+            "value" : "Untertitel"
           }
         },
         "el" : {
@@ -3933,8 +4731,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Subtitle"
+            "state" : "translated",
+            "value" : "Subtítulo"
           }
         },
         "fi" : {
@@ -3945,8 +4743,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Subtitle"
+            "state" : "translated",
+            "value" : "Sous-titres"
           }
         },
         "he" : {
@@ -3963,8 +4761,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Subtitle"
+            "state" : "translated",
+            "value" : "Sottotitolo"
           }
         },
         "ja" : {
@@ -4063,8 +4861,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Website"
+            "state" : "translated",
+            "value" : "Webseite"
           }
         },
         "el" : {
@@ -4075,8 +4873,8 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Website"
+            "state" : "translated",
+            "value" : "Sitio Web"
           }
         },
         "fi" : {
@@ -4087,8 +4885,8 @@
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Website"
+            "state" : "translated",
+            "value" : "Site Web"
           }
         },
         "he" : {
@@ -4105,8 +4903,8 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Website"
+            "state" : "translated",
+            "value" : "Sito Web"
           }
         },
         "ja" : {
