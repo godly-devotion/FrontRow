@@ -223,7 +223,7 @@ import SwiftUI
             .sink { [weak self] size in
                 guard let self else { return }
                 videoSize = size
-                fitToVideoSize()
+                fitToVideoSize(skipResize: WindowController.shared.isFullscreen)
             }
             .store(in: &currentItemSubs)
 
@@ -331,7 +331,7 @@ import SwiftUI
         item.step(byCount: byCount)
     }
 
-    func fitToVideoSize() {
+    func fitToVideoSize(skipResize: Bool = false) {
         guard let window = NSApp.windows.first else { return }
         guard videoSize != CGSize.zero else {
             /// reset aspect ratio setting
@@ -356,7 +356,9 @@ import SwiftUI
             )
             newFrame = NSRect(origin: newOrigin, size: newSize)
         }
-        window.setFrame(newFrame, display: true, animate: true)
+        if !skipResize {
+            window.setFrame(newFrame, display: true, animate: true)
+        }
         window.aspectRatio = videoSize
     }
 

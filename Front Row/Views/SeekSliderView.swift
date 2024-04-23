@@ -47,7 +47,7 @@ struct SeekSliderView: NSViewRepresentable {
             let barRect = rect
             let path = NSBezierPath(roundedRect: barRect, xRadius: barRadius, yRadius: barRadius)
 
-            // draw left
+            /// draw left
             let pathLeftRect: NSRect = NSMakeRect(
                 barRect.origin.x, barRect.origin.y, progress, barRect.height)
             NSBezierPath(rect: pathLeftRect).addClip()
@@ -63,7 +63,7 @@ struct SeekSliderView: NSViewRepresentable {
             path.fill()
             NSGraphicsContext.restoreGraphicsState()
 
-            // draw right
+            /// draw right
             NSGraphicsContext.saveGraphicsState()
             let pathRight = NSMakeRect(
                 barRect.origin.x + progress, barRect.origin.y, barRect.width - progress,
@@ -93,7 +93,7 @@ struct SeekSliderView: NSViewRepresentable {
             if percentage.isNaN {
                 percentage = 0.0
             }
-            // The usable width of the bar is reduced by the width of the knob.
+            /// The usable width of the bar is reduced by the width of the knob.
             let effectiveBarWidth = barRect.width - knobWidth
             let pos = barRect.origin.x + CGFloat(percentage) * effectiveBarWidth
             let rect = super.knobRect(flipped: flipped)
