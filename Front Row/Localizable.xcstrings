@@ -1,6 +1,149 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "%llds" : {
+      "comment" : "Label displaying seconds",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%llds"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%llds"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%llds"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Sekunden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%llds"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%llds"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%llds"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%llds"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%llds"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%llds"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%llds"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld秒"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld초"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%llds"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%llds"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%llds"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%llds"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%llds"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%llds"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%llds"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%llds"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld秒"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 秒"
+          }
+        }
+      }
+    },
     "Audio Track" : {
       "localizations" : {
         "ar" : {
@@ -1565,286 +1708,286 @@
         }
       }
     },
-    "Go Backward 5s" : {
+    "Go Backward %llds" : {
       "localizations" : {
         "ar" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Backward 5s"
+            "value" : "Go Backward %llds"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Backward 5s"
+            "value" : "Go Backward %llds"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Backward 5s"
+            "value" : "Go Backward %llds"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gehe 5 Sekunden rückwärts"
+            "value" : "Gehe %lld Sekunden rückwärts"
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Backward 5s"
+            "value" : "Go Backward %llds"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Retroceder 5s"
+            "value" : "Retroceder %llds"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Backward 5s"
+            "value" : "Go Backward %llds"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reculer 5s"
+            "value" : "Reculer %llds"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Backward 5s"
+            "value" : "Go Backward %llds"
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Backward 5s"
+            "value" : "Go Backward %llds"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Indietro 5s"
+            "value" : "Indietro %llds"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "5秒 戻る"
+            "value" : "%lld秒 戻る"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "5초 뒤로 이동"
+            "value" : "%lld초 뒤로 이동"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Backward 5s"
+            "value" : "Go Backward %llds"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Backward 5s"
+            "value" : "Go Backward %llds"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Backward 5s"
+            "value" : "Go Backward %llds"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Backward 5s"
+            "value" : "Go Backward %llds"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Backward 5s"
+            "value" : "Go Backward %llds"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Backward 5s"
+            "value" : "Go Backward %llds"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Backward 5s"
+            "value" : "Go Backward %llds"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Backward 5s"
+            "value" : "Go Backward %llds"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "后退5秒"
+            "value" : "后退%lld秒"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "倒轉 5 秒"
+            "value" : "倒轉 %lld 秒"
           }
         }
       }
     },
-    "Go Forward 5s" : {
+    "Go Forward %llds" : {
       "localizations" : {
         "ar" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Forward 5s"
+            "value" : "Go Forward %llds"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Forward 5s"
+            "value" : "Go Forward %llds"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Forward 5s"
+            "value" : "Go Forward %llds"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gehe 5 Sekunden vor"
+            "value" : "Gehe %lld Sekunden vor"
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Forward 5s"
+            "value" : "Go Forward %llds"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Adelantar 5s"
+            "value" : "Adelantar %llds"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Forward 5s"
+            "value" : "Go Forward %llds"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Avancer de 5s"
+            "value" : "Avancer de %llds"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Forward 5s"
+            "value" : "Go Forward %llds"
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Forward 5s"
+            "value" : "Go Forward %llds"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Avanti 5s"
+            "value" : "Avanti %llds"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "5秒 進む"
+            "value" : "%lld秒 進む"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "5초 앞으로 이동"
+            "value" : "%lld초 앞으로 이동"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Forward 5s"
+            "value" : "Go Forward %llds"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Forward 5s"
+            "value" : "Go Forward %llds"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Forward 5s"
+            "value" : "Go Forward %llds"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Forward 5s"
+            "value" : "Go Forward %llds"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Forward 5s"
+            "value" : "Go Forward %llds"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Forward 5s"
+            "value" : "Go Forward %llds"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Forward 5s"
+            "value" : "Go Forward %llds"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Go Forward 5s"
+            "value" : "Go Forward %llds"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "前进5秒"
+            "value" : "前进%lld秒"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "快轉 5 秒"
+            "value" : "快轉 %lld 秒"
           }
         }
       }
@@ -4550,6 +4693,149 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "在 Finder中顯示"
+          }
+        }
+      }
+    },
+    "Skip Interval" : {
+      "comment" : "How many seconds to go forward or backward",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Skip Interval"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Skip Interval"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Skip Interval"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intervall überspringen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Skip Interval"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saltar intervalo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Skip Interval"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ignorer l'intervalle"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Skip Interval"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Skip Interval"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salta intervallo"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スキップ間隔"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이동 간격"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Skip Interval"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Skip Interval"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Skip Interval"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Skip Interval"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Skip Interval"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Skip Interval"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Skip Interval"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Skip Interval"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跳过间隔"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跳過間隔"
           }
         }
       }
