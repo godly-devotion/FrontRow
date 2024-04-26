@@ -22,6 +22,13 @@ import SwiftUI
         .wav,
     ]
 
+    static let skipIntervals: [Int] = [
+        5,
+        10,
+        15,
+        30,
+    ]
+
     private var asset: AVAsset?
 
     private(set) var player = AVPlayer()
@@ -76,6 +83,20 @@ import SwiftUI
                     player.rate = newValue
                     player.defaultRate = newValue
                 }
+            }
+        }
+    }
+
+    @ObservationIgnored @AppStorage("SkipInterval") private var _skipInterval: Int = 5
+
+    var skipInterval: Int {
+        get {
+            access(keyPath: \.skipInterval)
+            return _skipInterval
+        }
+        set {
+            withMutation(keyPath: \.skipInterval) {
+                _skipInterval = newValue
             }
         }
     }
@@ -273,22 +294,22 @@ import SwiftUI
         }
     }
 
-    func goForwards(_ duration: Double = 5.0) async {
+    func goForwards() async {
         guard isLoaded else { return }
 
         let time = CMTimeAdd(
             player.currentTime(),
-            CMTimeMakeWithSeconds(duration, preferredTimescale: 1)
+            CMTimeMakeWithSeconds(Double(skipInterval), preferredTimescale: 1)
         )
         await player.seek(to: time, toleranceBefore: .zero, toleranceAfter: .zero)
     }
 
-    func goBackwards(_ duration: Double = 5.0) async {
+    func goBackwards() async {
         guard isLoaded else { return }
 
         let time = CMTimeSubtract(
             player.currentTime(),
-            CMTimeMakeWithSeconds(duration, preferredTimescale: 1)
+            CMTimeMakeWithSeconds(Double(skipInterval), preferredTimescale: 1)
         )
         await player.seek(to: time, toleranceBefore: .zero, toleranceAfter: .zero)
     }

@@ -80,6 +80,46 @@ struct PlaybackCommands: Commands {
 
             Divider()
 
+            Picker(selection: $playEngine.skipInterval) {
+                ForEach(PlayEngine.skipIntervals, id: \.self) { interval in
+                    Text(
+                        "\(interval)s",
+                        comment: "Label displaying seconds"
+                    ).tag(interval)
+                }
+            } label: {
+                Text(
+                    "Skip Interval",
+                    comment: "How many seconds to go forward or backward"
+                )
+            }
+
+            Button {
+                Task { await playEngine.goForwards() }
+            } label: {
+                Text("Go Forward \(playEngine.skipInterval)s")
+            }
+            .keyboardShortcut(.rightArrow, modifiers: [])
+            .disabled(!playEngine.isLoaded || presentedViewManager.isPresenting)
+
+            Button {
+                Task { await playEngine.goBackwards() }
+            } label: {
+                Text("Go Backward \(playEngine.skipInterval)s")
+            }
+            .keyboardShortcut(.leftArrow, modifiers: [])
+            .disabled(!playEngine.isLoaded || presentedViewManager.isPresenting)
+
+            Button {
+                PresentedViewManager.shared.isPresentingGoToTimeView.toggle()
+            } label: {
+                Text("Go to Time...")
+            }
+            .keyboardShortcut("G", modifiers: [.command])
+            .disabled(!playEngine.isLoaded)
+
+            Divider()
+
             Button {
                 Task { await playEngine.frameStep(1) }
             } label: {
@@ -95,30 +135,6 @@ struct PlaybackCommands: Commands {
             }
             .keyboardShortcut(",", modifiers: [])
             .disabled(!playEngine.isLoaded || presentedViewManager.isPresenting)
-
-            Button {
-                Task { await playEngine.goForwards() }
-            } label: {
-                Text("Go Forward 5s")
-            }
-            .keyboardShortcut(.rightArrow, modifiers: [])
-            .disabled(!playEngine.isLoaded || presentedViewManager.isPresenting)
-
-            Button {
-                Task { await playEngine.goBackwards() }
-            } label: {
-                Text("Go Backward 5s")
-            }
-            .keyboardShortcut(.leftArrow, modifiers: [])
-            .disabled(!playEngine.isLoaded || presentedViewManager.isPresenting)
-
-            Button {
-                PresentedViewManager.shared.isPresentingGoToTimeView.toggle()
-            } label: {
-                Text("Go to Time...")
-            }
-            .keyboardShortcut("G", modifiers: [.command])
-            .disabled(!playEngine.isLoaded)
 
             Divider()
 

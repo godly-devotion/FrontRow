@@ -38,11 +38,38 @@ struct PlayerControlsView: View {
         Button {
             Task { await PlayEngine.shared.goBackwards() }
         } label: {
-            Image(systemName: "gobackward.5")
-                .resizable()
-                .scaledToFit()
-                .foregroundStyle(foregroundColor)
-                .frame(height: 20)
+            switch playEngine.skipInterval {
+            case 5:
+                Image(systemName: "gobackward.5")
+                    .resizable()
+                    .scaledToFit()
+                    .foregroundStyle(foregroundColor)
+                    .frame(height: 20)
+            case 10:
+                Image(systemName: "gobackward.10")
+                    .resizable()
+                    .scaledToFit()
+                    .foregroundStyle(foregroundColor)
+                    .frame(height: 20)
+            case 15:
+                Image(systemName: "gobackward.15")
+                    .resizable()
+                    .scaledToFit()
+                    .foregroundStyle(foregroundColor)
+                    .frame(height: 20)
+            case 30:
+                Image(systemName: "gobackward.30")
+                    .resizable()
+                    .scaledToFit()
+                    .foregroundStyle(foregroundColor)
+                    .frame(height: 20)
+            default:
+                Image(systemName: "gobackward")
+                    .resizable()
+                    .scaledToFit()
+                    .foregroundStyle(foregroundColor)
+                    .frame(height: 20)
+            }
         }
         .buttonStyle(PlainButtonStyle())
         .keyboardShortcut("J", modifiers: [])
@@ -76,11 +103,38 @@ struct PlayerControlsView: View {
         Button {
             Task { await PlayEngine.shared.goForwards() }
         } label: {
-            Image(systemName: "goforward.5")
-                .resizable()
-                .scaledToFit()
-                .foregroundStyle(foregroundColor)
-                .frame(height: 20)
+            switch playEngine.skipInterval {
+            case 5:
+                Image(systemName: "goforward.5")
+                    .resizable()
+                    .scaledToFit()
+                    .foregroundStyle(foregroundColor)
+                    .frame(height: 20)
+            case 10:
+                Image(systemName: "goforward.10")
+                    .resizable()
+                    .scaledToFit()
+                    .foregroundStyle(foregroundColor)
+                    .frame(height: 20)
+            case 15:
+                Image(systemName: "goforward.15")
+                    .resizable()
+                    .scaledToFit()
+                    .foregroundStyle(foregroundColor)
+                    .frame(height: 20)
+            case 30:
+                Image(systemName: "goforward.30")
+                    .resizable()
+                    .scaledToFit()
+                    .foregroundStyle(foregroundColor)
+                    .frame(height: 20)
+            default:
+                Image(systemName: "goforward")
+                    .resizable()
+                    .scaledToFit()
+                    .foregroundStyle(foregroundColor)
+                    .frame(height: 20)
+            }
         }
         .buttonStyle(PlainButtonStyle())
         .keyboardShortcut("L", modifiers: [])
