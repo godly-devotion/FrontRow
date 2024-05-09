@@ -58,6 +58,8 @@ import SwiftUI
 
     private(set) var timeRemaining: TimeInterval = 0.0
 
+    private var wasPausedBeforeSeeking = false
+
     var playbackSpeed: Float {
         get {
             access(keyPath: \.playbackSpeed)
@@ -297,21 +299,31 @@ import SwiftUI
     func goForwards() async {
         guard isLoaded else { return }
 
+        /// If needed pause playback to improve seek performance
+        pausePlaybackIfNeeded()
+
         let time = CMTimeAdd(
             player.currentTime(),
             CMTimeMakeWithSeconds(Double(skipInterval), preferredTimescale: 1)
         )
         await player.seek(to: time, toleranceBefore: .zero, toleranceAfter: .zero)
+
+        resumePlaybackIfNeeded()
     }
 
     func goBackwards() async {
         guard isLoaded else { return }
+
+        /// If needed pause playback to improve seek performance
+        pausePlaybackIfNeeded()
 
         let time = CMTimeSubtract(
             player.currentTime(),
             CMTimeMakeWithSeconds(Double(skipInterval), preferredTimescale: 1)
         )
         await player.seek(to: time, toleranceBefore: .zero, toleranceAfter: .zero)
+
+        resumePlaybackIfNeeded()
     }
 
     func goToTime(_ timecode: Double) async {
@@ -381,6 +393,18 @@ import SwiftUI
             window.setFrame(newFrame, display: true, animate: true)
         }
         window.aspectRatio = videoSize
+    }
+
+    private func pausePlaybackIfNeeded() {
+        guard player.rate != 0 else { return }
+        wasPausedBeforeSeeking = true
+        player.rate = 0
+    }
+
+    private func resumePlaybackIfNeeded() {
+        guard wasPausedBeforeSeeking else { return }
+        player.rate = player.defaultRate
+        wasPausedBeforeSeeking = false
     }
 
     private func selectTrack(_ option: AVMediaSelectionOption?, in group: AVMediaSelectionGroup) {
