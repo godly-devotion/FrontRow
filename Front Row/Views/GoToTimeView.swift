@@ -9,26 +9,21 @@ import SwiftUI
 
 struct GoToTimeView: View {
     @Namespace private var timeNamespace
-    @Environment(\.dismiss) private var dismiss
     @State private var timecode = ""
 
     var body: some View {
         VStack {
             TextField(text: $timecode, prompt: Text(verbatim: "0:00:00")) {}
-                .onSubmit {
-                    Task { await PlayEngine.shared.goToTime(timecode) }
-                    dismiss()
-                }
                 .autocorrectionDisabled()
                 .lineLimit(1)
                 .prefersDefaultFocus(in: timeNamespace)
 
             Button("Go") {
-                dismiss()
+                Task { await PlayEngine.shared.goToTime(timecode) }
             }
 
             Button("Cancel", role: .cancel) {
-                dismiss()
+                /// Any action button will dismiss the alert
             }
         }
         .focusScope(timeNamespace)
