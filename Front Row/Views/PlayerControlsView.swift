@@ -73,6 +73,7 @@ struct PlayerControlsView: View {
         }
         .buttonStyle(PlainButtonStyle())
         .keyboardShortcut("J", modifiers: [])
+        .focusable(false)
         .disabled(!playEngine.isLoaded)
     }
 
@@ -94,6 +95,7 @@ struct PlayerControlsView: View {
         }
         .buttonStyle(PlainButtonStyle())
         .keyboardShortcut("K", modifiers: [])
+        .focusable(false)
         .disabled(!playEngine.isLoaded)
     }
 
@@ -138,6 +140,7 @@ struct PlayerControlsView: View {
         }
         .buttonStyle(PlainButtonStyle())
         .keyboardShortcut("L", modifiers: [])
+        .focusable(false)
         .disabled(!playEngine.isLoaded)
     }
 
@@ -154,6 +157,7 @@ struct PlayerControlsView: View {
         @Bindable var playEngine = playEngine
 
         SeekSliderView(value: $playEngine.currentTime, maxValue: playEngine.duration)
+            .focusable(false)
             .disabled(!playEngine.isLoaded)
     }
 
