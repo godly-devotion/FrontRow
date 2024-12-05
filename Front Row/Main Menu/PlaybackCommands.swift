@@ -121,7 +121,7 @@ struct PlaybackCommands: Commands {
             Divider()
 
             Button {
-                Task { await playEngine.frameStep(1) }
+                playEngine.frameStep(1)
             } label: {
                 Text("Next Frame")
             }
@@ -129,7 +129,7 @@ struct PlaybackCommands: Commands {
             .disabled(!playEngine.isLoaded || presentedViewManager.isPresenting)
 
             Button {
-                Task { await playEngine.frameStep(-1) }
+                playEngine.frameStep(-1)
             } label: {
                 Text("Previous Frame")
             }

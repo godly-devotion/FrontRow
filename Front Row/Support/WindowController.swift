@@ -21,8 +21,6 @@ import SwiftUI
 
     // MARK: - Float on Top
 
-    private var _isOnTop = false
-
     var isOnTop: Bool {
         get {
             access(keyPath: \.isOnTop)
