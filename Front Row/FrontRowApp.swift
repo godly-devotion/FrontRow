@@ -19,7 +19,6 @@ struct FrontRowApp: App {
         self._presentedViewManager = .init(wrappedValue: .shared)
         self._windowController = .init(wrappedValue: .shared)
 
-        UserDefaults.standard.removeObject(forKey: "NSWindow Frame main")
         UserDefaults.standard.set(false, forKey: "NSFullScreenMenuItemEverywhere")
     }
 
@@ -57,6 +56,7 @@ struct FrontRowApp: App {
                 }
         }
         .windowStyle(.hiddenTitleBar)
+        .restorationBehavior(.disabled)
         .commands {
             AppCommands()
             FileCommands(playEngine: $playEngine)
