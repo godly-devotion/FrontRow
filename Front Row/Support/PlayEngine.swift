@@ -196,7 +196,7 @@ import SwiftUI
         if asset != nil {
             asset!.cancelLoading()
         }
-        asset = AVAsset(url: url)
+        asset = AVURLAsset(url: url)
         do {
             let isPlayable = try await asset!.load(.isPlayable)
             guard isPlayable else { return false }
